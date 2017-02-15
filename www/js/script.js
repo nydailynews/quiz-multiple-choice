@@ -34,8 +34,9 @@ $.getJSON("quiz_content.json", function(input) {
             // load content section
             qnumber = currentQuestion + 1;
 
-            $(".quiz-container").html("<div class='progressbar large-12 medium-12 small-12 columns'>" + qnumber + " / " + input.length + "</div><div class='image_box large-6 medium-6 small-12 columns'><img class='quiz_banner' src='../icons/quiz_banner.png'><img class='image' src='img/" + input[currentQuestion].image.trim() + "'><div class='credit'></div><div class='blurb'>" + input[currentQuestion].blurb + "<div class='info_source'><a target='_blank' href='" + input[currentQuestion].source + "'>See source</a></div></div></div><div class='selections large-6 medium-6 small-12 columns'><div class='question'>" + input[currentQuestion].question + "</div><div id='option-a' class='list list_long'><span class='button_box'><div class='option_button grey_button'>A</div></span><div class='option_text'>" + input[currentQuestion].a + "</div></div><div id='option-b' class='list list_long'><span class='button_box'><div class='option_button grey_button'>B</div></span><div class='option_text'>" + input[currentQuestion].b + "</div></div><div id='option-c' class='list list_long'><span class='button_box'><div class='option_button grey_button'>C</div></span><div class='option_text'>" + input[currentQuestion].c + "</div></div><div id='option-d' class='list list_long'><span class='button_box'><div class='option_button grey_button'>D</div></span><div class='option_text'>" + input[currentQuestion].d + "</div></div><div class='next'><button class='next_btn'>NEXT</button></div></div>"
-                );
+            // Build the markup for the quiz container
+            var markup = "<div class='progressbar large-12 medium-12 small-12 columns'>" + qnumber + " / " + input.length + "</div><div class='image_box large-6 medium-6 small-12 columns'><img class='quiz_banner' src='../icons/quiz_banner.png'><img class='image' src='img/" + input[currentQuestion].image.trim() + "'><div class='credit'></div><div class='blurb'>" + input[currentQuestion].blurb + "<div class='info_source'><a target='_blank' href='" + input[currentQuestion].source + "'>See source</a></div></div></div><div class='selections large-6 medium-6 small-12 columns'><div class='question'>" + input[currentQuestion].question + "</div><div id='option-a' class='list list_long'><span class='button_box'><div class='option_button grey_button'>A</div></span><div class='option_text'>" + input[currentQuestion].a + "</div></div><div id='option-b' class='list list_long'><span class='button_box'><div class='option_button grey_button'>B</div></span><div class='option_text'>" + input[currentQuestion].b + "</div></div><div id='option-c' class='list list_long'><span class='button_box'><div class='option_button grey_button'>C</div></span><div class='option_text'>" + input[currentQuestion].c + "</div></div><div id='option-d' class='list list_long'><span class='button_box'><div class='option_button grey_button'>D</div></span><div class='option_text'>" + input[currentQuestion].d + "</div></div><div class='next'><button class='next_btn'>NEXT</button></div></div>";
+            $(".quiz-container").html(markup);
             $(".credit").html(input[currentQuestion].credit);
 
             // style changes when user hover answers
@@ -175,39 +176,9 @@ $.getJSON("quiz_content.json", function(input) {
         $("#top_ad").append("<div id='div-gpt-ad-1423507761396-0'><script type='text/javascript'>googletag.cmd.push(function() { googletag.display('div-gpt-ad-1423507761396-0'); });</script></div>")
     };
 
-    // load nydn footer
-    var loadFooter = function () {
-        $("#nydn-footer").append('<div id="bottom_ad" align="center"><div id="div-gpt-ad-1423507761396-1"><script type="text/javascript">googletag.cmd.push(function() { googletag.display("div-gpt-ad-1423507761396-1"); });</script></div></div><div id="nydn-footer-services"><ul><li><a href="http://www.nydailynews.com/services">Services</a></li><li><a href="http://www.nydailynews.com/services/media-kit/">Media Kit</a></li><li><a href="http://www.nydailynews.com/autos">Autos</a></li><li><a href="https://homedelivery.nydailynews.com" target="_blank">Home Delivery</a></li><li><a href="http://www.nydailynews.com/login">Newsletters</a></li><li><a href="http://local.nydailynews.com/search/en-US/" target="_blank">Businesses</a></li><li><a href="http://nydailynews.adperfect.com" target="_blank">Place an Ad</a></li><li><a href="http://www.nydailynews.com/services/privacy-policy#third_party_ads">About our Ads</a></li><li><a href="http://www.nydailynews.com/services/contact-us">Contact Us</a></li><li><a href="http://www.nydailynews.com/services/careers">Careers</a></li><li><a href="http://www.nydailynews.com/services/faqs">FAQ\'s</a></li><li><a href="http://www.nydailynews.com/services/feeds">Feeds</a></li><li><a href="http://www.nydailynews.com/services/sitemap">Site Map</a></li></ul></div><div id="nydn-disclaimer"><p>Use of this website signifies your agreement to the <a href="http://www.nydailynews.com/services/terms-services">Terms of Service</a> and <a href="http://www.nydailynews.com/services/privacy-policy">Privacy Policy</a>.</p><p>© Copyright 2015 NYDailyNews.com. All rights reserved.</p></div>');
-    };
-
-    var resetFooter = function () {
-        var space = $(document).height() - $('#nydn-footer').offset().top - $('#nydn-footer').outerHeight();
-        console.log(space);
-        if (space > 0 ) {
-            $('#nydn-footer').css("position","fixed");
-            $('#nydn-footer').css("bottom","0");
-        } else {
-            $('#nydn-footer').css("position","relative");
-            $('#nydn-footer').css("bottom","0");
-        }
-    };
-
-    var resetFooterResize = function () {
-        var space = $(document).height() - $('#nydn-footer').offset().top - $('#nydn-footer').outerHeight();
-        console.log(space);
-        if (space > 10 ) {
-            $('#nydn-footer').css("position","fixed");
-            $('#nydn-footer').css("bottom","0");
-        } else {
-            $('#nydn-footer').css("position","relative");
-            $('#nydn-footer').css("bottom","0");
-        }
-    };
-
     loadHeader();
     loadTopAd();
     buildQuiz(input);
-    loadFooter();
     // setTimeout(function() { resetFooter(); }, 1000);
             
 }); 

@@ -61,6 +61,13 @@
     <meta property="og:type" content="article" />
     <meta property="og:site_name" content="NY Daily News" />
     <meta property="article:publisher" content="https://www.facebook.com/NYDailyNews/" />
+    <meta name="themeKey" content="nydailynews" />
+    <meta name="mapThemeKey" content="responsive" />
+    <meta name="urlPrefix" content="" />
+    <meta name="staticContentPrefix" content="http://static.localedge.com/" />
+    <meta name="searchBinding" content="/search" />
+    <meta name="localeCountry" content="US"/>
+    <meta name="localeLanguage" content="en" />
 
     <!-- ADOBE ANALYTICS -->
     <script src="//assets.adobedtm.com/4fc527d6fda921c80e462d11a29deae2e4cf7514/satelliteLib-c91fdc6ac624c6cbcd50250f79786de339793801.js"></script>
@@ -91,7 +98,6 @@
     <!-- ADS-START -->
      <!-- ads -->
         <script>
-         //if( !/Android|webOS|iPhone|iPad|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {  
           var googletag = googletag || {};
           googletag.cmd = googletag.cmd || [];
           (function() {
@@ -103,13 +109,15 @@
           var node = document.getElementsByTagName('script')[0];
           node.parentNode.insertBefore(gads, node);
           })();
-        //  }
+        var is_mobile = /Android|webOS|iPhone|iPad|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+        var quiz_ad_tag = 'quiz';
+        if ( typeof appConfig.ad_tag !== 'undefined' ) quiz_ad_tag += '-' + appConfig.ad_tag;
         </script>
         <script>
-      if( !/Android|webOS|iPhone|iPad|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+      if( !is_mobile ) {
           googletag.cmd.push(function() {
           googletag.defineSlot('/4692832/NYDN/Interactive',  [[728, 90]], 'div-gpt-ad-x101').addService(googletag.pubads())
-          .setTargeting("interactive","video")
+          .setTargeting("interactive",quiz_ad_tag)
           .setTargeting("position","x50");
           googletag.pubads().enableSingleRequest();
           googletag.enableServices();
@@ -117,10 +125,10 @@
         }
         </script>
       <script>
-      if( !/Android|webOS|iPhone|iPad|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+      if( !is_mobile ) {
           googletag.cmd.push(function() {
           googletag.defineSlot('/4692832/NYDN/Interactive',  [[300, 250]], 'div-gpt-ad-1423507761396-1').addService(googletag.pubads())
-          .setTargeting("interactive","video")
+          .setTargeting("interactive",quiz_ad_tag)
           .setTargeting("position","x55");
           googletag.pubads().enableSingleRequest();
           googletag.enableServices();
@@ -128,10 +136,10 @@
         }
         </script>
         <script>
-      if( !/Android|webOS|iPhone|iPad|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+      if( !is_mobile ) {
           googletag.cmd.push(function() {
           googletag.defineSlot('/4692832/NYDN/Interactive',  [[300, 250]], 'div-gpt-ad-1423507761396-2').addService(googletag.pubads())
-          .setTargeting("interactive","video")
+          .setTargeting("interactive",quiz_ad_tag)
           .setTargeting("position","x55");
           googletag.pubads().enableSingleRequest();
           googletag.enableServices();
@@ -139,10 +147,10 @@
         }
         </script>
       <script>
-      if( !/Android|webOS|iPhone|iPad|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+      if( !is_mobile ) {
           googletag.cmd.push(function() {
           googletag.defineSlot('/4692832/NYDN/Interactive',  [[300, 250]], 'div-gpt-ad-1423507761396-3').addService(googletag.pubads())
-          .setTargeting("interactive","video")
+          .setTargeting("interactive",quiz_ad_tag)
           .setTargeting("position","x86");
           googletag.pubads().enableSingleRequest();
           googletag.enableServices();
@@ -151,25 +159,10 @@
         </script>
         <!-- mobile ad -->
         <script>
-         if( /Android|webOS|iPhone|iPad|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {         
-          var googletag = googletag || {};
-          googletag.cmd = googletag.cmd || [];
-          (function() {
-          var gads = document.createElement('script');
-          gads.async = true;
-          var useSSL = 'https:' == document.location.protocol;
-          gads.src = (useSSL ? 'https:' : 'http:') + 
-          '//www.googletagservices.com/tag/js/gpt.js';
-          var node = document.getElementsByTagName('script')[0];
-          node.parentNode.insertBefore(gads, node);
-          })();
-          }
-        </script>
-        <script>
-        if( /Android|webOS|iPhone|iPad|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {        
+        if( is_mobile ) {        
           googletag.cmd.push(function() {
           googletag.defineSlot('/4692832/M.NYDN/Interactive', [[320, 50]], 'div-gpt-ad-x101').addService(googletag.pubads())
-          .setTargeting("interactive","video")
+          .setTargeting("interactive",quiz_ad_tag)
           .setTargeting("position","x101");
           googletag.pubads().enableSingleRequest();
           googletag.enableServices();
@@ -177,10 +170,10 @@
         }
         </script>  
         <script>
-        if( /Android|webOS|iPhone|iPad|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {        
+        if( is_mobile ) {        
           googletag.cmd.push(function() {
           googletag.defineSlot('/4692832/M.NYDN/Interactive', [[300, 250]], 'div-gpt-ad-1423507761396-1').addService(googletag.pubads())
-          .setTargeting("interactive","video")
+          .setTargeting("interactive",quiz_ad_tag)
           .setTargeting("position","x35");
           googletag.pubads().enableSingleRequest();
           googletag.enableServices();
@@ -188,10 +181,10 @@
         }
         </script>  
         <script>
-        if( /Android|webOS|iPhone|iPad|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {        
+        if( is_mobile ) {        
           googletag.cmd.push(function() {
           googletag.defineSlot('/4692832/M.NYDN/Interactive', [[300, 250]], 'div-gpt-ad-1423507761396-2').addService(googletag.pubads())
-          .setTargeting("interactive","video")
+          .setTargeting("interactive",quiz_ad_tag)
           .setTargeting("position","x36");          
           googletag.pubads().enableSingleRequest();
           googletag.enableServices();
@@ -199,10 +192,10 @@
         }
         </script>  
         <script>
-        if( /Android|webOS|iPhone|iPad|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {        
+        if( is_mobile ) {        
           googletag.cmd.push(function() {
           googletag.defineSlot('/4692832/M.NYDN/Interactive', [[300, 250]], 'div-gpt-ad-1423507761396-3').addService(googletag.pubads())
-          .setTargeting("interactive","video")
+          .setTargeting("interactive",quiz_ad_tag)
           .setTargeting("position","x37");
           googletag.pubads().enableSingleRequest();
           googletag.enableServices();
@@ -291,7 +284,7 @@
         </div>
         <div id="rh-center">
             <a id="rh-logo" href="http://www.nydailynews.com">New York Daily News</a> 
-            <a id="rh-front" href="http://www.nydailynews.com/new-york"> New York </a>
+            <a id="rh-front" href="http://interactives.nydailynews.com/quizzes/"> Quizzes </a>
         </div>
         <div id="rh-right">
             <div id="rh-ssm">
@@ -337,7 +330,7 @@
             <div class="rho-subscribe-bg" style=""></div>
         </div>
     </div>
-<nav id="rh-subnav"> <div id="rh-subnav-wrap"><ul class="ra-share" id="ra-share-top"> <li class="ra-share-f"> <a target="_blank" href="#">facebook</a> </li> <br clear="all"> <li class="ra-share-t"> <a target="_blank" href="https://twitter.com/intent/tweet?text=DESCRIPTION%20SHORTURL">Tweet</a> </li>  <li class="ra-share-e"> <a href="mailto:?subject=NY Daily News: SUBJECT-KICKER&amp;body=DESCRIPTION %0A%0A CANONICALURL">email</a> </li> </ul></div></div>
+<nav id="rh-subnav"> <div id="rh-subnav-wrap"><ul class="ra-share" id="ra-share-top"> <li class="ra-share-f"> <a target="_blank" href="#">facebook</a> </li> <br clear="all"> <li class="ra-share-t"> <a target="_blank" href="https://twitter.com/intent/tweet?text=DESCRIPTION%20SHORTURL">Tweet</a> </li>  <li class="ra-share-e"> <a href="mailto:?subject=TITLE&amp;body=DESCRIPTION %0A%0A CANONICALURL">email</a> </li> </ul></div></div>
  </nav>
 </header>
 <!-- SITEHEADER-END -->
@@ -346,21 +339,9 @@
 
  </div> 
   <article>
-    <div id="video">
-        <iframe src="//www.ora.tv/embed/partner/thedailynewsflash/playlist/256/v/1" frameborder="0" scrolling="no" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
-    </div>
-    <h2>Video headline</h2>
-    <p>Description of video why is this font so small</p>
+    <h1>Video headline</h1>
+    <p></p>
     
-    <h3>More Larry King videos</h3>
-    <ul>
-        <li><a href="">Video one</a></li>
-        <li><a href="">Video one</a></li>
-        <li><a href="">Video one</a></li>
-        <li><a href="">Video one</a></li>
-        <li><a href="">Video one</a></li>
-    </ul>
- 
   <div class="center" style="margin-bottom: 18px">
     <span style="font-size:10px; color:#999;font-family:sans-serif;">ADVERTISEMENT</span>
     <div id='div-gpt-ad-1423507761396-1'>
@@ -369,7 +350,6 @@
               </script>
     </div>
   </div>
-<hr>
 <hr>
   <div class="center" style="margin-bottom: 18px">
     <span style="font-size:10px; color:#999;font-family:sans-serif;">ADVERTISEMENT</span>

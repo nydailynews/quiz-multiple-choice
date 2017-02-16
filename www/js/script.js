@@ -1,5 +1,4 @@
 $.getJSON("quiz_content.json", function(input) {
-    console.log("asdfasdfs");
 
     //calculate variables
     var qnumber, 
@@ -181,8 +180,4 @@ $.getJSON("quiz_content.json", function(input) {
     loadHeader();
     loadTopAd();
     buildQuiz(input);
-    // setTimeout(function() { resetFooter(); }, 1000);
-            
 }); 
-
-

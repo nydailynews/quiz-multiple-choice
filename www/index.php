@@ -28,15 +28,15 @@
     <meta name="parsely-tags" content="interactive" />
 
     <!-- LINK -->
-    <link rel="canonical" href="http://interactives.nydailynews.com/quiz/">
-    <meta property="og:url" content="http://interactives.nydailynews.com/quiz/" />
-    <meta name="twitter:url" content="http://interactives.nydailynews.com/quiz/">
-    <meta name="parsely-link" content="http://interactives.nydailynews.com/quiz/" />
+    <link rel="canonical" href="http://interactive.nydailynews.com/quiz/">
+    <meta property="og:url" content="http://interactive.nydailynews.com/quiz/" />
+    <meta name="twitter:url" content="http://interactive.nydailynews.com/quiz/">
+    <meta name="parsely-link" content="http://interactive.nydailynews.com/quiz/" />
 
     <!-- THUMBNAIL IMAGE-->
-    <meta property="og:image" content="http://interactives.nydailynews.com/quiz/img/split_0310.jpg" />
-    <meta name="twitter:image:src" content="http://interactives.nydailynews.com/quiz/img/split_0310.jpg" />
-    <meta name="parsely-image-url" content="http://interactives.nydailynews.com/quiz/img/split_0310.jpg" />
+    <meta property="og:image" content="http://interactive.nydailynews.com/quiz/img/split_0310.jpg" />
+    <meta name="twitter:image:src" content="http://interactive.nydailynews.com/quiz/img/split_0310.jpg" />
+    <meta name="parsely-image-url" content="http://interactive.nydailynews.com/quiz/img/split_0310.jpg" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="800" />
 
@@ -77,7 +77,6 @@
       
     <link rel="stylesheet" type="text/css" href="http://assets.nydailynews.com/nydn/c/rh.css?r=2016LIST">
     <link rel="stylesheet" type="text/css" href="http://assets.nydailynews.com/nydn/c/ra.css?r=2016LIST">
-    <link rel="stylesheet" type="text/css" href="/css/ri.css?r=2016LIST">
     <script>
     var nydn = nydn || {
         "section": "NYDailyNews",
@@ -89,7 +88,7 @@
     var nydnDO = [
         { 
             'title':'xxxThe NY Daily News quizzesxxx', 
-            'link':'http://interactives.nydailynews.com/quiz/', 
+            'link':'http://interactive.nydailynews.com/quiz/', 
             'p_type':'interactive', 
             'section':'interactive' }
     ];
@@ -111,7 +110,7 @@
           })();
         var is_mobile = /Android|webOS|iPhone|iPad|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
         var quiz_ad_tag = 'quiz';
-        if ( typeof appConfig.ad_tag !== 'undefined' ) quiz_ad_tag += '-' + appConfig.ad_tag;
+        if ( typeof appConfig !== 'undefined' ) quiz_ad_tag += '-' + appConfig.ad_tag;
         </script>
         <script>
       if( !is_mobile ) {
@@ -284,7 +283,7 @@
         </div>
         <div id="rh-center">
             <a id="rh-logo" href="http://www.nydailynews.com">New York Daily News</a> 
-            <a id="rh-front" href="http://interactives.nydailynews.com/quiz/"> Quizzes </a>
+            <a id="rh-front" href="http://interactive.nydailynews.com/quiz/"> Quizzes </a>
         </div>
         <div id="rh-right">
             <div id="rh-ssm">
@@ -330,7 +329,7 @@
             <div class="rho-subscribe-bg" style=""></div>
         </div>
     </div>
-<nav id="rh-subnav"> <div id="rh-subnav-wrap"><ul class="ra-share" id="ra-share-top"> <li class="ra-share-f"> <a target="_blank" href="#">facebook</a> </li> <br clear="all"> <li class="ra-share-t"> <a target="_blank" href="https://twitter.com/intent/tweet?text=Look at all the news and entertainment and sports quizzes from the New York Daily News%20http://interactives.nydailynews.com/quiz/">Tweet</a> </li>  <li class="ra-share-e"> <a href="mailto:?subject=The NY Daily News quizzes&amp;body=Look at all the news and entertainment and sports quizzes from the New York Daily News %0A%0A http://interactives.nydailynews.com/quiz/">email</a> </li> </ul></div></div>
+<nav id="rh-subnav"> <div id="rh-subnav-wrap"><ul class="ra-share" id="ra-share-top"> <li class="ra-share-f"> <a target="_blank" href="#">facebook</a> </li> <br clear="all"> <li class="ra-share-t"> <a target="_blank" href="https://twitter.com/intent/tweet?text=Look at all the news and entertainment and sports quizzes from the New York Daily News%20http://interactive.nydailynews.com/quiz/">Tweet</a> </li>  <li class="ra-share-e"> <a href="mailto:?subject=The NY Daily News quizzes&amp;body=Look at all the news and entertainment and sports quizzes from the New York Daily News %0A%0A http://interactive.nydailynews.com/quiz/">email</a> </li> </ul></div></div>
  </nav>
 </header>
 <!-- SITEHEADER-END -->
@@ -356,6 +355,7 @@
         <!-- CUSTOM CSS GOES HERE-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/css/foundation.css" />
         <link href="css/style.css?v2" rel="stylesheet" type="text/css" />
+        <script src="js/social.js" defer></script>
 <hr>
   <div class="center" style="margin-bottom: 18px">
     <span style="font-size:10px; color:#999;font-family:sans-serif;">ADVERTISEMENT</span>

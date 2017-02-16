@@ -168,6 +168,7 @@ $.getJSON("quiz_content.json", function(input) {
 
         $(".credit").css("display","none");
         $(".byline").css("display","none");
+        $(".description").css("display","none");
 
         // resetFooter();
         

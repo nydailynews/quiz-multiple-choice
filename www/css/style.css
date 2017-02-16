@@ -747,3 +747,12 @@ body #rh-subnav-wrap {
 #rh-subnav ul {
     width: 200px;
 }
+.center {
+    text-align: center;
+    margin: auto
+}
+article {
+    max-width: 1100px;
+    margin: auto;
+}
+#rh-subscribe { top:-30px!important; }

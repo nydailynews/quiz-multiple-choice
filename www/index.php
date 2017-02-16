@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>QUIZ: , by the NY Daily News</title>
+    <title>The NY Daily News quizzes, by the NY Daily News</title>
     <link rel="icon" type="image/png" href="http://interactive.nydailynews.com/favicons.png">
-   <!-- DEFAULT -->
+	<!-- DEFAULT -->
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -12,31 +12,31 @@
     <meta name="format-detection" content="telephone=no"/>
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
 
-    <!-- TITLES-->
-    <meta property="og:title" content='TITLE' />
-    <meta name="twitter:title" content='TITLE'/>
-    <meta name="parsely-title" content='TITLE' />
+    <!-- The NY Daily News quizzesS-->
+    <meta property="og:title" content='The NY Daily News quizzes' />
+    <meta name="twitter:title" content='The NY Daily News quizzes'/>
+    <meta name="parsely-title" content='The NY Daily News quizzes' />
 
-    <!-- DESCRIPTION-->
-    <meta name="description" content="DESCRIPTION" />
-    <meta property="og:description" content="DESCRIPTION" />
-    <meta name="twitter:description" content="DESCRIPTION" />
+    <!-- Look at all the news and entertainment and sports quizzes from the New York Daily News-->
+    <meta name="description" content="Look at all the news and entertainment and sports quizzes from the New York Daily News" />
+    <meta property="og:description" content="Look at all the news and entertainment and sports quizzes from the New York Daily News" />
+    <meta name="twitter:description" content="Look at all the news and entertainment and sports quizzes from the New York Daily News" />
 
     <!-- KEYWORD -->
-    <meta name="keywords" content="KEYWORDS" />
-    <meta name="news_keywords" content="KEYWORDS" />
+    <meta name="keywords" content="quiz,quizzes,news quiz,new york city" />
+    <meta name="news_keywords" content="quiz,quizzes,news quiz,new york city" />
     <meta name="parsely-tags" content="interactive" />
 
     <!-- LINK -->
-    <link rel="canonical" href="CANONICALURL">
-    <meta property="og:url" content="CANONICALURL" />
-    <meta name="twitter:url" content="CANONICALURL">
-    <meta name="parsely-link" content="CANONICALURL" />
+    <link rel="canonical" href="http://interactives.nydailynews.com/quiz/">
+    <meta property="og:url" content="http://interactives.nydailynews.com/quiz/" />
+    <meta name="twitter:url" content="http://interactives.nydailynews.com/quiz/">
+    <meta name="parsely-link" content="http://interactives.nydailynews.com/quiz/" />
 
     <!-- THUMBNAIL IMAGE-->
-    <meta property="og:image" content="CANONICALURLimg/split_0310.jpg" />
-    <meta name="twitter:image:src" content="CANONICALURLimg/split_0310.jpg" />
-    <meta name="parsely-image-url" content="CANONICALURLimg/split_0310.jpg" />
+    <meta property="og:image" content="http://interactives.nydailynews.com/quiz/img/split_0310.jpg" />
+    <meta name="twitter:image:src" content="http://interactives.nydailynews.com/quiz/img/split_0310.jpg" />
+    <meta name="parsely-image-url" content="http://interactives.nydailynews.com/quiz/img/split_0310.jpg" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="800" />
 
@@ -88,8 +88,8 @@
     <script>
     var nydnDO = [
         { 
-            'title':'xxxTITLExxx', 
-            'link':'CANONICALURL', 
+            'title':'xxxThe NY Daily News quizzesxxx', 
+            'link':'http://interactives.nydailynews.com/quiz/', 
             'p_type':'interactive', 
             'section':'interactive' }
     ];
@@ -330,7 +330,7 @@
             <div class="rho-subscribe-bg" style=""></div>
         </div>
     </div>
-<nav id="rh-subnav"> <div id="rh-subnav-wrap"><ul class="ra-share" id="ra-share-top"> <li class="ra-share-f"> <a target="_blank" href="#">facebook</a> </li> <br clear="all"> <li class="ra-share-t"> <a target="_blank" href="https://twitter.com/intent/tweet?text=DESCRIPTION%20SHORTURL">Tweet</a> </li>  <li class="ra-share-e"> <a href="mailto:?subject=TITLE&amp;body=DESCRIPTION %0A%0A CANONICALURL">email</a> </li> </ul></div></div>
+<nav id="rh-subnav"> <div id="rh-subnav-wrap"><ul class="ra-share" id="ra-share-top"> <li class="ra-share-f"> <a target="_blank" href="#">facebook</a> </li> <br clear="all"> <li class="ra-share-t"> <a target="_blank" href="https://twitter.com/intent/tweet?text=Look at all the news and entertainment and sports quizzes from the New York Daily News%20http://interactives.nydailynews.com/quiz/">Tweet</a> </li>  <li class="ra-share-e"> <a href="mailto:?subject=The NY Daily News quizzes&amp;body=Look at all the news and entertainment and sports quizzes from the New York Daily News %0A%0A http://interactives.nydailynews.com/quiz/">email</a> </li> </ul></div></div>
  </nav>
 </header>
 <!-- SITEHEADER-END -->

@@ -739,3 +739,11 @@ body{
   }
 
 }
+
+/* Fixes for social menu */
+body #rh-subnav-wrap {
+    padding: 10px 20px 0;
+}
+#rh-subnav ul {
+    width: 200px;
+}

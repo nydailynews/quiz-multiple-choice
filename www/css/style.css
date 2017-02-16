@@ -237,7 +237,7 @@ body{
     margin-bottom: 20px;
   }
 
-  .headline {
+  h1, .headline {
     font-family: "Open Sans";
     font-size: 37px;
     color: black;
@@ -488,7 +488,7 @@ body{
     margin-bottom: 20px;
   }
 
-  .headline {
+  h1, .headline {
     font-family: "Open Sans";
     font-size: 25px;
     line-height: 30px;

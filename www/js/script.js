@@ -17,8 +17,6 @@ $.getJSON("quiz_content.json", function(input) {
 
     // load headline section
     var loadHeader = function () {
-        $(".headline").html(input[0].headline);
-        $(".description").html(input[0].description);
         $(".facebook").html("<a class=\"fb-share\" href='http://www.facebook.com/sharer.php?u=" + link + "' target='_blank'></a>");
         $(".twitter").html("<a class=\"twitter-share\" href='http://twitter.com/share?url=" + short_link + "&text=" + twitter_line + " @nydailynews' target='_blank'></a>");
     }
@@ -168,8 +166,6 @@ $.getJSON("quiz_content.json", function(input) {
             $(".smaller-result").prepend("<p>" + input[0].result + "</p>")
         }
 
-        $(".headline").css("display","none");
-        $(".description").css("display","none");
         $(".credit").css("display","none");
         $(".byline").css("display","none");
 

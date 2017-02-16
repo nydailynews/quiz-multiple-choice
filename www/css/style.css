@@ -754,4 +754,7 @@ article {
     max-width: 1100px;
     margin: auto;
 }
-#rh-subscribe { top:-30px!important; }
+
+@media screen and (min-width: 800px) {
+    #rh-subscribe { top:-30px!important; }
+}

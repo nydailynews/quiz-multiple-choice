@@ -340,7 +340,10 @@
  </div> 
   <article>
     <h1 class="center">NY Daily News Quizzes</h1>
-    <p class="description center"></p>
+    <p class="description center">Look at all the news and entertainment and sports quizzes from the New York Daily News</p>
+	<ul>
+		<li><a href="trump-administration-white-house-lies/">Which White House official said this lie?</a></li>
+	</ul>
     
   <div class="center" style="margin-bottom: 18px">
     <span style="font-size:10px; color:#999;font-family:sans-serif;">ADVERTISEMENT</span>

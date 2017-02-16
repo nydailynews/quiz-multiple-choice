@@ -228,7 +228,7 @@
                         </form>
                     </div>
                     <dl class="rh-section home"> 
-                        <dt> <span class="ri-home"></span> <a href="/">Home</a> </dt>
+                        <dt> <span class="ri-home"></span> <a href="http://www.nydailynews.com/">Home</a> </dt>
                     </dl>
                     <dl class="rh-section New York"> 
                         <dt class="rh-accordion"> <a href="http://www.nydailynews.com/new-york">New York</a> <span class="rh-accordion ri-plus"></span> </dt>
@@ -305,7 +305,7 @@
                 <span class="rho-subscribe-close"></span> 
                 <header>Follow Us</header>
                 <a href="http://link.nydailynews.com/join/4xm/newslettersignup-mobile">Newsletter <span class="ri-angle-right"></span></a>
-                <a href="/services/mobile">App <span class="ri-angle-right"></span></a>
+                <a href="http://www.nydailynews.com/services/mobile">App <span class="ri-angle-right"></span></a>
                 <a href="https://homedelivery.nydailynews.com/">Subscriptions <span class="ri-angle-right"></span></a>
             </div>
             <div id="rho-subscribe-desk">
@@ -320,7 +320,7 @@
                     </div>
                 </div>
                 <div id="rh-app">
-                    <span>Get the latest breaking news, entertainment, sports and more.</span><img src="http://assets.nydailynews.com/nydn/img/static/rh-app.jpg"><a href="/services/mobile">Download Our App</a>
+                    <span>Get the latest breaking news, entertainment, sports and more.</span><img src="http://assets.nydailynews.com/nydn/img/static/rh-app.jpg"><a href="http://www.nydailynews.com/services/mobile">Download Our App</a>
                 </div>
                 <div id="rh-subscriptions">
                     <span>Subscribe to the newspaper, our e-edition, or both.</span><img src="http://assets.nydailynews.com/nydn/img/static/rh-subscribe.jpg"><a href="https://homedelivery.nydailynews.com/">Subscribe</a>
@@ -404,22 +404,22 @@
                 <dl class="col_1-3"> 
                     <dt>Keep in Touch</dt>
                     <dd><a href="http://link.nydailynews.com/join/4xm/newslettersignup-desktop">Newsletter</a></dd>
-                    <dd><a href="/services/mobile">Apps</a></dd>
+                    <dd><a href="http://www.nydailynews.com/services/mobile">Apps</a></dd>
                     <dd class="mob-show"><a href="https://homedelivery.nydailynews.com/">Subscribe</a></dd>
-                    <dd><a href="/services/feeds">Feeds</a></dd>
+                    <dd><a href="http://www.nydailynews.com/services/feeds">Feeds</a></dd>
                 </dl>
                 <dl class="col_1-3"> 
                     <dt>Support &amp; Contact</dt>
-                    <dd class="mob-show"><a href="/services/contact-us">Contact Us</a></dd>
-                    <dd><a href="/services/careers">Careers</a></dd>
-                    <dd><a href="/services/media-kit">Media Kit</a></dd>
-                    <dd><a href="/services/sitemap">Site Map</a></dd>
+                    <dd class="mob-show"><a href="http://www.nydailynews.com/services/contact-us">Contact Us</a></dd>
+                    <dd><a href="http://www.nydailynews.com/services/careers">Careers</a></dd>
+                    <dd><a href="http://www.nydailynews.com/services/media-kit">Media Kit</a></dd>
+                    <dd><a href="http://www.nydailynews.com/services/sitemap">Site Map</a></dd>
                 </dl>
                 <dl class="col_1-3"> 
                     <dt>Terms of Use</dt>
                     <dd><a href="http://nydailynews.adperfect.com/">Ad Choices</a></dd>
-                    <dd class="mob-show"><a href="/services/terms-services">Terms of Service</a></dd>
-                    <dd class="mob-show"><a href="/services/privacy-policy">Privacy Policy</a></dd>
+                    <dd class="mob-show"><a href="http://www.nydailynews.com/services/terms-services">Terms of Service</a></dd>
+                    <dd class="mob-show"><a href="http://www.nydailynews.com/services/privacy-policy">Privacy Policy</a></dd>
                 </dl>
             </div>
 <!--

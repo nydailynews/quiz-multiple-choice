@@ -155,13 +155,19 @@ $.getJSON("quiz_content.json", function(input) {
             d = window.appConfig.d
 
         // compare score and find the max
+        // Sometimes we have four answer "buckets" and sometimes three.
+        // The weird thing about how this works is if we have three, we only merge 
+        // the "perfect score" answer in with the result that comes after.
+        var bucket_adjust = 0;
+        if ( input[3].result === '' ) bucket_adjust = 1;
+        console.log(input.length)
         if ( score == input.length) {
-            $(".smaller-result").prepend("<p>" + input[3].result + "</p>")
-        } else if ( score >= b && score < c) {
+            $(".smaller-result").prepend("<p>" + input[3 - bucket_adjust].result + "</p>")
+        } else if ( score >= b && score <= c) {
             $(".smaller-result").prepend("<p>" + input[2].result + "</p>")
         } else if ( score > a && score < b) {
             $(".smaller-result").prepend("<p>" + input[1].result + "</p>")
-        } else if ( score < 6) {
+        } else {
             $(".smaller-result").prepend("<p>" + input[0].result + "</p>")
         }
 

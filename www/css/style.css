@@ -59,6 +59,7 @@ body{
   /*text-transform: uppercase;*/
   text-decoration: underline;
   color: #89898A;
+  font-weight: bold;
 }
 
 .info_source {

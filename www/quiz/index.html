@@ -81,7 +81,8 @@
     var nydn = nydn || {
         "section": "NYDailyNews",
         "template": "article",
-        "revision": "201609014009"
+        "revision": "201609014009",
+        "targetPath": document.location.pathname
     };
     </script>
     <script>

@@ -12,12 +12,12 @@
     <meta name="format-detection" content="telephone=no"/>
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
 
-    <!-- TITLES-->
+    <!-- Titles-->
     <meta property="og:title" content='TITLE' />
     <meta name="twitter:title" content='TITLE'/>
     <meta name="parsely-title" content='TITLE' />
 
-    <!-- DESCRIPTION-->
+    <!-- Description-->
     <meta name="description" content="DESCRIPTION" />
     <meta property="og:description" content="DESCRIPTION" />
     <meta name="twitter:description" content="DESCRIPTION" />
@@ -82,6 +82,7 @@
         "section": "NYDailyNews",
         "template": "article",
         "revision": "201609014009",
+        "bidder": { contains: function() {} },
         "targetPath": document.location.pathname
     };
     </script>
@@ -339,13 +340,13 @@
 
  </div> 
   <article>
-    <h1 class="center">TITLE</h1>
+    <h1 class="center">QUIZ: TITLE</h1>
     <p class="center description">DESCRIPTION</p>
+    <p class="byline center">By BYLINE</p>
         <div id="content">
             <div class="row">   
                 <div class="headline large-12 medium-12 small-12 columns center"></div>
                 <div class="description large-12 medium-12 small-12 columns center"></div>
-                <div class="byline large-12 medium-12 small-12 columns center">By BYLINE</div>
 
                 <div class="large-12 medium-12 small-12 columns">
                     <div class="quiz-container"></div>
@@ -359,7 +360,7 @@
                 </div>
             </div>
 
-            <div align="center" class='next large-12 medium-12 small-12 columns'>
+            <div class='center next large-12 medium-12 small-12 columns'>
                     <button class='continue_btn'>CONTINUE QUIZ</button>
             </div>
 
@@ -474,9 +475,5 @@
         </div>
     </div>
 </div>
-    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script src="js/jquery.waypoints.min.js"></script>
-    <script src="js/jquery.sticky.js"></script>
-    <script src="js/scripts.js?v2"></script>
 </body>
 </html>

@@ -1,4 +1,9 @@
-<!DOCTYPE html>
+<?php
+//include('env.php');
+//include(CLASS_PATH . 'class.csv.php');
+include('../class.csv.php');
+$csv = new parseCSV('data.csv');
+?><!DOCTYPE html>
 <html lang="en">
 <head>
     <title>The NY Daily News quizzes, by the NY Daily News</title>
@@ -341,10 +346,19 @@
   <article>
     <h1 class="center">NY Daily News Quizzes</h1>
     <p class="description center">Look at all the news and entertainment and sports quizzes from the New York Daily News</p>
+<?php
+$prev_year = '';
+foreach ( $csv->data as $key => $item ):
+    if ( trim($item['year']) != trim($prev_year) ): 
+		if ( $prev_year != '' ) echo '	</ul>';
+		$prev_year = $item['year'];
+?>
+    <h2><?php echo $item['year']; ?> news quizzes</h2>
 	<ul>
-		<li><a href="die-hard-sequels-john-mcclane-bruce-willis/">Which ‘Die Hard’ movie did John McClane say these lines in?</a></li>
-		<li><a href="ncaa-basketball-coach-quiz-mike-krzyzewski/">Which NCAA coach did this NBA player suit up for?</a></li>
-		<li><a href="trump-administration-white-house-lies/">Which White House official said this lie?</a></li>
+<?php endif;
+    echo "      <li><a href='" . $item['url'] . "'>" . $item['title'] . "</a></li>\n";
+endforeach;
+?>
 	</ul>
     
   <div class="center" style="margin-bottom: 18px">

@@ -284,7 +284,7 @@
         </div>
         <div id="rh-center">
             <a id="rh-logo" href="http://www.nydailynews.com">New York Daily News</a> 
-            <a id="rh-front" href="http://interactive.nydailynews.com/quiz/"> Quizzes </a>
+            <a id="rh-front" href="http://interactive.nydailynews.com/quiz/"> News Quizzes </a>
         </div>
         <div id="rh-right">
             <div id="rh-ssm">
@@ -342,6 +342,8 @@
     <h1 class="center">NY Daily News Quizzes</h1>
     <p class="description center">Look at all the news and entertainment and sports quizzes from the New York Daily News</p>
 	<ul>
+		<li><a href="die-hard-sequels-john-mcclane-bruce-willis/">Which ‘Die Hard’ movie did John McClane say these lines in?</a></li>
+		<li><a href="ncaa-basketball-coach-quiz-mike-krzyzewski/">Which NCAA coach did this NBA player suit up for?</a></li>
 		<li><a href="trump-administration-white-house-lies/">Which White House official said this lie?</a></li>
 	</ul>
     

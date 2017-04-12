@@ -339,11 +339,9 @@ $csv = new parseCSV('data.csv');
  </nav>
 </header>
 <!-- SITEHEADER-END -->
-
-
-
  </div> 
-  <article>
+
+  <article class="column">
     <h1 class="center">NY Daily News Quizzes</h1>
     <p class="description center">Look at all the news and entertainment and sports quizzes from the New York Daily News</p>
 <?php
@@ -386,10 +384,6 @@ endforeach;
 
   </article>
  
-  
-</div>
-</main>
-    
 <!-- FOOTER-START -->
 <footer id="rf">
     <div id="rf-header">

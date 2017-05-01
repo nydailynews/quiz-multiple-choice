@@ -3,7 +3,7 @@
 <head>
     <title>TITLE, by the NY Daily News</title>
     <link rel="icon" type="image/png" href="http://interactive.nydailynews.com/favicons.png">
-   <!-- DEFAULT -->
+    <!-- DEFAULT -->
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -12,12 +12,12 @@
     <meta name="format-detection" content="telephone=no"/>
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
 
-    <!-- Titles-->
+    <!-- Titles -->
     <meta property="og:title" content='TITLE' />
     <meta name="twitter:title" content='TITLE'/>
     <meta name="parsely-title" content='TITLE' />
 
-    <!-- Description-->
+    <!-- Description -->
     <meta name="description" content="DESCRIPTION" />
     <meta property="og:description" content="DESCRIPTION" />
     <meta name="twitter:description" content="DESCRIPTION" />
@@ -37,8 +37,8 @@
     <meta property="og:image" content="CANONICALURLimg/splitter.jpg" />
     <meta name="twitter:image:src" content="CANONICALURLimg/splitter.jpg" />
     <meta name="parsely-image-url" content="CANONICALURLimg/splitter.jpg" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="800" />
+    <meta property="og:image:width" content="1024" />
+    <meta property="og:image:height" content="512" />
 
     <!-- TIME -->
     <meta name="parsely-pub-date" content="DATET11:00:00Z" />
@@ -113,14 +113,14 @@
           node.parentNode.insertBefore(gads, node);
           })();
         var is_mobile = /Android|webOS|iPhone|iPad|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-        var quiz_ad_tag = 'quiz';
-        if ( typeof appConfig.ad_tag !== 'undefined' ) quiz_ad_tag += '-' + appConfig.ad_tag;
+        var ad_tag = 'quiz';
+        if ( typeof appConfig.ad_tag !== 'undefined' ) ad_tag += '-' + appConfig.ad_tag;
         </script>
         <script>
       if( !is_mobile ) {
           googletag.cmd.push(function() {
           googletag.defineSlot('/4692832/NYDN/Interactive',  [[728, 90]], 'div-gpt-ad-x101').addService(googletag.pubads())
-          .setTargeting("interactive",quiz_ad_tag)
+          .setTargeting("interactive",ad_tag)
           .setTargeting("position","x50");
           googletag.pubads().enableSingleRequest();
           googletag.enableServices();
@@ -131,7 +131,7 @@
       if( !is_mobile ) {
           googletag.cmd.push(function() {
           googletag.defineSlot('/4692832/NYDN/Interactive',  [[300, 250]], 'div-gpt-ad-1423507761396-1').addService(googletag.pubads())
-          .setTargeting("interactive",quiz_ad_tag)
+          .setTargeting("interactive",ad_tag)
           .setTargeting("position","x55");
           googletag.pubads().enableSingleRequest();
           googletag.enableServices();
@@ -142,7 +142,7 @@
       if( !is_mobile ) {
           googletag.cmd.push(function() {
           googletag.defineSlot('/4692832/NYDN/Interactive',  [[300, 250]], 'div-gpt-ad-1423507761396-2').addService(googletag.pubads())
-          .setTargeting("interactive",quiz_ad_tag)
+          .setTargeting("interactive",ad_tag)
           .setTargeting("position","x55");
           googletag.pubads().enableSingleRequest();
           googletag.enableServices();
@@ -153,7 +153,7 @@
       if( !is_mobile ) {
           googletag.cmd.push(function() {
           googletag.defineSlot('/4692832/NYDN/Interactive',  [[300, 250]], 'div-gpt-ad-1423507761396-3').addService(googletag.pubads())
-          .setTargeting("interactive",quiz_ad_tag)
+          .setTargeting("interactive",ad_tag)
           .setTargeting("position","x86");
           googletag.pubads().enableSingleRequest();
           googletag.enableServices();
@@ -165,7 +165,7 @@
         if( is_mobile ) {        
           googletag.cmd.push(function() {
           googletag.defineSlot('/4692832/M.NYDN/Interactive', [[320, 50]], 'div-gpt-ad-x101').addService(googletag.pubads())
-          .setTargeting("interactive",quiz_ad_tag)
+          .setTargeting("interactive",ad_tag)
           .setTargeting("position","x101");
           googletag.pubads().enableSingleRequest();
           googletag.enableServices();
@@ -176,7 +176,7 @@
         if( is_mobile ) {        
           googletag.cmd.push(function() {
           googletag.defineSlot('/4692832/M.NYDN/Interactive', [[300, 250]], 'div-gpt-ad-1423507761396-1').addService(googletag.pubads())
-          .setTargeting("interactive",quiz_ad_tag)
+          .setTargeting("interactive",ad_tag)
           .setTargeting("position","x35");
           googletag.pubads().enableSingleRequest();
           googletag.enableServices();
@@ -187,7 +187,7 @@
         if( is_mobile ) {        
           googletag.cmd.push(function() {
           googletag.defineSlot('/4692832/M.NYDN/Interactive', [[300, 250]], 'div-gpt-ad-1423507761396-2').addService(googletag.pubads())
-          .setTargeting("interactive",quiz_ad_tag)
+          .setTargeting("interactive",ad_tag)
           .setTargeting("position","x36");          
           googletag.pubads().enableSingleRequest();
           googletag.enableServices();
@@ -198,7 +198,7 @@
         if( is_mobile ) {        
           googletag.cmd.push(function() {
           googletag.defineSlot('/4692832/M.NYDN/Interactive', [[300, 250]], 'div-gpt-ad-1423507761396-3').addService(googletag.pubads())
-          .setTargeting("interactive",quiz_ad_tag)
+          .setTargeting("interactive",ad_tag)
           .setTargeting("position","x37");
           googletag.pubads().enableSingleRequest();
           googletag.enableServices();
@@ -337,10 +337,10 @@
  </nav>
 </header>
 <!-- SITEHEADER-END -->
-
-
-
  </div> 
+
+
+<main>
   <article>
     <h1 class="center">QUIZ: TITLE</h1>
     <p class="center description">DESCRIPTION</p>
@@ -354,7 +354,7 @@
                     <div class="quiz-container"></div>
                 </div>
 
-            <div class="side_ad" align="center" style="margin-bottom: 20px;">
+            <div class="side_ad center" style="margin-bottom: 20px;">
                 <div id='div-gpt-ad-1423507761396-2'>
                 <script>
                 googletag.cmd.push(function() { googletag.display('div-gpt-ad-1423507761396-2'); });
@@ -372,11 +372,11 @@
 
         <!-- CUSTOM CSS GOES HERE-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/css/foundation.css" />
-        <link href="../css/style.css?v2" rel="stylesheet" type="text/css" />
+        <link href="../css/style.css" rel="stylesheet" type="text/css" />
 
         <!-- CUSTOM JS GOES HERE-->
         <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-        <script src="../js/script.js?v3"></script>
+        <script src="../js/script.js"></script>
   </div>  
 
   <div class="center" style="margin-bottom: 18px">
@@ -396,8 +396,6 @@
               </script>
     </div>
   </div>
-<hr>
-
   </article>
  
   

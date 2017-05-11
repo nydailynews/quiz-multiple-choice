@@ -30,7 +30,7 @@ $csv = new parseCSV('data.csv');
     <!-- KEYWORD -->
     <meta name="keywords" content="quiz,quizzes,news quiz,new york city" />
     <meta name="news_keywords" content="quiz,quizzes,news quiz,new york city" />
-    <meta name="parsely-tags" content="interactive,interactive quiz" />
+    <meta name="parsely-tags" content="interactive,interactive quiz,quizzes" />
 
     <!-- LINK -->
     <link rel="canonical" href="http://interactive.nydailynews.com/quiz/">
@@ -46,7 +46,7 @@ $csv = new parseCSV('data.csv');
     <meta property="og:image:height" content="800" />
 
     <!-- TIME -->
-    <meta name="parsely-pub-date" content="2015-03-11T11:00:00Z" />
+    <meta name="parsely-pub-date" content="2017-03-11T11:00:00Z" />
 
     <!-- NO NEED TO FILL -->
     <meta name="twitter:card" content="summary">
@@ -115,14 +115,14 @@ $csv = new parseCSV('data.csv');
           node.parentNode.insertBefore(gads, node);
           })();
         var is_mobile = /Android|webOS|iPhone|iPad|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-        var quiz_ad_tag = 'quiz';
-        if ( typeof appConfig !== 'undefined' ) quiz_ad_tag += '-' + appConfig.ad_tag;
+        var ad_tag = 'quiz';
+        if ( typeof appConfig !== 'undefined' ) ad_tag += '-' + appConfig.ad_tag;
         </script>
         <script>
       if( !is_mobile ) {
           googletag.cmd.push(function() {
           googletag.defineSlot('/4692832/NYDN/Interactive',  [[728, 90]], 'div-gpt-ad-x101').addService(googletag.pubads())
-          .setTargeting("interactive",quiz_ad_tag)
+          .setTargeting("interactive",ad_tag)
           .setTargeting("position","x50");
           googletag.pubads().enableSingleRequest();
           googletag.enableServices();
@@ -133,7 +133,7 @@ $csv = new parseCSV('data.csv');
       if( !is_mobile ) {
           googletag.cmd.push(function() {
           googletag.defineSlot('/4692832/NYDN/Interactive',  [[300, 250]], 'div-gpt-ad-1423507761396-1').addService(googletag.pubads())
-          .setTargeting("interactive",quiz_ad_tag)
+          .setTargeting("interactive",ad_tag)
           .setTargeting("position","x55");
           googletag.pubads().enableSingleRequest();
           googletag.enableServices();
@@ -144,7 +144,7 @@ $csv = new parseCSV('data.csv');
       if( !is_mobile ) {
           googletag.cmd.push(function() {
           googletag.defineSlot('/4692832/NYDN/Interactive',  [[300, 250]], 'div-gpt-ad-1423507761396-2').addService(googletag.pubads())
-          .setTargeting("interactive",quiz_ad_tag)
+          .setTargeting("interactive",ad_tag)
           .setTargeting("position","x55");
           googletag.pubads().enableSingleRequest();
           googletag.enableServices();
@@ -155,7 +155,7 @@ $csv = new parseCSV('data.csv');
       if( !is_mobile ) {
           googletag.cmd.push(function() {
           googletag.defineSlot('/4692832/NYDN/Interactive',  [[300, 250]], 'div-gpt-ad-1423507761396-3').addService(googletag.pubads())
-          .setTargeting("interactive",quiz_ad_tag)
+          .setTargeting("interactive",ad_tag)
           .setTargeting("position","x86");
           googletag.pubads().enableSingleRequest();
           googletag.enableServices();
@@ -167,7 +167,7 @@ $csv = new parseCSV('data.csv');
         if( is_mobile ) {        
           googletag.cmd.push(function() {
           googletag.defineSlot('/4692832/M.NYDN/Interactive', [[320, 50]], 'div-gpt-ad-x101').addService(googletag.pubads())
-          .setTargeting("interactive",quiz_ad_tag)
+          .setTargeting("interactive",ad_tag)
           .setTargeting("position","x101");
           googletag.pubads().enableSingleRequest();
           googletag.enableServices();
@@ -178,7 +178,7 @@ $csv = new parseCSV('data.csv');
         if( is_mobile ) {        
           googletag.cmd.push(function() {
           googletag.defineSlot('/4692832/M.NYDN/Interactive', [[300, 250]], 'div-gpt-ad-1423507761396-1').addService(googletag.pubads())
-          .setTargeting("interactive",quiz_ad_tag)
+          .setTargeting("interactive",ad_tag)
           .setTargeting("position","x35");
           googletag.pubads().enableSingleRequest();
           googletag.enableServices();
@@ -189,7 +189,7 @@ $csv = new parseCSV('data.csv');
         if( is_mobile ) {        
           googletag.cmd.push(function() {
           googletag.defineSlot('/4692832/M.NYDN/Interactive', [[300, 250]], 'div-gpt-ad-1423507761396-2').addService(googletag.pubads())
-          .setTargeting("interactive",quiz_ad_tag)
+          .setTargeting("interactive",ad_tag)
           .setTargeting("position","x36");          
           googletag.pubads().enableSingleRequest();
           googletag.enableServices();
@@ -200,7 +200,7 @@ $csv = new parseCSV('data.csv');
         if( is_mobile ) {        
           googletag.cmd.push(function() {
           googletag.defineSlot('/4692832/M.NYDN/Interactive', [[300, 250]], 'div-gpt-ad-1423507761396-3').addService(googletag.pubads())
-          .setTargeting("interactive",quiz_ad_tag)
+          .setTargeting("interactive",ad_tag)
           .setTargeting("position","x37");
           googletag.pubads().enableSingleRequest();
           googletag.enableServices();
@@ -341,6 +341,14 @@ $csv = new parseCSV('data.csv');
 <!-- SITEHEADER-END -->
  </div> 
 
+<style type="text/css">
+
+body#nydailynews article {
+    max-width: 1100px;
+    margin: auto;
+    float: none;
+}
+</style>
   <article class="column">
     <h1 class="center">NY Daily News Quizzes</h1>
     <p class="description center">Look at all the news and entertainment and sports quizzes from the New York Daily News</p>
@@ -358,6 +366,9 @@ foreach ( $csv->data as $key => $item ):
 endforeach;
 ?>
 	</ul>
+	<hr noshade>
+	<h2>Games from the New York Daily News</h2>
+	<p><a href="http://games.nydailynews.com/">Play in-browser games</a>, such as <a href="http://games.nydailynews.com/games/daily-sudoku/">Sudoku</a> and the <a href="http://games.nydailynews.com/games/daily-crossword/">crossword</a> and <a href="http://games.nydailynews.com/category/arcade">a bunch of arcade games</a>.</p>
     
   <div class="center" style="margin-bottom: 18px">
     <span style="font-size:10px; color:#999;font-family:sans-serif;">ADVERTISEMENT</span>

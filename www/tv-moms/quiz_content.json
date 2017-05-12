@@ -1,7 +1,7 @@
 [
  {
    "headline": "QUIZ: Can you match these TV moms to their prime-time shows?",
-   "description": "The TV mother has long been a cultural icon and someone we look to for those intangible qualities that make sitcom families feel as familiar to us as our own. TV's modern moms are some of the hardest-working, smartest, funniest and most diverse women ever seen on TV. Do you know who's who?",
+   "description": "The moms who grace us every night on TV have become as much a part of our families as our own mothers. Doling out sage wisdom, advice and guidance in a neat 30 minutes proves that these diverse women are not only exceptional fictional parents but hard-working, smart and hilarious actors.",
    "question": "",
    "answer": "Fresh off the Boat",
    "a": "Gilmore Girls",
@@ -11,7 +11,7 @@
    "image": "huang1.jpg",
    "image2": "huang2.jpg",
    "credit": "",
-   "result": "0-3 We're very disappointed in you. If you just applied yourself, you could be much more successful."
+   "result": "0-3 We�re very disappointed in you. If you just applied yourself, you could be much more successful."
  },
  {
    "headline": "",
@@ -25,7 +25,21 @@
    "image": "johnson1.jpg",
    "image2": "johnson2.jpg",
    "credit": "",
-   "result": "4-7 Not perfect but, as long as you did your best, that's what's most important."
+   "result": "4-7 Not perfect but, as long as you did your best, that�s what�s most important."
+ },
+ {
+   "headline": "",
+   "description": "",
+   "question": "",
+   "answer": "Great News",
+   "a": "Married at First Sight",
+   "b": "The Fosters",
+   "c": "Great News",
+   "source": "",
+   "image": "carol1.jpg",
+   "image2": "carol2.jpg",
+   "credit": "",
+   "result": "8-10 You�ve done your homework and are free to go out and play. Have fun with your friends."
  },
  {
    "headline": "",
@@ -39,7 +53,7 @@
    "image": "pearson1.jpg",
    "image2": "pearson1.jpg",
    "credit": "",
-   "result": "8-10 You've done your homework and are free to go out and play. Have fun with your friends."
+   "result": ""
  },
  {
    "headline": "",
@@ -87,13 +101,13 @@
    "headline": "",
    "description": "",
    "question": "",
-   "answer": "The Simpsons",
+   "answer": "Archer",
    "a": "Bob's Burgers",
    "b": "Family Guy",
-   "c": "The Simpsons",
+   "c": "Archer",
    "source": "",
-   "image": "simpson1.jpg",
-   "image2": "simpson2.jpg",
+   "image": "archer1.jpg",
+   "image2": "archer2.jpg",
    "credit": "",
    "result": ""
  },
@@ -136,6 +150,20 @@
    "source": "",
    "image": "byers1.jpg",
    "image2": "byers2.jpg",
+   "credit": "",
+   "result": ""
+ },
+ {
+   "headline": "",
+   "description": "",
+   "question": "",
+   "answer": "Master of None",
+   "a": "Fresh off the Boat",
+   "b": "Mom",
+   "c": "Master of None",
+   "source": "",
+   "image": "nisha1.jpg",
+   "image2": "nisha2.jpg",
    "credit": "",
    "result": ""
  }

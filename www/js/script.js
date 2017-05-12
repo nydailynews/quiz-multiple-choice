@@ -33,6 +33,10 @@ $.getJSON("quiz_content.json", function(input) {
 
             // Build the markup for the quiz container
             if ( typeof input[currentQuestion].blurb === 'undefined' ) input[currentQuestion].blurb = '';
+            var source_markup = "<a target='_blank' href='" + input[currentQuestion].source + "'>See the source of this answer</a>";
+            if (input[currentQuestion].source === '' ){
+                source_markup = "";
+            }
             var markup = {
                 header: "<div class='progressbar large-12 medium-12 small-12 columns'>" + qnumber + " / " + input.length + "</div>",
                 body: "<div class='image_box large-6 medium-6 small-12 columns'>\n\
@@ -40,9 +44,7 @@ $.getJSON("quiz_content.json", function(input) {
 <img class='image' src='img/" + input[currentQuestion].image.trim() + "'>\n\
 <div class='credit'></div>\n\
 <div class='blurb'>" + input[currentQuestion].blurb + "\n\
-    <p class='info_source'>\n\
-        <a target='_blank' href='" + input[currentQuestion].source + "'>See the source of this answer</a>\n\
-    </p>\n\
+    <p class='info_source'> " + source_markup + "</p>\n\
 </div></div>\n\
 <div class='selections large-6 medium-6 small-12 columns'>\n\
     <div class='question'>" + input[currentQuestion].question + "</div><div id='option-a' class='list list_long'><span class='button_box'><div class='option_button grey_button'>A</div></span><div class='option_text'>" + input[currentQuestion].a + "</div></div><div id='option-b' class='list list_long'><span class='button_box'><div class='option_button grey_button'>B</div></span><div class='option_text'>" + input[currentQuestion].b + "</div></div><div id='option-c' class='list list_long'><span class='button_box'><div class='option_button grey_button'>C</div></span><div class='option_text'>" + input[currentQuestion].c + "</div></div>",

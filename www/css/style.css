@@ -2,6 +2,10 @@ body{
   font-family: 'Open Sans', sans-serif;
 }
 
+article {
+  padding-top: 20px;
+}
+
 .quiz-container {
   text-align: center;
   padding: 20px 0;

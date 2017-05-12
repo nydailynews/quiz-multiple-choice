@@ -3,7 +3,7 @@ window.appConfig = {
     project_url: "http://interactive.nydailynews.com/quiz/tv-moms/",
     short_link: "http://nydn.us/tv-moms",
     twitter_line: "",
-    twitter_line_2: "Can you match these sassy television moms to their prime-time TV shows?",
+    twitter_line_2: "Can you match these sassy television moms to their TV shows?",
     a:3,
     b:7,
     c:10,

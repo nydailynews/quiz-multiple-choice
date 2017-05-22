@@ -33,6 +33,10 @@ $.getJSON("quiz_content.json", function(input) {
 
             // Build the markup for the quiz container
             if ( typeof input[currentQuestion].blurb === 'undefined' ) input[currentQuestion].blurb = '';
+            var source_markup = "<a target='_blank' href='" + input[currentQuestion].source + "'>See the source of this answer</a>";
+            if (input[currentQuestion].source === '' ){
+                source_markup = "";
+            }
             var markup = {
                 header: "<div class='progressbar large-12 medium-12 small-12 columns'>" + qnumber + " / " + input.length + "</div>",
                 body: "<div class='image_box large-6 medium-6 small-12 columns'>\n\
@@ -40,9 +44,7 @@ $.getJSON("quiz_content.json", function(input) {
 <img class='image' src='img/" + input[currentQuestion].image.trim() + "'>\n\
 <div class='credit'></div>\n\
 <div class='blurb'>" + input[currentQuestion].blurb + "\n\
-    <p class='info_source'>\n\
-        <a target='_blank' href='" + input[currentQuestion].source + "'>See the source of this answer</a>\n\
-    </p>\n\
+    <p class='info_source'> " + source_markup + "</p>\n\
 </div></div>\n\
 <div class='selections large-6 medium-6 small-12 columns'>\n\
     <div class='question'>" + input[currentQuestion].question + "</div><div id='option-a' class='list list_long'><span class='button_box'><div class='option_button grey_button'>A</div></span><div class='option_text'>" + input[currentQuestion].a + "</div></div><div id='option-b' class='list list_long'><span class='button_box'><div class='option_button grey_button'>B</div></span><div class='option_text'>" + input[currentQuestion].b + "</div></div><div id='option-c' class='list list_long'><span class='button_box'><div class='option_button grey_button'>C</div></span><div class='option_text'>" + input[currentQuestion].c + "</div></div>",
@@ -144,7 +146,7 @@ $.getJSON("quiz_content.json", function(input) {
     var finalScore = function () {
 
             $(".quiz-container").html("<div class='result large-6 medium-6 small-12 large-centered medium-centered small-centered columns'><div class='smaller-result'><div class='final_score'><div class='final_score_right'>RIGHT<br><img class='correct_result_image' src='../icons/correct_big.png'><div class='correct_number'>" + score + "</div></div><div class='final_score_wrong'>WRONG<br><img class='incorrect_result_image' src='../icons/incorrect_big.png'><div class='incorrect_number'>" + (input.length - score) + "</div></div><div class='replay'>TRY QUIZ AGAIN<img class='replay_image' src='../icons/replay.png'></div></div><div class='challenge'><div class='challenge_text'>CHALLENGE YOUR FRIENDS!</div><div class='social_media'></div></div></div></div></div><div class='more_quiz large-12 medium-12 small-12 large-centered medium-centered small-centered columns'><div class='more_quiz_title'>Take another QUIZ</div><a target='_blank' href='" + window.appConfig.quiz1_link + "'><div class='large-3 medium-3 small-6 columns another_quiz'><img class='quiz_image' src='" + window.appConfig.quiz1_image + "'><p>" + window.appConfig.quiz1 + "</p></div></a><a target='_blank' href='" + window.appConfig.quiz2_link + "'><div class='large-3 medium-3 small-6 columns another_quiz'><img class='quiz_image' src='" + window.appConfig.quiz2_image + "'><p>" + window.appConfig.quiz2 + "</p></div></a><a target='_blank' href='" + window.appConfig.quiz3_link + "'><div class='large-3 medium-3 small-6 columns another_quiz'><img class='quiz_image' src='" + window.appConfig.quiz3_image + "'><p>" + window.appConfig.quiz3 + "</p></div></a><a target='_blank' href='" + window.appConfig.quiz4_link + "'><div class='large-3 medium-3 small-6 columns another_quiz'><img class='quiz_image' src='" + window.appConfig.quiz4_image + "'><p>" + window.appConfig.quiz4 + "</p></div></a></div>");
-            $(".social_media").html("<a class=\"twitter-share\" href='http://twitter.com/share?url=" + short_link + "&text=" + twitter_line_2 + "I got " + score + " correct! @nydailynews' target='_blank'><button class='social_icon_box twitter_button'>TWITTER<img class='social_icon twitter_icon' src='../icons/twitter.png'></button></a><a class=\"fb-share\" href='http://www.facebook.com/sharer.php?u=" + link + "' target='_blank'><button class='social_icon_box facebook_button'>FACEBOOK<img class='social_icon facebook_icon' src='../icons/facebook.png'></button></a>");
+            $(".social_media").html("<a class=\"twitter-share\" href='http://twitter.com/share?url=" + short_link + "&text=I got " + score + " correct! " + twitter_line_2 +" @nydailynews' target='_blank'><button class='social_icon_box twitter_button'>TWITTER<img class='social_icon twitter_icon' src='../icons/twitter.png'></button></a><a class=\"fb-share\" href='http://www.facebook.com/sharer.php?u=" + link + "' target='_blank'><button class='social_icon_box facebook_button'>FACEBOOK<img class='social_icon facebook_icon' src='../icons/facebook.png'></button></a>");
 
         $(".replay").click(function() {
             location.reload();

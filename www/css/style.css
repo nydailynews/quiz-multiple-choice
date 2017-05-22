@@ -1,15 +1,19 @@
 body{
-  font-family: "Open Sans"
+  font-family: 'Open Sans', sans-serif;
+}
+
+article {
+  padding-top: 20px;
 }
 
 .quiz-container {
   text-align: center;
-  padding: 20px 0;}
+  padding: 20px 0;
+}
   
-  
-  .byline{
-    font-size: 11px;
-  }
+.byline{
+    font-size: 12px;
+}
 
 #content {
   position: relative;
@@ -21,9 +25,11 @@ body{
   width: 35px; }
 
 .description {
-  font-family: "Open Sans";
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
-  color: #89898A; }
+  color: #89898A;
+  max-width: 75%;
+}
 
 .next,
 .final {
@@ -55,7 +61,7 @@ body{
 }
 
 .info_source a {
-  font-family: "Open Sans";
+  font-family: 'Open Sans', sans-serif;
   /*text-transform: uppercase;*/
   text-decoration: underline;
   color: #89898A;
@@ -238,13 +244,13 @@ body{
   }
 
   h1, .headline {
-    font-family: "Open Sans";
+    font-family: 'Open Sans Condensed', sans-serif;
     font-size: 37px;
     color: black;
   }
 
   .progressbar {
-    font-family: "Open Sans";
+    font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     color: #40BEF1;
     text-align: right;
@@ -253,13 +259,13 @@ body{
   .question {
     font-size: 18px;
     padding: 0px 0px 0px 0px;
-    font-family: "Open Sans";
+    font-family: 'Open Sans', sans-serif;
     color: black;
     text-align: left !important;
   }
 
   .selections {
-    font-family: "Open Sans";
+    font-family: 'Open Sans', sans-serif;
     color: black;
     font-size: 14px; 
     padding: 0px !important;
@@ -308,7 +314,7 @@ body{
 
   .credit {
     font-size: 10px;
-    font-family: "Open Sans";
+    font-family: 'Open Sans', sans-serif;
     text-align: right;
     text-transform: uppercase;
     color: #89898A;
@@ -321,7 +327,7 @@ body{
     width: 201px;
     height: 54px;
     float: right;
-    font-family: "Open Sans";
+    font-family: 'Open Sans', sans-serif;
     font-size: 20px;
   }
 
@@ -331,7 +337,7 @@ body{
     background-color: #40BEF1 !important;
     width: 201px;
     height: 54px;
-    font-family: "Open Sans";
+    font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     display: none;
   }
@@ -401,7 +407,7 @@ body{
     padding: 10px !important;
     width: 189px;
     height: 51px;
-    font-family: "Open Sans";
+    font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     display: inline-table;
     border-radius: 10px;
@@ -489,7 +495,7 @@ body{
   }
 
   h1, .headline {
-    font-family: "Open Sans";
+    font-family: 'Open Sans Condensed', sans-serif;
     font-size: 25px;
     line-height: 30px;
     color: black;
@@ -497,7 +503,7 @@ body{
   }
 
   .progressbar {
-    font-family: "Open Sans";
+    font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     color: #40BEF1;
     text-align: right;
@@ -507,13 +513,13 @@ body{
   .question {
     font-size: 14px;
     padding: 0px 0px 0px 0px;
-    font-family: "Open Sans";
+    font-family: 'Open Sans', sans-serif;
     color: black;
     text-align: left !important; 
   }
 
   .selections {
-    font-family: "Open Sans";
+    font-family: 'Open Sans', sans-serif;
     color: black;
     font-size: 14px; 
     padding: 0px !important;
@@ -564,7 +570,7 @@ body{
 
   .credit {
     font-size: 10px;
-    font-family: "Open Sans";
+    font-family: 'Open Sans', sans-serif;
     text-align: right;
     text-transform: uppercase;
     color: #89898A;
@@ -578,7 +584,7 @@ body{
     width: 100%;
     height: 54px;
     float: right;
-    font-family: "Open Sans";
+    font-family: 'Open Sans', sans-serif;
     font-size: 20px;
   }
 
@@ -588,7 +594,7 @@ body{
     background-color: #40BEF1 !important;
     width: 100%;
     height: 54px;
-    font-family: "Open Sans";
+    font-family: 'Open Sans', sans-serif;
     font-size: 20px;
   }
 
@@ -658,7 +664,7 @@ body{
     padding: 5px !important;
     width: 189px;
     height: 31px;
-    font-family: "Open Sans";
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     display: inline-table;
     border-radius: 5px;
@@ -749,7 +755,7 @@ body #rh-subnav-wrap {
 }
 .center {
     text-align: center;
-    margin: auto
+    margin: auto;
 }
 
 @media only screen and (min-width: 800px) {

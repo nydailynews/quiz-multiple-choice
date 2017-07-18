@@ -7,7 +7,6 @@ CREATE TABLE `multiple` (
   `median` FLOAT NOT NULL,
   `mode` FLOAT NOT NULL,
   `mean` FLOAT NOT NULL,
-  `non_zero_mean` FLOAT NOT NULL,
   `create_date` DATE NOT NULL,
 INDEX `SLUG` (`slug`),
 UNIQUE `INDEX` (`quiz_id`)) ENGINE=InnoDB;

@@ -145,20 +145,21 @@ $.getJSON("quiz_content.json", function(input) {
     // Display final score card and social media sharing
     // Log score in database, if appropriate.
     var finalScore = function () {
+
         // Log the answer in the db
         var correct = this.correct_count;
-        var params = '?slug=' + this.config.slug + '&correct=' + correct + '&times=' + this.answer_times.join(',') + '&callback=';
-        var jqxhr = $.getJSON( this.config.log_url + params, function(data) 
+        var params = '?slug=' + appConfig.slug + '&correct=' + score + '&callback=';
+        var jqxhr = $.getJSON( '/quiz/multiple-handler.php' + params, function(data) 
         {
             // SUCCESS
             // Display how the reader has done compared to everyone else.
             // data will look something like:
             // { "correct": "0", "count": "246", "all_correct": "14", "mean": "3.2073587398374", "worse_than": "175", "better_than": "0"}
             var mean = Math.round(data.mean*10) / 10;
-            var number_missed = quizzer.answer_count - quizzer.correct_count;
+            var number_missed = input.length - score;
 
             var spanclass = '';
-            if ( +data.count < 100 ) spanclass = 'hide';
+            //if ( +data.count < 100 ) spanclass = 'hide';
             $('#result').append('<span class="' + spanclass + '">' + data.count + ' other people played.</span>\n\
                 An average player got ' + mean + ' correct.');
             if  ( typeof data.all_correct !== 'undefined' )
@@ -199,7 +200,7 @@ $.getJSON("quiz_content.json", function(input) {
                 {
                     $('#result').append(' <span style="color:red; clear: both;">You\'re the first to get them all right!!</span>');
                 }
-                else if ( number_missed == 0 && data.all_correct < 11 )
+                else if ( number_missed == 0 && data.all_correct < 21 )
                 {
                     $('#result').append(' <span style="color:red; clear: both;">You\'re the ' + to_ordinal(data.correct) + ' to get them all right!!</span>');
                 }

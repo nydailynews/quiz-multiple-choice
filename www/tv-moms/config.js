@@ -1,5 +1,6 @@
 window.appConfig = {
 	ad_tag: "quiz-",
+    slug: "tv-moms",
     project_url: "http://interactive.nydailynews.com/quiz/tv-moms/",
     short_link: "http://nydn.us/tv-moms",
     twitter_line: "",

@@ -246,6 +246,7 @@ article {
   h1, .headline {
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 37px;
+    line-height: 50px;
     color: black;
   }
 
@@ -760,5 +761,4 @@ body #rh-subnav-wrap {
 div.center > span { font-size:10px; color:#999;font-family:sans-serif; }
 
 @media only screen and (min-width: 800px) {
-    #rh-subscribe { top:-30px!important; }
 }

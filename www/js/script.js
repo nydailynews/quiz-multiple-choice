@@ -7,8 +7,8 @@ $.getJSON("quiz_content.json", function(input) {
         score = 0
 
     // social media variables
-    var facebook = "<img class='social_icon' src='../icons/facebook_logo.png'>";
-    var twitter = "<img class='social_icon' src='../icons/twitter_logo.png'>";
+    var facebook = "<img class='social_icon' src='/quiz/icons/facebook_logo.png'>";
+    var twitter = "<img class='social_icon' src='/quiz/icons/twitter_logo.png'>";
     var link = appConfig.project_url;
     var short_link = appConfig.short_link;
     var twitter_line = appConfig.twitter_line;
@@ -40,7 +40,7 @@ $.getJSON("quiz_content.json", function(input) {
             var markup = {
                 header: "<div class='progressbar large-12 medium-12 small-12 columns'>" + qnumber + " / " + input.length + "</div>",
                 body: "<div class='image_box large-6 medium-6 small-12 columns'>\n\
-<img class='quiz_banner' src='../icons/quiz_banner.png'>\n\
+<img class='quiz_banner' src='/quiz/icons/quiz_banner.png'>\n\
 <img class='image' src='img/" + input[currentQuestion].image.trim() + "'>\n\
 <div class='credit'></div>\n\
 <div class='blurb'>" + input[currentQuestion].blurb + "\n\
@@ -86,10 +86,10 @@ $.getJSON("quiz_content.json", function(input) {
                         $("#option-d").addClass("correct");
                       };
 
-                      $(".correct").find(".option_button").html("<img class='right' src='../icons/correct.png'>");
+                      $(".correct").find(".option_button").html("<img class='right' src='/quiz/icons/correct.png'>");
                       $(".correct").find(".option_button").addClass("correct_button");
                       $(".correct").find(".option_button").css("padding","0px");
-                      $(".incorrect").find(".option_button").html("<img class='wrong' src='../icons/incorrect.png'>");
+                      $(".incorrect").find(".option_button").html("<img class='wrong' src='/quiz/icons/incorrect.png'>");
                       $(".incorrect").find(".option_button").addClass("incorrect_button");
                       $(".incorrect").find(".option_button").css("padding","0px");
                       $(".option_button").css("opacity","1");
@@ -264,7 +264,7 @@ $.getJSON("quiz_content.json", function(input) {
     };
 
     var loadTopAd = function () {
-        $("#top_ad").append("<div id='div-gpt-ad-1423507761396-0'><script type='text/javascript'>googletag.cmd.push(function() { googletag.display('div-gpt-ad-1423507761396-0'); });</script></div>")
+        $("#top_ad").append("<div id='div-gpt-ad-1423507761396-1'><script>googletag.cmd.push(function() { googletag.display('div-gpt-ad-1423507761396-1'); });</script></div>")
     };
 
     loadHeader();

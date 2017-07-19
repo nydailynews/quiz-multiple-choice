@@ -1,4 +1,7 @@
-year,title,url
+year,title,url,datestamp
+2017,How many characters who have died in Game of Thrones can you name?,http://www.nydailynews.com/entertainment/tv/quiz-dead-characters-game-thrones-article-1.3326545,20170714
+2017,How many Manhattan neighborhoods can you name?,http://www.nydailynews.com/new-york/manhattan-neighborhoods-article-1.3305859,20170711
+2017,How many Brooklyn neighborhoods can you name?,http://www.nydailynews.com/new-york/brooklyn/quiz-brooklyn-77-neighborhoods-article-1.3287941
 2017,How many Bronx neighborhoods can you name?,http://www.nydailynews.com/new-york/neighborhoods-bronx-article-1.3192772
 2017,How many James Bond movies can you name?,http://www.nydailynews.com/entertainment/movies/james-bond-movie-article-1.3189196/
 2017,Can you match these TV moms to their prime-time shows?,http://interactive.nydailynews.com/quiz/tv-moms/
@@ -30,7 +33,7 @@ year,title,url
 2016,"Where did these crazy tweets come from, Kanye West or Donald Trump?",http://interactive.nydailynews.com/2016/06/kanye-trump-quiz-which-where-did-these-crazy-tweets-come-from/
 2016,"Which Lion King said these lines, Mufasa, Scar or Simba?",http://interactive.nydailynews.com/2016/06/lion-king-quiz-which-character-said-these-lines-in-disney-movie/
 2015,Yankees baseball trivia,http://interactive.nydailynews.com/2015/04/yankee-trivia/
-2015,How well do you know "Mad Men"?,http://interactive.nydailynews.com/2015/05/mad-men-quiz/
+2015,'How well do you know "Mad Men"?',http://interactive.nydailynews.com/2015/05/mad-men-quiz/
 2015,Are you a true Geek?,http://interactive.nydailynews.com/2015/05/geek-day-quiz/
 2015,"Who said it: Selina Meyer, Hillary Clinton, Sarah Palin or Michelle Obama?",http://interactive.nydailynews.com/2015/05/who-said-it-quiz/
 2015,"Who said it: Alex Rodriguez or Kim Kardashian?",http://interactive.nydailynews.com/2015/09/who-said-it-quiz-2/

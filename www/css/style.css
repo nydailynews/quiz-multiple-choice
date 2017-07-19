@@ -757,6 +757,7 @@ body #rh-subnav-wrap {
     text-align: center;
     margin: auto;
 }
+div.center > span { font-size:10px; color:#999;font-family:sans-serif; }
 
 @media only screen and (min-width: 800px) {
     #rh-subscribe { top:-30px!important; }

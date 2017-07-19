@@ -7,8 +7,8 @@ $.getJSON("quiz_content.json", function(input) {
         score = 0
 
     // social media variables
-    var facebook = "<img class='social_icon' src='../icons/facebook_logo.png'>";
-    var twitter = "<img class='social_icon' src='../icons/twitter_logo.png'>";
+    var facebook = "<img class='social_icon' src='/quiz/icons/facebook_logo.png'>";
+    var twitter = "<img class='social_icon' src='/quiz/icons/twitter_logo.png'>";
     var link = appConfig.project_url;
     var short_link = appConfig.short_link;
     var twitter_line = appConfig.twitter_line;
@@ -40,7 +40,7 @@ $.getJSON("quiz_content.json", function(input) {
             var markup = {
                 header: "<div class='progressbar large-12 medium-12 small-12 columns'>" + qnumber + " / " + input.length + "</div>",
                 body: "<div class='image_box large-6 medium-6 small-12 columns'>\n\
-<img class='quiz_banner' src='../icons/quiz_banner.png'>\n\
+<img class='quiz_banner' src='/quiz/icons/quiz_banner.png'>\n\
 <img class='image' src='img/" + input[currentQuestion].image.trim() + "'>\n\
 <div class='credit'></div>\n\
 <div class='blurb'>" + input[currentQuestion].blurb + "\n\
@@ -86,10 +86,10 @@ $.getJSON("quiz_content.json", function(input) {
                         $("#option-d").addClass("correct");
                       };
 
-                      $(".correct").find(".option_button").html("<img class='right' src='../icons/correct.png'>");
+                      $(".correct").find(".option_button").html("<img class='right' src='/quiz/icons/correct.png'>");
                       $(".correct").find(".option_button").addClass("correct_button");
                       $(".correct").find(".option_button").css("padding","0px");
-                      $(".incorrect").find(".option_button").html("<img class='wrong' src='../icons/incorrect.png'>");
+                      $(".incorrect").find(".option_button").html("<img class='wrong' src='/quiz/icons/incorrect.png'>");
                       $(".incorrect").find(".option_button").addClass("incorrect_button");
                       $(".incorrect").find(".option_button").css("padding","0px");
                       $(".option_button").css("opacity","1");
@@ -142,8 +142,79 @@ $.getJSON("quiz_content.json", function(input) {
         // resetFooterResize();
     };
 
-    // display final score card and social media sharing
+    // Display final score card and social media sharing
+    // Log score in database, if appropriate.
     var finalScore = function () {
+
+        // Log the answer in the db
+        var correct = this.correct_count;
+        var params = '?slug=' + appConfig.slug + '&correct=' + score + '&callback=';
+        var jqxhr = $.getJSON( '/quiz/multiple-handler.php' + params, function(data) 
+        {
+            // SUCCESS
+            // Display how the reader has done compared to everyone else.
+            // data will look something like:
+            // { "correct": "0", "count": "246", "all_correct": "14", "mean": "3.2073587398374", "worse_than": "175", "better_than": "0"}
+            var mean = Math.round(data.mean*10) / 10;
+            var number_missed = input.length - score;
+
+            var spanclass = '';
+            //if ( +data.count < 100 ) spanclass = 'hide';
+            $('#result').append('<span class="' + spanclass + '">' + data.count + ' other people played.</span>\n\
+                An average player got ' + mean + ' correct.');
+            if  ( typeof data.all_correct !== 'undefined' )
+            {
+                var people = "people";
+                if ( +data.all_correct == 1 ) people = "person";
+
+                var percent_right = Math.round(data.all_correct/data.count*1000)/10;
+                if ( +data.count == 0 ) percent = 0;
+
+                $('#result').append(' ' + data.all_correct + ' ' + people + ' (' + percent_right + '%) got them all right.');
+
+                // Calculate the percent of people they did worse / better than.
+                var s = "s";
+                if ( +data.worse_than == 1 ) s = "";
+                percent_worse = Math.round(data.worse_than/data.count*1000)/10;
+                percent_better = Math.round(data.better_than/data.count*1000)/10;
+
+                // If they didn't do worse than anyone, we give them a positive message of accomplishment
+                if ( +data.worse_than == 0 )
+                {
+                    if ( data.better_than == 1 ) s = "";
+                    $('#result').append('<br>You did better than <span class="' + spanclass + '">' + data.better_than + ' other player' + s + '.\n\
+                        That means you did better than</span> ' + percent_better + '% of the people who played this, and tied the other ' + percent_right + '%');
+                }
+                else if ( +data.correct == 0 )
+                {
+                    $('#result').append('<br><strong>You got zero correct,</strong>\n\
+                        which means a. you have lots of room for improvement and b. you did worse than the ' + data.worse_than + ' people who got at least one answer.');
+                }
+                else
+                {
+                    $('#result').append('<br>You did better than <span class="' + spanclass + '">' + data.better_than + ' other player' + s + '.\n\
+                        That means you did better than </span>' + percent_better + '% of the people who played this.');
+                }
+
+                if ( number_missed == 0 && data.all_correct == 1 )
+                {
+                    $('#result').append(' <span style="color:red; clear: both;">You\'re the first to get them all right!!</span>');
+                }
+                else if ( number_missed == 0 && data.all_correct < 21 )
+                {
+                    $('#result').append(' <span style="color:red; clear: both;">You\'re the ' + to_ordinal(data.correct) + ' to get them all right!!</span>');
+                }
+            }
+            })
+            .fail(function() {
+                $('#result').append('Sorry, we could not reach the upstream servers.');
+                $('#result').addClass('error');
+            })
+            .always(function() {
+                $("#answer_field").addClass('finished');
+                $("#timer").addClass('hide');
+                $("#answer_field").append($('p#result'));
+            });
 
             $(".quiz-container").html("<div class='result large-6 medium-6 small-12 large-centered medium-centered small-centered columns'><div class='smaller-result'><div class='final_score'><div class='final_score_right'>RIGHT<br><img class='correct_result_image' src='../icons/correct_big.png'><div class='correct_number'>" + score + "</div></div><div class='final_score_wrong'>WRONG<br><img class='incorrect_result_image' src='../icons/incorrect_big.png'><div class='incorrect_number'>" + (input.length - score) + "</div></div><div class='replay'>TRY QUIZ AGAIN<img class='replay_image' src='../icons/replay.png'></div></div><div class='challenge'><div class='challenge_text'>CHALLENGE YOUR FRIENDS!</div><div class='social_media'></div></div></div></div></div><div class='more_quiz large-12 medium-12 small-12 large-centered medium-centered small-centered columns'><div class='more_quiz_title'>Take another QUIZ</div><a target='_blank' href='" + window.appConfig.quiz1_link + "'><div class='large-3 medium-3 small-6 columns another_quiz'><img class='quiz_image' src='" + window.appConfig.quiz1_image + "'><p>" + window.appConfig.quiz1 + "</p></div></a><a target='_blank' href='" + window.appConfig.quiz2_link + "'><div class='large-3 medium-3 small-6 columns another_quiz'><img class='quiz_image' src='" + window.appConfig.quiz2_image + "'><p>" + window.appConfig.quiz2 + "</p></div></a><a target='_blank' href='" + window.appConfig.quiz3_link + "'><div class='large-3 medium-3 small-6 columns another_quiz'><img class='quiz_image' src='" + window.appConfig.quiz3_image + "'><p>" + window.appConfig.quiz3 + "</p></div></a><a target='_blank' href='" + window.appConfig.quiz4_link + "'><div class='large-3 medium-3 small-6 columns another_quiz'><img class='quiz_image' src='" + window.appConfig.quiz4_image + "'><p>" + window.appConfig.quiz4 + "</p></div></a></div>");
             $(".social_media").html("<a class=\"twitter-share\" href='http://twitter.com/share?url=" + short_link + "&text=I got " + score + " correct! " + twitter_line_2 +" @nydailynews' target='_blank'><button class='social_icon_box twitter_button'>TWITTER<img class='social_icon twitter_icon' src='../icons/twitter.png'></button></a><a class=\"fb-share\" href='http://www.facebook.com/sharer.php?u=" + link + "' target='_blank'><button class='social_icon_box facebook_button'>FACEBOOK<img class='social_icon facebook_icon' src='../icons/facebook.png'></button></a>");
@@ -193,7 +264,7 @@ $.getJSON("quiz_content.json", function(input) {
     };
 
     var loadTopAd = function () {
-        $("#top_ad").append("<div id='div-gpt-ad-1423507761396-0'><script type='text/javascript'>googletag.cmd.push(function() { googletag.display('div-gpt-ad-1423507761396-0'); });</script></div>")
+        $("#top_ad").append("<div id='div-gpt-ad-1423507761396-1'><script>googletag.cmd.push(function() { googletag.display('div-gpt-ad-1423507761396-1'); });</script></div>")
     };
 
     loadHeader();

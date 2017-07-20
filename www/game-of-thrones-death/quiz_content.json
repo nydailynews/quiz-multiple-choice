@@ -50,7 +50,7 @@
    "b": "Willem Lannister",
    "c": "Meryn Trant",
    "d": "All of the above",
-   "image": "got-poison",
+   "image": "got-poison.jpg",
    "image2": "joffrey-baratheon.jpg",
    "credit": "HBO",
    "result": ""
@@ -142,7 +142,7 @@
  {
    "headline": "",
    "description": "",
-   "question": "Crowned",
+   "question": "“Crowned” with molten gold and his face literally melted",
    "answer": "Viserys Targaryan",
    "a": "Aerys Targaryan",
    "b": "Viserys Targaryan",

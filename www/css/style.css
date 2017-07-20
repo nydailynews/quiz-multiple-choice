@@ -27,6 +27,7 @@ article {
 .description {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
+  line-height: 19px;
   color: #89898A;
   max-width: 75%;
 }
@@ -757,6 +758,7 @@ body #rh-subnav-wrap {
 .center {
     text-align: center;
     margin: auto;
+    margin-bottom: 10px;
 }
 div.center > span { font-size:10px; color:#999;font-family:sans-serif; }
 

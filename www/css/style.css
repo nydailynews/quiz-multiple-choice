@@ -764,3 +764,13 @@ div.center > span { font-size:10px; color:#999;font-family:sans-serif; }
 
 @media only screen and (min-width: 800px) {
 }
+
+
+/* FOUNDATION OVERRIDES */
+dl {
+    font-family: inherit;
+    font-size: 11px;
+    line-height: 1.6;
+    list-style-position: outside;
+    margin-bottom: 0;
+}

@@ -2,7 +2,7 @@
  {
    "headline": "QUIZ: Can you match Game of Thrones characters to their deaths?",
    "description": "If you're a fan of the hit HBO drama, you already know that when you play the game of thrones, you win or you die. Can you identify who died how?",
-   "question": "A bolt from Joffrey's crossbow",
+   "question": "Hit with a bolt from Joffrey's crossbow",
    "answer": "Ros",
    "a": "The Waif",
    "b": "Mero",
@@ -114,7 +114,7 @@
  {
    "headline": "",
    "description": "",
-   "question": "Rendered brain dead by black magic and smothered by a pillow",
+   "question": "Rendered brain dead by black magic and smothered with a pillow",
    "answer": "Khal Drogo",
    "a": "Khal Drogo",
    "b": "Khal Poudre",
@@ -128,7 +128,7 @@
  {
    "headline": "",
    "description": "",
-   "question": "Most controversial beheading",
+   "question": "Had their head removed from the neck very controversially",
    "answer": "Ned Stark",
    "a": "John Arryn",
    "b": "Mirri Maz Durr",
@@ -142,7 +142,7 @@
  {
    "headline": "",
    "description": "",
-   "question": "“Crowned” with molten gold and his face literally melted",
+   "question": "“Crowned” with molten gold and had his face literally melted",
    "answer": "Viserys Targaryan",
    "a": "Aerys Targaryan",
    "b": "Viserys Targaryan",
@@ -184,7 +184,7 @@
  {
    "headline": "",
    "description": "",
-   "question": "A wooden sword couldn't protect this lord of the dance",
+   "question": "Was not saved by sweet moves and a wooden sword",
    "answer": "Syrio Forel",
    "a": "Jory Cassel",
    "b": "Beric Dondarrion",
@@ -226,7 +226,7 @@
  {
    "headline": "",
    "description": "",
-   "question": "Stabbed repeatedly for helping the Wildlings",
+   "question": "Knifed repeatedly for helping the Wildlings",
    "answer": "Jon Snow",
    "a": "White Rat",
    "b": "Benjen Stark",
@@ -268,7 +268,7 @@
  {
    "headline": "",
    "description": "",
-   "question": "His name lead to his death",
+   "question": "This character's name was inspired by the cause of his death",
    "answer": "Hodor",
    "a": "Xaro Xhoan Daxos",
    "b": "White Rat",
@@ -282,7 +282,7 @@
  {
    "headline": "",
    "description": "",
-   "question": "He should've zigzagged",
+   "question": "He really should've zigzagged",
    "answer": "Rickon Stark",
    "a": "The High Sparrow",
    "b": "Doran Martell",
@@ -310,7 +310,7 @@
  {
    "headline": "",
    "description": "",
-   "question": "Jumped out a window in his teenage years",
+   "question": "Jumped out of a window in his teenage years",
    "answer": "Tommen",
    "a": "Jack",
    "b": "Gordy",
@@ -324,7 +324,7 @@
  {
    "headline": "",
    "description": "",
-   "question": "Who wasn't killed during Cersei's wild fire coup",
+   "question": "Was not killed during Cersei's wild fire coup but in some other way",
    "answer": "Trystane Martell",
    "a": "Mace Tyrell",
    "b": "Lancel Lannister",

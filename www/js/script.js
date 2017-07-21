@@ -33,9 +33,12 @@ $.getJSON("quiz_content.json", function(input) {
 
             // Build the markup for the quiz container
             if ( typeof input[currentQuestion].blurb === 'undefined' ) input[currentQuestion].blurb = '';
-            var source_markup = "<a target='_blank' href='" + input[currentQuestion].source + "'>See the source of this answer</a>";
-            if (input[currentQuestion].source === '' ){
-                source_markup = "";
+            var source_markup = "";
+            if ( typeof input[currentQuestion].source !== 'undefined' ) {
+                source_markup = "<a target='_blank' href='" + input[currentQuestion].source + "'>See the source of this answer</a>";
+                if ( input[currentQuestion].source === '' ){
+                    source_markup = "";
+                }
             }
             var markup = {
                 header: "<div class='progressbar large-12 medium-12 small-12 columns'>" + qnumber + " / " + input.length + "</div>",

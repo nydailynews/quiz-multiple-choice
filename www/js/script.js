@@ -7,8 +7,8 @@ $.getJSON("quiz_content.json", function(input) {
         score = 0
 
     // social media variables
-    var facebook = "<img class='social_icon' src='/quiz/icons/facebook_logo.png'>";
-    var twitter = "<img class='social_icon' src='/quiz/icons/twitter_logo.png'>";
+    var facebook = "<img class='social_icon' src='/quiz/icons/facebook_logo.png' alt=''>";
+    var twitter = "<img class='social_icon' src='/quiz/icons/twitter_logo.png' alt=''>";
     var link = appConfig.project_url;
     var short_link = appConfig.short_link;
     var twitter_line = appConfig.twitter_line;
@@ -43,7 +43,7 @@ $.getJSON("quiz_content.json", function(input) {
             var markup = {
                 header: "<div class='progressbar large-12 medium-12 small-12 columns'>" + qnumber + " / " + input.length + "</div>",
                 body: "<div class='image_box large-6 medium-6 small-12 columns'>\n\
-<img class='quiz_banner' src='/quiz/icons/quiz_banner.png'>\n\
+<img class='quiz_banner' src='/quiz/icons/quiz_banner.png' alt=''>\n\
 <img class='image' src='img/" + input[currentQuestion].image.trim() + "'>\n\
 <div class='credit'></div>\n\
 <div class='blurb'>" + input[currentQuestion].blurb + "\n\
@@ -89,10 +89,10 @@ $.getJSON("quiz_content.json", function(input) {
                         $("#option-d").addClass("correct");
                       };
 
-                      $(".correct").find(".option_button").html("<img class='right' src='/quiz/icons/correct.png'>");
+                      $(".correct").find(".option_button").html("<img class='right' alt='Correct' src='/quiz/icons/correct.png'>");
                       $(".correct").find(".option_button").addClass("correct_button");
                       $(".correct").find(".option_button").css("padding","0px");
-                      $(".incorrect").find(".option_button").html("<img class='wrong' src='/quiz/icons/incorrect.png'>");
+                      $(".incorrect").find(".option_button").html("<img class='wrong' alt='Incorrect' src='/quiz/icons/incorrect.png'>");
                       $(".incorrect").find(".option_button").addClass("incorrect_button");
                       $(".incorrect").find(".option_button").css("padding","0px");
                       $(".option_button").css("opacity","1");
@@ -219,8 +219,8 @@ $.getJSON("quiz_content.json", function(input) {
                 $("#answer_field").append($('p#result'));
             });
 
-            $(".quiz-container").html("<div class='result large-6 medium-6 small-12 large-centered medium-centered small-centered columns'><div class='smaller-result'><div class='final_score'><div class='final_score_right'>RIGHT<br><img class='correct_result_image' src='../icons/correct_big.png'><div class='correct_number'>" + score + "</div></div><div class='final_score_wrong'>WRONG<br><img class='incorrect_result_image' src='../icons/incorrect_big.png'><div class='incorrect_number'>" + (input.length - score) + "</div></div><div class='replay'>TRY QUIZ AGAIN<img class='replay_image' src='../icons/replay.png'></div></div><div class='challenge'><div class='challenge_text'>CHALLENGE YOUR FRIENDS!</div><div class='social_media'></div></div></div></div></div><div class='more_quiz large-12 medium-12 small-12 large-centered medium-centered small-centered columns'><div class='more_quiz_title'>Take another QUIZ</div><a target='_blank' href='" + window.appConfig.quiz1_link + "'><div class='large-3 medium-3 small-6 columns another_quiz'><img class='quiz_image' src='" + window.appConfig.quiz1_image + "'><p>" + window.appConfig.quiz1 + "</p></div></a><a target='_blank' href='" + window.appConfig.quiz2_link + "'><div class='large-3 medium-3 small-6 columns another_quiz'><img class='quiz_image' src='" + window.appConfig.quiz2_image + "'><p>" + window.appConfig.quiz2 + "</p></div></a><a target='_blank' href='" + window.appConfig.quiz3_link + "'><div class='large-3 medium-3 small-6 columns another_quiz'><img class='quiz_image' src='" + window.appConfig.quiz3_image + "'><p>" + window.appConfig.quiz3 + "</p></div></a><a target='_blank' href='" + window.appConfig.quiz4_link + "'><div class='large-3 medium-3 small-6 columns another_quiz'><img class='quiz_image' src='" + window.appConfig.quiz4_image + "'><p>" + window.appConfig.quiz4 + "</p></div></a></div>");
-            $(".social_media").html("<a class=\"twitter-share\" href='http://twitter.com/share?url=" + short_link + "&text=I got " + score + " correct! " + twitter_line_2 +" @nydailynews' target='_blank'><button class='social_icon_box twitter_button'>TWITTER<img class='social_icon twitter_icon' src='../icons/twitter.png'></button></a><a class=\"fb-share\" href='http://www.facebook.com/sharer.php?u=" + link + "' target='_blank'><button class='social_icon_box facebook_button'>FACEBOOK<img class='social_icon facebook_icon' src='../icons/facebook.png'></button></a>");
+            $(".quiz-container").html("<div class='result large-6 medium-6 small-12 large-centered medium-centered small-centered columns'><div class='smaller-result'><div class='final_score'><div class='final_score_right'>RIGHT<br><img alt='' class='correct_result_image' src='../icons/correct_big.png'><div class='correct_number'>" + score + "</div></div><div class='final_score_wrong'>WRONG<br><img alt='' class='incorrect_result_image' src='../icons/incorrect_big.png'><div class='incorrect_number'>" + (input.length - score) + "</div></div><div class='replay'>TRY QUIZ AGAIN<img alt='Replay quiz' class='replay_image' src='../icons/replay.png'></div></div><div class='challenge'><div class='challenge_text'>CHALLENGE YOUR FRIENDS!</div><div class='social_media'></div></div></div></div></div><div class='more_quiz large-12 medium-12 small-12 large-centered medium-centered small-centered columns'><div class='more_quiz_title'>Take another QUIZ</div><a target='_blank' href='" + window.appConfig.quiz1_link + "'><div class='large-3 medium-3 small-6 columns another_quiz'><img alt='' class='quiz_image' src='" + window.appConfig.quiz1_image + "'><p>" + window.appConfig.quiz1 + "</p></div></a><a target='_blank' href='" + window.appConfig.quiz2_link + "'><div class='large-3 medium-3 small-6 columns another_quiz'><img alt='' class='quiz_image' src='" + window.appConfig.quiz2_image + "'><p>" + window.appConfig.quiz2 + "</p></div></a><a target='_blank' href='" + window.appConfig.quiz3_link + "'><div class='large-3 medium-3 small-6 columns another_quiz'><img alt='' class='quiz_image' src='" + window.appConfig.quiz3_image + "'><p>" + window.appConfig.quiz3 + "</p></div></a><a target='_blank' href='" + window.appConfig.quiz4_link + "'><div class='large-3 medium-3 small-6 columns another_quiz'><img alt='' class='quiz_image' src='" + window.appConfig.quiz4_image + "'><p>" + window.appConfig.quiz4 + "</p></div></a></div>");
+            $(".social_media").html("<a class=\"twitter-share\" href='http://twitter.com/share?url=" + short_link + "&text=I got " + score + " correct! " + twitter_line_2 +" @nydailynews' target='_blank'><button class='social_icon_box twitter_button'>TWITTER<img alt='' class='social_icon twitter_icon' src='../icons/twitter.png'></button></a><a class=\"fb-share\" href='http://www.facebook.com/sharer.php?u=" + link + "' target='_blank'><button class='social_icon_box facebook_button'>FACEBOOK<img alt='' class='social_icon facebook_icon' src='../icons/facebook.png'></button></a>");
 
         $(".replay").click(function() {
             location.reload();

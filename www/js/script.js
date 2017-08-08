@@ -32,7 +32,7 @@ $.getJSON("quiz_content.json", function(input) {
             qnumber = currentQuestion + 1;
 
             // Build the markup for the quiz container
-            if ( typeof input[currentQuestion].blurb === 'undefined' || input[currentQuestion].blurb == '' ) input[currentQuestion].blurb = '';
+            if ( typeof input[currentQuestion].blurb === 'undefined' ) input[currentQuestion].blurb = '';
             var source_markup = "";
             if ( typeof input[currentQuestion].source !== 'undefined' ) {
                 source_markup = "<a target='_blank' href='" + input[currentQuestion].source + "'>See the source of this answer</a>";
@@ -106,7 +106,7 @@ $.getJSON("quiz_content.json", function(input) {
                         $(".next_btn").css("opacity", "1");
                       })
                       $(".blurb").css("display","block");
-                       $(".info_source").css("display","block");
+                      $(".info_source").css("display","block");
                       $(".image").attr("src","img/" + input[currentQuestion].image2.trim());
                 });
 
@@ -116,7 +116,7 @@ $.getJSON("quiz_content.json", function(input) {
             if (currentQuestion == (input.length-1)) {
                 $(".next_btn").html("CHECK RESULT");
                 $(".next_btn").on("click", finalScore);
-            } else if (currentQuestion == 4) {
+            } else if (currentQuestion == 5) {
                 $(".next_btn").on("click", showAd);
             } else {
                 $(".next_btn").on("click", nextQuestion);
@@ -139,8 +139,6 @@ $.getJSON("quiz_content.json", function(input) {
     }; 
 
     var showAd = function () {
-        // a pv.
-        if ( typeof PARSELY !== 'undefined' ) PARSELY.beacon.trackPageView({ url: document.location.href, urlref: document.location.href, js: 1 });
         $(".quiz-container").html("");
         $(".side_ad").css("display", "inline");
         $(".continue_btn").css("display", "inline");

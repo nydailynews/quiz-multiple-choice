@@ -139,6 +139,9 @@ $.getJSON("quiz_content.json", function(input) {
     }; 
 
     var showAd = function () {
+        // New ads, a pv.
+        if ( typeof googletag !== 'undefined' ) googletag.pubads().refresh();
+        if ( typeof PARSELY !== 'undefined' ) PARSELY.beacon.trackPageView({ url: document.location.href, urlref: document.location.href, js: 1 });
         $(".quiz-container").html("");
         $(".side_ad").css("display", "inline");
         $(".continue_btn").css("display", "inline");

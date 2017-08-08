@@ -4,7 +4,7 @@ $.getJSON("quiz_content.json", function(input) {
     var qnumber, 
         currentQuestion = 0,
         answer,
-        score = 0
+        score = 0;
 
     // social media variables
     var facebook = "<img class='social_icon' src='/quiz/icons/facebook_logo.png' alt=''>";
@@ -17,7 +17,7 @@ $.getJSON("quiz_content.json", function(input) {
     // load headline section
     var loadHeader = function () {
         $(".facebook").html("<a class=\"fb-share\" href='http://www.facebook.com/sharer.php?u=" + link + "' target='_blank'></a>");
-        $(".twitter").html("<a class=\"twitter-share\" href='http://twitter.com/share?url=" + short_link + "&text=" + twitter_line + " @nydailynews' target='_blank'></a>");
+        $(".twitter").html("<a class=\"twitter-share\" href='http://twitter.com/share?url=" + short_link + "&text=" + twitter_line + " @nydni' target='_blank'></a>");
     }
 
     $(".side_ad").css("display", "none");
@@ -148,6 +148,10 @@ $.getJSON("quiz_content.json", function(input) {
     // Display final score card and social media sharing
     // Log score in database, if appropriate.
     var finalScore = function () {
+
+        // New ads, a pv.
+        if ( typeof googletag !== 'undefined' ) googletag.pubads().refresh();
+        if ( typeof PARSELY !== 'undefined' ) PARSELY.beacon.trackPageView({ url: document.location.href, urlref: document.location.href, js: 1 });
 
         // Log the answer in the db
         var correct = this.correct_count;

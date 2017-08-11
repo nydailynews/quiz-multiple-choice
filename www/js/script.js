@@ -336,3 +336,11 @@ Take another QUIZ</div>\n\
     loadTopAd();
     buildQuiz(input);
 }); 
+
+var is_iframe = 0;
+if ( window.top !== window.self ) { is_iframe = 1; }
+if ( is_iframe === 1 ) {
+    $('.headline, .description, h1, p.description, p.byline, #templateheader, #templatefooter').remove();
+    $('#content .blurb').css('display', 'none');
+    $('body').css('background-color', '#fafafa');
+}

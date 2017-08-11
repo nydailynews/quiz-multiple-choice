@@ -84,6 +84,8 @@
     <link rel="stylesheet" type="text/css" href="http://assets.nydailynews.com/nydn/c/rh.css">
     <link rel="stylesheet" type="text/css" href="http://assets.nydailynews.com/nydn/c/ra.css">
     <script>
+    var is_iframe = 0;
+    if ( window.top !== window.self ) { is_iframe = 1; }
     var nydn = nydn || {
         "section": "NYDailyNews",
         "subsection": "news",
@@ -150,7 +152,7 @@
     </section>
 
     <!-- CUSTOM CSS GOES HERE-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/css/foundation.css" />
+    <link rel="stylesheet" href="http://interactive.nydailynews.com/css/foundation.css" />
     <link href="../css/style.css?v201707" rel="stylesheet" type="text/css" />
 
     <!-- CUSTOM JS GOES HERE-->

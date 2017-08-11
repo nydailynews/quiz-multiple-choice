@@ -150,10 +150,6 @@ $.getJSON("quiz_content.json", function(input) {
     // Log score in database, if appropriate.
     var finalScore = function () {
 
-        // New ads, a pv.
-        if ( typeof googletag !== 'undefined' ) googletag.pubads().refresh();
-        if ( typeof PARSELY !== 'undefined' ) PARSELY.beacon.trackPageView({ url: document.location.href, urlref: document.location.href, js: 1 });
-
         // Log the answer in the db
         var correct = this.correct_count;
         var params = '?slug=' + appConfig.slug + '&correct=' + score + '&callback=';
@@ -223,6 +219,12 @@ $.getJSON("quiz_content.json", function(input) {
                 $("#timer").addClass('hide');
                 $("#answer_field").append($('p#result'));
             });
+
+        // New ads, a pv.
+        if ( typeof googletag !== 'undefined' ) googletag.pubads().refresh();
+        if ( typeof PARSELY !== 'undefined' ) PARSELY.beacon.trackPageView({ url: document.location.href, urlref: document.location.href, js: 1 });
+        // Let the parent frame know, if it's listening
+        window.parent.postMessage({'quiz': 1}, '*');
 
             $(".quiz-container").html("<div class='result large-6 medium-6 small-12 large-centered medium-centered small-centered columns'>\n\
 <div class='smaller-result'>\n\

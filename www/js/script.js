@@ -50,9 +50,10 @@ $.getJSON("quiz_content.json", function(input) {
     <p class='info_source'> " + source_markup + "</p>\n\
 </div></div>\n\
 <div class='selections large-6 medium-6 small-12 columns'>\n\
-    <div class='question'>" + input[currentQuestion].question + "</div><div id='option-a' class='list list_long'><span class='button_box'><div class='option_button grey_button'>A</div></span><div class='option_text'>" + input[currentQuestion].a + "</div></div><div id='option-b' class='list list_long'><span class='button_box'><div class='option_button grey_button'>B</div></span><div class='option_text'>" + input[currentQuestion].b + "</div></div><div id='option-c' class='list list_long'><span class='button_box'><div class='option_button grey_button'>C</div></span><div class='option_text'>" + input[currentQuestion].c + "</div></div>",
+    <div class='question'>" + input[currentQuestion].question + "</div><div id='option-a' class='list list_long'><span class='button_box'><div class='option_button grey_button'>A</div></span><div class='option_text'>" + input[currentQuestion].a + "</div></div><div id='option-b' class='list list_long'><span class='button_box'><div class='option_button grey_button'>B</div></span><div class='option_text'>" + input[currentQuestion].b + "</div></div>",
                 footer: "<div class='next'><button class='next_btn'>NEXT</button></div></div>"
             }
+            if ( 'c' in input[currentQuestion] && input[currentQuestion].c !== '' ) markup.body += "<div id='option-c' class='list list_long'><span class='button_box'><div class='option_button grey_button'>C</div></span><div class='option_text'>" + input[currentQuestion].c + "</div></div>";
             if ( 'd' in input[currentQuestion] && input[currentQuestion].d !== '' ) markup.body += "<div id='option-d' class='list list_long'><span class='button_box'><div class='option_button grey_button'>D</div></span><div class='option_text'>" + input[currentQuestion].d + "</div></div>";
             $(".quiz-container").html(markup.header + markup.body + markup.footer);
             $(".credit").html(input[currentQuestion].credit);

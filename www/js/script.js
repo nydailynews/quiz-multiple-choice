@@ -226,7 +226,7 @@ $.getJSON("quiz_content.json", function(input) {
         // Let the parent frame know, if it's listening
         window.parent.postMessage({'quiz': 1}, '*');
 
-            $(".quiz-container").html("<div class='result large-6 medium-6 small-12 large-centered medium-centered small-centered columns'>\n\
+        $(".quiz-container").html("<div class='result large-6 medium-6 small-12 large-centered medium-centered small-centered columns'>\n\
 <div class='smaller-result'>\n\
 <div class='final_score'>\n\
 <div class='final_score_right'>RIGHT<br><img alt='' class='correct_result_image' src='../icons/correct_big.png'>\n\
@@ -284,7 +284,8 @@ Take another QUIZ</div>\n\
 </div>\n\
 </a>\n\
 </div>");
-            $(".social_media").html("<a class=\"twitter-share\" href='http://twitter.com/share?url=" + short_link + "&text=I got " + score + " correct! " + twitter_line_2 +" @nydailynews' target='_blank'><button class='social_icon_box twitter_button'>TWITTER<img alt='' class='social_icon twitter_icon' src='../icons/twitter.png'></button></a><a class=\"fb-share\" href='http://www.facebook.com/sharer.php?u=" + link + "' target='_blank'><button class='social_icon_box facebook_button'>FACEBOOK<img alt='' class='social_icon facebook_icon' src='../icons/facebook.png'></button></a>");
+
+        $(".social_media").html("<a class=\"twitter-share\" href='http://twitter.com/share?url=" + short_link + "&text=I got " + score + " correct! " + twitter_line_2 +" @nydailynews' target='_blank'><button class='social_icon_box twitter_button'>TWITTER<img alt='' class='social_icon twitter_icon' src='../icons/twitter.png'></button></a><a class=\"fb-share\" href='http://www.facebook.com/sharer.php?u=" + link + "' target='_blank'><button class='social_icon_box facebook_button'>FACEBOOK<img alt='' class='social_icon facebook_icon' src='../icons/facebook.png'></button></a>");
 
         $(".replay").click(function() {
             location.reload();

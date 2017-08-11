@@ -1,7 +1,7 @@
 window.appConfig = {
-	ad_tag: "quiz-",
-    slug: "dustin-hoffman",
-    project_url: "http://interactive.nydailynews.com/quiz/dustin-hoffman/",
+    ad_tag: "quiz-",
+    slug: "dustin-hoffman-co-stars",
+    project_url: "http://interactive.nydailynews.com/quiz/dustin-hoffman-co-stars/",
     short_link: "http://nydn.us/dustin-hoffman",
     twitter_line: "",
     twitter_line_2: "Can you match Dustin Hoffman's co-stars to their films together?",

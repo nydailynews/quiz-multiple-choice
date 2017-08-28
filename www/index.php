@@ -82,6 +82,8 @@ $csv = new parseCSV('data.csv');
       
     <link rel="stylesheet" type="text/css" href="http://assets.nydailynews.com/nydn/c/rh.css?r=2016LIST">
     <link rel="stylesheet" type="text/css" href="http://assets.nydailynews.com/nydn/c/ra.css?r=2016LIST">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/css/foundation.css" />
+	<link href="css/style.css?v3" rel="stylesheet" type="text/css" />
     <script>
     var nydn = nydn || {
         "section": "NYDailyNews",
@@ -162,9 +164,6 @@ endforeach;
 	<h2>Games from the New York Daily News</h2>
 	<p><a href="http://games.nydailynews.com/">Play in-browser games</a>, such as <a href="http://games.nydailynews.com/games/daily-sudoku/">Sudoku</a> and the <a href="http://games.nydailynews.com/games/daily-crossword/">crossword</a> and <a href="http://games.nydailynews.com/category/arcade">a bunch of arcade games</a>.</p>
     
-        <!-- CUSTOM CSS GOES HERE-->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/css/foundation.css" />
-        <link href="css/style.css?v2" rel="stylesheet" type="text/css" />
         <script src="js/social.js" defer></script>
 <hr>
   <div class="center" style="float: left; width: 50%;">

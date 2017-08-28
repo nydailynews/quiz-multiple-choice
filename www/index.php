@@ -119,10 +119,31 @@ body#nydailynews article {
     margin: auto;
     float: none;
 }
+#rh-subnav-wrap { display: none; }
+#sidebar {
+	float: right;
+	width: 300px;
+}
+@media screen and (max-width: 642px) {
+	#sidebar {
+		float: none;
+		width: 100%;
+	}
+}
 </style>
   <article class="column">
     <h1 class="center">NY Daily News Quizzes</h1>
     <p class="description center">Look at all the news and entertainment and sports quizzes from the New York Daily News</p>
+	<section id="sidebar" class="column">
+		<h2>Game of Thrones</h2>
+		<p>Our collection of Game of Thrones special projects.</p>
+		<ul>
+			<li><a href="http://interactive.nydailynews.com/project/choose-your-weapon/">Game of Thrones weapon-name generator</a></li>
+			<li><a href="http://interactive.nydailynews.com/project/game-of-thrones-house/">Game of Thrones house motto generator</a></li>
+			<li><a href="http://interactive.nydailynews.com/quiz/game-of-thrones-death/">QUIZ: Match the GoT character to the way they died</a></li>
+			<li><a href="http://www.nydailynews.com/entertainment/tv/quiz-dead-characters-game-thrones-article-1.3326545">QUIZ: How many of the GoT dead can you name?</a></li>
+			<li><a href="http://www.nydailynews.com/entertainment/tv/game-thrones-character-iron-throne-article-1.3365102">RANKER: Vote which character will end up on the Iron Throne</a></li>
+	</section>
 <?php
 $prev_year = '';
 foreach ( $csv->data as $key => $item ):

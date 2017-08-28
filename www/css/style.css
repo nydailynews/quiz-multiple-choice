@@ -244,12 +244,16 @@ article {
     margin-bottom: 20px;
   }
 
-  h1, .headline {
+  h1, h2, .headline {
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 37px;
     line-height: 50px;
     color: black;
   }
+  h2 {
+    font-size: 30px;
+    line-height: 40px;
+    }
 
   .progressbar {
     font-family: 'Open Sans', sans-serif;
@@ -496,7 +500,7 @@ article {
     margin-bottom: 20px;
   }
 
-  h1, .headline {
+  h1, h2, .headline {
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 25px;
     line-height: 30px;

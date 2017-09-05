@@ -74,7 +74,7 @@
     <meta name="localeCountry" content="US"/>
     <meta name="localeLanguage" content="en" />
 
-<?php if ( isset($_GET['v1']) ): ?>
+<?php if ( !isset($_GET['v1']) ): ?>
     <!-- ADOBE ANALYTICS -->
     <script src="//assets.adobedtm.com/4fc527d6fda921c80e462d11a29deae2e4cf7514/satelliteLib-c91fdc6ac624c6cbcd50250f79786de339793801.js"></script>
 <?php endif; ?>
@@ -85,6 +85,8 @@
     <script src="config.js"></script>
     <link rel="stylesheet" type="text/css" href="http://assets.nydailynews.com/nydn/c/rh.css">
     <link rel="stylesheet" type="text/css" href="http://assets.nydailynews.com/nydn/c/ra.css">
+    <link rel="stylesheet" href="http://interactive.nydailynews.com/css/foundation.css" />
+    <link href="../css/style.css?v201707" rel="stylesheet" type="text/css" />
     <script>
     var is_iframe = 0;
     if ( window.top !== window.self ) { is_iframe = 1; }
@@ -152,10 +154,6 @@
             </div>
         </div>
     </section>
-
-    <!-- CUSTOM CSS GOES HERE-->
-    <link rel="stylesheet" href="http://interactive.nydailynews.com/css/foundation.css" />
-    <link href="../css/style.css?v201707" rel="stylesheet" type="text/css" />
 
     <!-- CUSTOM JS GOES HERE-->
     <script src="http://interactive.nydailynews.com/includes/js/vendor/jquery.js"></script>

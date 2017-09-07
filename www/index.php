@@ -80,10 +80,10 @@ $csv = new parseCSV('data.csv');
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet' type='text/css'>
     <script data-main="http://assets.nydailynews.com/nydn/js/rh.js?r=20170405001" src="http://assets.nydailynews.com/nydn/js/require.js?r=2016LIST" defer></script>
       
-    <link rel="stylesheet" type="text/css" href="http://assets.nydailynews.com/nydn/c/rh.css?r=2016LIST">
-    <link rel="stylesheet" type="text/css" href="http://assets.nydailynews.com/nydn/c/ra.css?r=2016LIST">
+    <link rel="stylesheet" href="http://assets.nydailynews.com/nydn/c/rh.css?r=2016LIST">
+    <link rel="stylesheet" href="http://assets.nydailynews.com/nydn/c/ra.css?r=2016LIST">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/css/foundation.css" />
-	<link href="css/style.css?v3" rel="stylesheet" type="text/css" />
+	<link href="http://interactive.nydailynews.com/style.css?v3" rel="stylesheet" />
     <script>
     var nydn = nydn || {
         "section": "NYDailyNews",
@@ -114,7 +114,7 @@ $csv = new parseCSV('data.csv');
 <header id="templateheader"></header>
 <!-- SITEHEADER-END -->
 
-<style type="text/css">
+<style>
 
 body#nydailynews article {
     max-width: 1100px;

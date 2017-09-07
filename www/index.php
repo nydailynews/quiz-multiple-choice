@@ -82,8 +82,8 @@ $csv = new parseCSV('data.csv');
       
     <link rel="stylesheet" href="http://assets.nydailynews.com/nydn/c/rh.css?r=2016LIST">
     <link rel="stylesheet" href="http://assets.nydailynews.com/nydn/c/ra.css?r=2016LIST">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/css/foundation.css" />
-	<link href="http://interactive.nydailynews.com/style.css?v3" rel="stylesheet" />
+	<link rel="stylesheet" href="http://interactive.nydailynews.com/css/foundation.css" />
+	<link href="http://interactive.nydailynews.com/css/style.css?v3" rel="stylesheet" />
     <script>
     var nydn = nydn || {
         "section": "NYDailyNews",

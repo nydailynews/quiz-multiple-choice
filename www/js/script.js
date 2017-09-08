@@ -17,7 +17,7 @@ $.getJSON("quiz_content.json", function(input) {
     // load headline section
     var loadHeader = function () {
         $(".facebook").html("<a class=\"fb-share\" href='http://www.facebook.com/sharer.php?u=" + link + "' target='_blank'></a>");
-        $(".twitter").html("<a class=\"twitter-share\" href='http://twitter.com/share?url=" + short_link + "&text=" + twitter_line + " @nydni' target='_blank'></a>");
+        $(".twitter").html("<a class=\"twitter-share\" href='http://twitter.com/share?url=" + short_link + "&text=" + twitter_line + "&via=nydni&related=nydailynews,nydni' target='_blank'></a>");
     }
 
     $(".side_ad").css("display", "none");
@@ -285,7 +285,7 @@ Take another QUIZ</div>\n\
 </a>\n\
 </div>");
 
-        $(".social_media").html("<a class=\"twitter-share\" href='http://twitter.com/share?url=" + short_link + "&text=I got " + score + " correct! " + twitter_line_2 +" @nydailynews' target='_blank'><button class='social_icon_box twitter_button'>TWITTER<img alt='' class='social_icon twitter_icon' src='../icons/twitter.png'></button></a><a class=\"fb-share\" href='http://www.facebook.com/sharer.php?u=" + link + "' target='_blank'><button class='social_icon_box facebook_button'>FACEBOOK<img alt='' class='social_icon facebook_icon' src='../icons/facebook.png'></button></a>");
+        $(".social_media").html("<a class=\"twitter-share\" href='http://twitter.com/share?url=" + short_link + "&text=I got " + score + " correct! " + twitter_line_2 +"&via=nydni&related=nydailynews,nydni' target='_blank'><button class='social_icon_box twitter_button'>TWITTER<img alt='' class='social_icon twitter_icon' src='../icons/twitter.png'></button></a><a class=\"fb-share\" href='http://www.facebook.com/sharer.php?u=" + link + "' target='_blank'><button class='social_icon_box facebook_button'>FACEBOOK<img alt='' class='social_icon facebook_icon' src='../icons/facebook.png'></button></a>");
 
         $(".replay").click(function() {
             location.reload();

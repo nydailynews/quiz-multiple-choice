@@ -22,10 +22,6 @@ $.getJSON("quiz_content.json", function(input) {
 
     $(".side_ad").css("display", "none");
 
-    // $(window).resize(function() {
-    //     resetFooterResize();
-    // });
-
     // create a new question
     var buildQuiz = function () {
             // load content section
@@ -92,10 +88,10 @@ $.getJSON("quiz_content.json", function(input) {
 
                       $(".correct").find(".option_button").html("<img class='right' alt='Correct' src='/quiz/icons/correct.png'>");
                       $(".correct").find(".option_button").addClass("correct_button");
-                      $(".correct").find(".option_button").css("padding","0px");
+                      $(".correct").find(".option_button").css("padding","0");
                       $(".incorrect").find(".option_button").html("<img class='wrong' alt='Incorrect' src='/quiz/icons/incorrect.png'>");
                       $(".incorrect").find(".option_button").addClass("incorrect_button");
-                      $(".incorrect").find(".option_button").css("padding","0px");
+                      $(".incorrect").find(".option_button").css("padding","0");
                       $(".option_button").css("opacity","1");
 
                       $(".next_btn").prop('disabled', false);
@@ -229,18 +225,18 @@ $.getJSON("quiz_content.json", function(input) {
         $(".quiz-container").html("<div class='result large-6 medium-6 small-12 large-centered medium-centered small-centered columns'>\n\
 <div class='smaller-result'>\n\
 <div class='final_score'>\n\
-<div class='final_score_right'>RIGHT<br><img alt='' class='correct_result_image' src='../icons/correct_big.png'>\n\
+<div class='final_score_right'>RIGHT<br><img alt='' class='correct_result_image' src='/quiz/icons/correct_big.png'>\n\
 <div class='correct_number'>\n\
 " + score + "</div>\n\
 </div>\n\
 <div class='final_score_wrong'>\n\
 WRONG<br>\n\
-<img alt='' class='incorrect_result_image' src='../icons/incorrect_big.png'>\n\
+<img alt='' class='incorrect_result_image' src='/quiz/icons/incorrect_big.png'>\n\
 <div class='incorrect_number'>\n\
 " + (input.length - score) + "</div>\n\
 </div>\n\
 <div class='replay'>\n\
-TRY QUIZ AGAIN<img alt='Replay quiz' class='replay_image' src='../icons/replay.png'>\n\
+TRY QUIZ AGAIN<img alt='Replay quiz' class='replay_image' src='/quiz/icons/replay.png'>\n\
 </div>\n\
 </div>\n\
 <div class='challenge'>\n\
@@ -285,7 +281,7 @@ Take another QUIZ</div>\n\
 </a>\n\
 </div>");
 
-        $(".social_media").html("<a class=\"twitter-share\" href='http://twitter.com/share?url=" + short_link + "&text=I got " + score + " correct! " + twitter_line_2 +"&via=nydni&related=nydailynews,nydni' target='_blank'><button class='social_icon_box twitter_button'>TWITTER<img alt='' class='social_icon twitter_icon' src='../icons/twitter.png'></button></a><a class=\"fb-share\" href='http://www.facebook.com/sharer.php?u=" + link + "' target='_blank'><button class='social_icon_box facebook_button'>FACEBOOK<img alt='' class='social_icon facebook_icon' src='../icons/facebook.png'></button></a>");
+        $(".social_media").html("<a class=\"twitter-share\" href='http://twitter.com/share?url=" + short_link + "&text=I got " + score + " correct! " + twitter_line_2 +"&via=nydni&related=nydailynews,nydni' target='_blank'><button class='social_icon_box twitter_button'>TWITTER<img alt='' class='social_icon twitter_icon' src='/quiz/icons/twitter.png'></button></a><a class=\"fb-share\" href='http://www.facebook.com/sharer.php?u=" + link + "' target='_blank'><button class='social_icon_box facebook_button'>FACEBOOK<img alt='' class='social_icon facebook_icon' src='/quiz/icons/facebook.png'></button></a>");
 
         $(".replay").click(function() {
             location.reload();

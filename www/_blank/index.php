@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <title>TITLE, by the NY Daily News</title>
-    <link rel="icon" type="image/png" href="http://interactive.nydailynews.com/favicons.png">
+    <link rel="icon" type="image/png" href="//interactive.nydailynews.com/favicons.png">
     <!-- DEFAULT -->
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -69,8 +69,6 @@
     <meta name="themeKey" content="nydailynews" />
     <meta name="mapThemeKey" content="responsive" />
     <meta name="urlPrefix" content="" />
-    <meta name="staticContentPrefix" content="http://static.localedge.com/" />
-    <meta name="searchBinding" content="/search" />
     <meta name="localeCountry" content="US"/>
     <meta name="localeLanguage" content="en" />
 
@@ -80,12 +78,11 @@
 <?php endif; ?>
 
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet' type='text/css'>
-    <script data-main="http://assets.nydailynews.com/nydn/js/rh.js?r=20170405001" src="http://assets.nydailynews.com/nydn/js/require.js?r=2016LIST" defer></script>
+    <script data-main="//assets.nydailynews.com/nydn/js/rh.js?r=20170405001" src="//assets.nydailynews.com/nydn/js/require.js?r=2016LIST" defer></script>
       
     <script src="config.js"></script>
-    <link rel="stylesheet" type="text/css" href="http://assets.nydailynews.com/nydn/c/rh.css">
-    <link rel="stylesheet" type="text/css" href="http://assets.nydailynews.com/nydn/c/ra.css">
-    <link rel="stylesheet" href="http://interactive.nydailynews.com/css/foundation.css" />
+    <link rel="stylesheet" type="text/css" href="//assets.nydailynews.com/nydn/c/rh.css">
+    <link rel="stylesheet" href="//interactive.nydailynews.com/css/foundation.css" />
     <link href="../css/style.css?v201707" rel="stylesheet" type="text/css" />
     <script>
     var is_iframe = 0;
@@ -114,10 +111,10 @@
         var ad_tag = 'quiz';
         if ( typeof appConfig.ad_tag !== 'undefined' ) ad_tag += '-' + appConfig.ad_tag;
         </script>
-        <script onload="nydn_ads(ad_tag);" src="http://interactive.nydailynews.com/includes/ads/ads.js"></script>
+        <script onload="nydn_ads(ad_tag);" src="//interactive.nydailynews.com/includes/ads/ads.js"></script>
     <!-- ADS-END -->
     <script>var nav_params = {section: 'quizzes', url: 'http://interactive.nydailynews.com/quiz/'};</script>
-    <script src="http://interactive.nydailynews.com/library/vendor-nav/vendor-include.js" defer></script>
+    <script src="//interactive.nydailynews.com/library/vendor-nav/vendor-include.js" defer></script>
 </head>
 <body id="nydailynews" data-section="nydailynews" data-subsection="NY Daily News" class="">
 
@@ -156,7 +153,7 @@
     </section>
 
     <!-- CUSTOM JS GOES HERE-->
-    <script src="http://interactive.nydailynews.com/includes/js/vendor/jquery.js"></script>
+    <script src="/js/jquery.js"></script>
     <script src="../js/script.js?v3"></script>
 
   </article>

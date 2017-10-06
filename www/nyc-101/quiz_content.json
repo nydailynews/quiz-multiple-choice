@@ -9,7 +9,7 @@
    "c": "Hoo-stone",
    "d": "Huh-stun",
    "image": "01_houston-street.jpg",
-   "credit": "Julia Xanthos/New York Daily News",
+   "credit": "Julia Xanthos / New York Daily News",
    "image2": "01_houston-street.jpg",
    "credit2": "",
    "result": "0-6 You are definitely not from around here."
@@ -24,17 +24,17 @@
    "c": "",
    "d": "",
    "image": "02_nyc-line-after.jpg",
-   "credit": "Joe Tabacca/New York Daily News",
+   "credit": "Joe Tabacca / New York Daily News",
    "image2": "02b_nyc-line-shake-shack.jpg",
-   "credit2": "Craig Warga/New York Daily News",
+   "credit2": "Craig Warga / New York Daily News",
    "result": "6-13 You might not be a native but you're assimilating nicely."
  },
  {
    "headline": "",
    "description": "",
-   "question": "What does TriBeCa stand for?",
+   "question": "What does TriBeCa stand /?",
    "answer": "Triangle Below Canal (Street)",
-   "a": "Trinidad Beyonce California",
+   "a": "Trinidad Beyonce Cali/nia",
    "b": "Trilby Beach Canarsie",
    "c": "Triangle Below Canal (Street)",
    "d": "",
@@ -56,7 +56,7 @@
    "image": "04_bodega-manhattan.jpg",
    "credit": "Songquan Deng",
    "image2": "04b_bodega.jpg",
-   "credit2": "Howard Simmons/New York Daily News",
+   "credit2": "Howard Simmons / New York Daily News",
    "result": ""
  },
  {
@@ -69,9 +69,9 @@
    "c": "",
    "d": "",
    "image": "05_nyc-bagels.jpg",
-   "credit": "Rachel Wharton for The New York Daily News",
+   "credit": "Rachel Wharton / The New York Daily News",
    "image2": "05b_nyc-bagels-deli.jpg",
-   "credit2": "STAN HONDA/AFP/Getty Images",
+   "credit2": "STAN HONDA / AFP-Getty Images",
    "result": ""
  },
  {
@@ -92,16 +92,16 @@
  {
    "headline": "",
    "description": "",
-   "question": "How much does it cost for a single full-price fare one-way on the MTA bus?",
+   "question": "How much does it cost / a single full-price fare one-way on the MTA bus?",
    "answer": "$2.75",
    "a": "$2.25",
    "b": "$2.50",
    "c": "$2.75",
    "d": "",
    "image": "07-nyc-subway-turnstile.jpg",
-   "credit": "Bryan Smith for the New York Daily News",
+   "credit": "Bryan Smith / the New York Daily News",
    "image2": "07-nyc-subway-turnstile.jpg",
-   "credit2": "Bryan Smith for the New York Daily News",
+   "credit2": "Bryan Smith / New York Daily News",
    "result": ""
  },
  {
@@ -116,7 +116,7 @@
    "image": "08_prospect-park-tunnel.jpg",
    "credit": "Mark Treese",
    "image2": "08b_george-washington-bridge.jpg",
-   "credit2": "Michael Schwartz for New York Daily News",
+   "credit2": "Michael Schwartz / New York Daily News",
    "result": ""
  },
  {
@@ -129,7 +129,7 @@
    "c": "Maneuvering among tourists in Times Square",
    "d": "",
    "image": "09_bronx-aerial.jpg",
-   "credit": "Jefferson Siegel/New York Daily News",
+   "credit": "Jefferson Siegel / New York Daily News",
    "image2": "09b_schlepping.jpg",
    "credit2": "Yellowdog Productions",
    "result": ""
@@ -159,7 +159,7 @@
    "c": "The first mayor of NYC",
    "d": "",
    "image": "11_queens-nyc.jpg",
-   "credit": "Jeffrey Greenberg/UIG via Getty Images",
+   "credit": "Jeffrey Greenberg / Getty Images",
    "image2": "11b_duane-reade.jpg",
    "credit2": "ProArtWork",
    "result": ""
@@ -204,9 +204,9 @@
    "c": "In the ocean, off Brooklyn's eastern coast",
    "d": "",
    "image": "14_coney-island.jpg",
-   "credit": "Kendall Rodriguez for New York Daily News",
+   "credit": "Kendall Rodriguez / New York Daily News",
    "image2": "14b_coney-island-beach.jpg",
-   "credit2": "Jeff Bachner/New York Daily News",
+   "credit2": "Jeff Bachner / New York Daily News",
    "result": ""
  },
  {
@@ -219,9 +219,9 @@
    "c": "Grand Central Station",
    "d": "",
    "image": "15_grand-central-terminal.jpg",
-   "credit": "Barry Williams for New York Daily News",
+   "credit": "Barry Williams / New York Daily News",
    "image2": "15_grand-central-terminal.jpg",
-   "credit2": "Barry Williams for New York Daily News",
+   "credit2": "Barry Williams / New York Daily News",
    "result": ""
  },
  {
@@ -234,7 +234,7 @@
    "c": "Camden Yards",
    "d": "",
    "image": "16_mets-home-game.jpg",
-   "credit": "Corey Sipkin/New York Daily News",
+   "credit": "Corey Sipkin / New York Daily News",
    "image2": "16b_shea-stadium.jpg",
    "credit2": "Ron Antonelli",
    "result": ""
@@ -249,9 +249,9 @@
    "c": "Icahn Stadium",
    "d": "",
    "image": "17_knicks.jpg",
-   "credit": "Corey Sipkin/New York Daily News",
+   "credit": "Corey Sipkin / New York Daily News",
    "image2": "17b_madison-square-garden.jpg",
-   "credit2": "AP Photo/Paul J. Bereswill",
+   "credit2": "AP Photo  /Paul J. Bereswill",
    "result": ""
  },
  {
@@ -266,7 +266,7 @@
    "image": "18_coffee.jpg",
    "credit": "",
    "image2": "18b_new-york-coffee-cup.jpg",
-   "credit2": "James Devaney/WireImage",
+   "credit2": "James Devaney / WireImage",
    "result": ""
  },
  {
@@ -279,9 +279,9 @@
    "c": "Mad",
    "d": "",
    "image": "19_dictionary.jpg",
-   "credit": "Istimages",
+   "credit": "",
    "image2": "19b_beastie-boys.jpg",
-   "credit2": "AP Photo/Stephen Chernin",
+   "credit2": "AP Photo / Stephen Chernin",
    "result": ""
  },
  {
@@ -295,7 +295,7 @@
    "d": "",
    "image": "20_central-park-zoo.jpg",
    "credit": "",
-   "image2": "20b_bodega cat.jpg",
+   "image2": "20b_bodega-cat.jpg",
    "credit2": "Jessica Chia / New York Daily News",
    "result": ""
  }

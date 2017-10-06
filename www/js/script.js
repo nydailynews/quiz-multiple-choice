@@ -37,8 +37,8 @@ $.getJSON("quiz_content.json", function(input) {
                 header: "<div class='progressbar large-12 medium-12 small-12 columns'>" + qnumber + " / " + input.length + "</div>",
                 body: "<div class='image_box large-6 medium-6 small-12 columns'>\n\
 <img class='quiz_banner' src='/quiz/icons/quiz_banner.png' alt=''>\n\
-<img class='image' src='img/" + input[currentQuestion].image.trim() + "'>\n\
-<div class='credit'></div>\n\
+<img class='image' src='img/" + input[currentQuestion].image.trim() + "' alt=''>\n\
+<p class='credit'></p>\n\
 <div class='blurb'>" + input[currentQuestion].blurb + "\n\
     <p class='info_source'> " + source_markup + "</p>\n\
 </div></div>\n\

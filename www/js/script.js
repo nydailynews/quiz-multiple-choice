@@ -30,11 +30,8 @@ $.getJSON("quiz_content.json", function(input) {
             // Build the markup for the quiz container
             if ( typeof input[currentQuestion].blurb === 'undefined' ) input[currentQuestion].blurb = '';
             var source_markup = "";
-            if ( typeof input[currentQuestion].source !== 'undefined' ) {
+            if ( typeof input[currentQuestion].source !== 'undefined' && input[currentQuestion].source.trim() !== '' ) {
                 source_markup = "<a target='_blank' href='" + input[currentQuestion].source + "'>See the source of this answer</a>";
-                if ( input[currentQuestion].source === '' ){
-                    source_markup = "";
-                }
             }
             var markup = {
                 header: "<div class='progressbar large-12 medium-12 small-12 columns'>" + qnumber + " / " + input.length + "</div>",
@@ -98,8 +95,11 @@ $.getJSON("quiz_content.json", function(input) {
                 $(".next_btn").attr("style", "background-color: #40BEF1 !important");
                 $(".next_btn").mouseover(function() { $(".next_btn").css("opacity", "0.8"); })
                 $(".next_btn").mouseout(function() { $(".next_btn").css("opacity", "1"); })
-                $(".blurb").css("display","block");
-                $(".info_source").css("display","block");
+                if ( input[currentQuestion].blurb !== '' || source_markup !== '' ) {
+                    $(".blurb").css("display","block");
+                    $(".info_source").css("display","block");
+                    console.log(input[currentQuestion].blurb, 'asda', source_markup);
+                }
                 $(".image").attr("src","img/" + input[currentQuestion].image2.trim());
                 if ( typeof input[currentQuestion].credit2 !== 'undefined' ) $(".credit").html(input[currentQuestion].credit2.trim());
             });

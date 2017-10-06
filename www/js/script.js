@@ -66,47 +66,43 @@ $.getJSON("quiz_content.json", function(input) {
 
             // style changes when user click answers
             $(".list").click(function() {
-                      $('.list').off('click');
-                      $('.list').off('mouseover');
-                      answer = $(this).find('.option_text').text();
-                      if (answer.trim() == input[currentQuestion].answer.trim()) {
-                        score++;
-                        $(this).addClass("correct");
-                      } else if (input[currentQuestion].a.trim() == input[currentQuestion].answer.trim()) {
-                        $(this).addClass("incorrect");
-                        $("#option-a").addClass("correct");
-                      } else if (input[currentQuestion].b.trim() == input[currentQuestion].answer.trim()) {
-                        $(this).addClass("incorrect");
-                        $("#option-b").addClass("correct");
-                      } else if (input[currentQuestion].c.trim() == input[currentQuestion].answer.trim()) {
-                        $(this).addClass("incorrect");
-                        $("#option-c").addClass("correct");
-                      } else if (input[currentQuestion].d.trim() == input[currentQuestion].answer.trim()) {
-                        $(this).addClass("incorrect");
-                        $("#option-d").addClass("correct");
-                      };
+                $('.list').off('click');
+                $('.list').off('mouseover');
+                answer = $(this).find('.option_text').text();
+                if (answer.trim() == input[currentQuestion].answer.trim()) {
+                    score++;
+                    $(this).addClass("correct");
+                } else if (input[currentQuestion].a.trim() == input[currentQuestion].answer.trim()) {
+                    $(this).addClass("incorrect");
+                    $("#option-a").addClass("correct");
+                } else if (input[currentQuestion].b.trim() == input[currentQuestion].answer.trim()) {
+                    $(this).addClass("incorrect");
+                    $("#option-b").addClass("correct");
+                } else if (input[currentQuestion].c.trim() == input[currentQuestion].answer.trim()) {
+                    $(this).addClass("incorrect");
+                    $("#option-c").addClass("correct");
+                } else if (input[currentQuestion].d.trim() == input[currentQuestion].answer.trim()) {
+                    $(this).addClass("incorrect");
+                    $("#option-d").addClass("correct");
+                };
 
-                      $(".correct").find(".option_button").html("<img class='right' alt='Correct' src='/quiz/icons/correct.png'>");
-                      $(".correct").find(".option_button").addClass("correct_button");
-                      $(".correct").find(".option_button").css("padding","0");
-                      $(".incorrect").find(".option_button").html("<img class='wrong' alt='Incorrect' src='/quiz/icons/incorrect.png'>");
-                      $(".incorrect").find(".option_button").addClass("incorrect_button");
-                      $(".incorrect").find(".option_button").css("padding","0");
-                      $(".option_button").css("opacity","1");
+                $(".correct").find(".option_button").html("<img class='right' alt='Correct' src='/quiz/icons/correct.png'>");
+                $(".correct").find(".option_button").addClass("correct_button");
+                $(".correct").find(".option_button").css("padding","0");
+                $(".incorrect").find(".option_button").html("<img class='wrong' alt='Incorrect' src='/quiz/icons/incorrect.png'>");
+                $(".incorrect").find(".option_button").addClass("incorrect_button");
+                $(".incorrect").find(".option_button").css("padding","0");
+                $(".option_button").css("opacity","1");
 
-                      $(".next_btn").prop('disabled', false);
-                      $(".next_btn").attr("style", "background-color: #40BEF1 !important");
-                      $(".next_btn").mouseover(function() {
-                        $(".next_btn").css("opacity", "0.8");
-                      })
-                      $(".next_btn").mouseout(function() {
-                        $(".next_btn").css("opacity", "1");
-                      })
-                      $(".blurb").css("display","block");
-                      $(".info_source").css("display","block");
-                      $(".image").attr("src","img/" + input[currentQuestion].image2.trim());
-                    if ( typeof input[currentQuestion].credit2 !== 'undefined' ) $(".credit").html(input[currentQuestion].credit2.trim());
-                });
+                $(".next_btn").prop('disabled', false);
+                $(".next_btn").attr("style", "background-color: #40BEF1 !important");
+                $(".next_btn").mouseover(function() { $(".next_btn").css("opacity", "0.8"); })
+                $(".next_btn").mouseout(function() { $(".next_btn").css("opacity", "1"); })
+                $(".blurb").css("display","block");
+                $(".info_source").css("display","block");
+                $(".image").attr("src","img/" + input[currentQuestion].image2.trim());
+                if ( typeof input[currentQuestion].credit2 !== 'undefined' ) $(".credit").html(input[currentQuestion].credit2.trim());
+            });
 
             $(".next_btn").prop('disabled', true);
             

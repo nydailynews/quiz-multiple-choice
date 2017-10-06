@@ -105,6 +105,7 @@ $.getJSON("quiz_content.json", function(input) {
                       $(".blurb").css("display","block");
                       $(".info_source").css("display","block");
                       $(".image").attr("src","img/" + input[currentQuestion].image2.trim());
+                    if ( typeof input[currentQuestion].credit2 !== 'undefined' ) $(".credit").html(input[currentQuestion].credit2.trim());
                 });
 
             $(".next_btn").prop('disabled', true);

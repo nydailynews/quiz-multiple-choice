@@ -98,7 +98,6 @@ $.getJSON("quiz_content.json", function(input) {
                 if ( input[currentQuestion].blurb !== '' || source_markup !== '' ) {
                     $(".blurb").css("display","block");
                     $(".info_source").css("display","block");
-                    console.log(input[currentQuestion].blurb, 'asda', source_markup);
                 }
                 $(".image").attr("src","img/" + input[currentQuestion].image2.trim());
                 if ( typeof input[currentQuestion].credit2 !== 'undefined' ) $(".credit").html(input[currentQuestion].credit2.trim());
@@ -308,6 +307,15 @@ Take another QUIZ</div>\n\
         console.log(input.length)
         if ( score == input.length) {
             $(".smaller-result").prepend("<p>" + input[3 - bucket_adjust].result + "</p>")
+
+            // The best result also gets confetti.
+            $('body').append('<canvas id="confetti" style="z-index:-1;position:fixed; top: 0; left: 0; width: 100%; height: 100%;"></canvas">');
+            var s = document.createElement('script');
+            s.setAttribute('src', '/poll/keep-em-dump-em/js/confetti.js');
+            s.setAttribute('onload', "window.setTimeout('DeactivateConfetti(); ', 1500)");
+            document.getElementsByTagName('head')[0].appendChild(s);
+            window.setTimeout('$(\"#confetti\").remove();', 8000);
+
         } else if ( score >= b && score <= c) {
             $(".smaller-result").prepend("<p>" + input[2].result + "</p>")
         } else if ( score > a && score < b) {

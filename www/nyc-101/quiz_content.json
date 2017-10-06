@@ -12,6 +12,8 @@
    "credit": "Julia Xanthos / New York Daily News",
    "image2": "01_houston-street.jpg",
    "credit2": "",
+   "blurb": "",
+   "source": "",
    "result": "0-6 You are definitely not from around here."
  },
  {
@@ -27,14 +29,16 @@
    "credit": "Joe Tabacca / New York Daily News",
    "image2": "02b_nyc-line-shake-shack.jpg",
    "credit2": "Craig Warga / New York Daily News",
+   "blurb": "",
+   "source": "",
    "result": "6-13 You might not be a native but you're assimilating nicely."
  },
  {
    "headline": "",
    "description": "",
-   "question": "What does TriBeCa stand /?",
+   "question": "What does TriBeCa stand for?",
    "answer": "Triangle Below Canal (Street)",
-   "a": "Trinidad Beyonce Cali/nia",
+   "a": "Trinidad Beyonce California",
    "b": "Trilby Beach Canarsie",
    "c": "Triangle Below Canal (Street)",
    "d": "",
@@ -42,21 +46,25 @@
    "credit": "New York Daily News",
    "image2": "03_tribeca-nyc.jpg",
    "credit2": "New York Daily News",
+   "blurb": "",
+   "source": "",
    "result": "14-20 You are obviously a real New Yorker!"
  },
  {
    "headline": "",
    "description": "",
-   "question": "What's a bodega",
-   "answer": "Grocery/convienience store",
+   "question": "What's a bodega?",
+   "answer": "A grocery/convienience store",
    "a": "A mortuary",
    "b": "A bookstore",
    "c": "A daycare center",
-   "d": "Grocery/convienience store",
+   "d": "A grocery/convienience store",
    "image": "04_bodega-manhattan.jpg",
    "credit": "Songquan Deng",
    "image2": "04b_bodega.jpg",
    "credit2": "Howard Simmons / New York Daily News",
+   "blurb": "",
+   "source": "",
    "result": ""
  },
  {
@@ -72,6 +80,8 @@
    "credit": "Rachel Wharton / The New York Daily News",
    "image2": "05b_nyc-bagels-deli.jpg",
    "credit2": "STAN HONDA / AFP-Getty Images",
+   "blurb": "",
+   "source": "",
    "result": ""
  },
  {
@@ -87,6 +97,8 @@
    "credit": "",
    "image2": "06_museum-nyc.jpg",
    "credit2": "",
+   "blurb": "",
+   "source": "",
    "result": ""
  },
  {
@@ -102,6 +114,8 @@
    "credit": "Bryan Smith / the New York Daily News",
    "image2": "07-nyc-subway-turnstile.jpg",
    "credit2": "Bryan Smith / New York Daily News",
+   "blurb": "",
+   "source": "",
    "result": ""
  },
  {
@@ -117,6 +131,8 @@
    "credit": "Mark Treese",
    "image2": "08b_george-washington-bridge.jpg",
    "credit2": "Michael Schwartz / New York Daily News",
+   "blurb": "",
+   "source": "",
    "result": ""
  },
  {
@@ -132,6 +148,8 @@
    "credit": "Jefferson Siegel / New York Daily News",
    "image2": "09b_schlepping.jpg",
    "credit2": "Yellowdog Productions",
+   "blurb": "",
+   "source": "",
    "result": ""
  },
  {
@@ -147,6 +165,8 @@
    "credit": "iStock",
    "image2": "10b_manhattan-flatiron-building.jpg",
    "credit2": "",
+   "blurb": "",
+   "source": "",
    "result": ""
  },
  {
@@ -162,6 +182,8 @@
    "credit": "Jeffrey Greenberg / Getty Images",
    "image2": "11b_duane-reade.jpg",
    "credit2": "ProArtWork",
+   "blurb": "",
+   "source": "",
    "result": ""
  },
  {
@@ -177,6 +199,8 @@
    "credit": "Leo Patrizi",
    "image2": "12b_hudson-river.jpg",
    "credit2": "",
+   "blurb": "",
+   "source": "",
    "result": ""
  },
  {
@@ -192,6 +216,8 @@
    "credit": "Diego Grandi",
    "image2": "13b_nyc-boroughs.jpg",
    "credit2": "",
+   "blurb": "",
+   "source": "",
    "result": ""
  },
  {
@@ -207,6 +233,8 @@
    "credit": "Kendall Rodriguez / New York Daily News",
    "image2": "14b_coney-island-beach.jpg",
    "credit2": "Jeff Bachner / New York Daily News",
+   "blurb": "",
+   "source": "",
    "result": ""
  },
  {
@@ -222,12 +250,14 @@
    "credit": "Barry Williams / New York Daily News",
    "image2": "15_grand-central-terminal.jpg",
    "credit2": "Barry Williams / New York Daily News",
+   "blurb": "",
+   "source": "",
    "result": ""
  },
  {
    "headline": "",
    "description": "",
-   "question": "What stadium did the Mets used to call home?",
+   "question": "Which stadium did the Mets used to call home?",
    "answer": "Shea Stadium",
    "a": "Shea Stadium",
    "b": "Ebbets Field",
@@ -237,6 +267,8 @@
    "credit": "Corey Sipkin / New York Daily News",
    "image2": "16b_shea-stadium.jpg",
    "credit2": "Ron Antonelli",
+   "blurb": "The Mets played in Shea Stadium from 1964 until 2008.",
+   "source": "",
    "result": ""
  },
  {
@@ -252,12 +284,14 @@
    "credit": "Corey Sipkin / New York Daily News",
    "image2": "17b_madison-square-garden.jpg",
    "credit2": "AP Photo  /Paul J. Bereswill",
+   "blurb": "",
+   "source": "",
    "result": ""
  },
  {
    "headline": "",
    "description": "",
-   "question": "What is \"coffee, regular?\"",
+   "question": "What is \"coffee, regular\"?",
    "answer": "Coffee with milk and sugar",
    "a": "Coffee with milk, sugar and vanilla",
    "b": "Black coffee",
@@ -267,12 +301,14 @@
    "credit": "",
    "image2": "18b_new-york-coffee-cup.jpg",
    "credit2": "James Devaney / WireImage",
+   "blurb": "",
+   "source": "",
    "result": ""
  },
  {
    "headline": "",
    "description": "",
-   "question": "An adverb used to increase the severity of something",
+   "question": "This adverb is used to increase the severity of something:",
    "answer": "Mad",
    "a": "Wicked",
    "b": "Very",
@@ -282,6 +318,8 @@
    "credit": "",
    "image2": "19b_beastie-boys.jpg",
    "credit2": "AP Photo / Stephen Chernin",
+   "blurb": "",
+   "source": "",
    "result": ""
  },
  {
@@ -297,6 +335,8 @@
    "credit": "",
    "image2": "20b_bodega-cat.jpg",
    "credit2": "Jessica Chia / New York Daily News",
+   "blurb": "",
+   "source": "",
    "result": ""
  }
 ]

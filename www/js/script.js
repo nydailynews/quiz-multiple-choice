@@ -106,11 +106,11 @@ $.getJSON("quiz_content.json", function(input) {
 
             $(".next_btn").prop('disabled', true);
             
-            // change next button text for different questions
+            // Change next button text for different questions
             if (currentQuestion == (input.length-1)) {
                 $(".next_btn").html("CHECK RESULT");
                 $(".next_btn").on("click", finalScore);
-            } else if (currentQuestion == 5) {
+            } else if ( currentQuestion == 5 && appConfig.ad_tag !== 'quiz-sponsored' ) {
                 $(".next_btn").on("click", showAd);
             } else {
                 $(".next_btn").on("click", nextQuestion);

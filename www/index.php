@@ -8,7 +8,7 @@ $csv = new parseCSV('data.csv');
 <head>
     <title>The NY Daily News quizzes, by the NY Daily News</title>
     <link rel="icon" type="image/png" href="http://interactive.nydailynews.com/favicons.png">
-	<!-- DEFAULT -->
+    <!-- DEFAULT -->
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -78,12 +78,12 @@ $csv = new parseCSV('data.csv');
     <script src="//assets.adobedtm.com/4fc527d6fda921c80e462d11a29deae2e4cf7514/satelliteLib-c91fdc6ac624c6cbcd50250f79786de339793801.js"></script>
 
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet' type='text/css'>
-    <script data-main="http://assets.nydailynews.com/nydn/js/rh.js?r=20170405001" src="http://assets.nydailynews.com/nydn/js/require.js?r=2016LIST" defer></script>
+    <script data-main="//www.nydailynews.com/nydn/js/rh.js?r=20170405001" src="//www.nydailynews.com/nydn/js/require.js?r=2016LIST" defer></script>
       
-    <link rel="stylesheet" href="http://assets.nydailynews.com/nydn/c/rh.css?r=2016LIST">
-    <link rel="stylesheet" href="http://assets.nydailynews.com/nydn/c/ra.css?r=2016LIST">
-	<link rel="stylesheet" href="http://interactive.nydailynews.com/css/foundation.css" />
-	<link href="http://interactive.nydailynews.com/css/style.css?v3" rel="stylesheet" />
+    <link rel="stylesheet" href="//www.nydailynews.com/nydn/c/rh.css?r=2016LIST">
+    <link rel="stylesheet" href="//www.nydailynews.com/nydn/c/ra.css?r=2016LIST">
+    <link rel="stylesheet" href="//interactive.nydailynews.com/css/foundation.css" />
+    <link href="//interactive.nydailynews.com/css/style.css?v3" rel="stylesheet" />
     <script>
     var nydn = nydn || {
         "section": "NYDailyNews",
@@ -103,10 +103,10 @@ $csv = new parseCSV('data.csv');
     </script>
     
     <!-- ADS-START -->
-	<script onload="nydn_ads('quiz');" src="http://interactive.nydailynews.com/includes/ads/ads.js"></script>
+    <script onload="nydn_ads('quiz');" src="//interactive.nydailynews.com/includes/ads/ads.js"></script>
     <!-- ADS-END -->
     <script>var nav_params = {section: 'News Quizzes', url: 'http://interactive.nydailynews.com/quiz/'};</script>
-    <script src="http://interactive.nydailynews.com/library/vendor-nav/vendor-include.js" defer></script>
+    <script src="//interactive.nydailynews.com/library/vendor-nav/vendor-include.js" defer></script>
 </head>
 <body id="nydailynews" data-section="nydailynews" data-subsection="NY Daily News" class="">
 

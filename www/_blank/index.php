@@ -78,10 +78,10 @@
 <?php endif; ?>
 
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet' type='text/css'>
-    <script data-main="//assets.nydailynews.com/nydn/js/rh.js?r=20170405001" src="//assets.nydailynews.com/nydn/js/require.js?r=2016LIST" defer></script>
+    <script data-main="//www.nydailynews.com/nydn/js/rh.js?r=20170405001" src="//www.nydailynews.com/nydn/js/require.js?r=2016LIST" defer></script>
       
     <script src="config.js"></script>
-    <link rel="stylesheet" type="text/css" href="//assets.nydailynews.com/nydn/c/rh.css">
+    <link rel="stylesheet" type="text/css" href="//www.nydailynews.com/nydn/c/rh.css">
     <link rel="stylesheet" href="//interactive.nydailynews.com/css/foundation.css" />
     <link href="../css/style.css?v201707" rel="stylesheet" type="text/css" />
     <script>

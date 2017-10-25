@@ -6,6 +6,10 @@ article {
   padding-top: 20px;
 }
 
+main a {
+  color: #2569D3;
+}
+
 .quiz-container {
   text-align: center;
   padding: 20px 0;
@@ -84,6 +88,10 @@ article {
   padding: 11px 0 11px 0;
   margin: 11px 0 11px 0;
   color: #89898A;
+}
+
+.blurb a {
+  color: #2569D3;
 }
 
 .grey_button {

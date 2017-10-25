@@ -82,7 +82,7 @@
       
     <script src="config.js"></script>
     <link rel="stylesheet" type="text/css" href="//www.nydailynews.com/nydn/c/rh.css">
-    <link rel="stylesheet" href="//interactive.nydailynews.com/css/foundation.css" />
+    <link rel="stylesheet" href="/css/foundation.css" />
     <link href="../css/style.css?v201707" rel="stylesheet" type="text/css" />
     <script>
     var is_iframe = 0;
@@ -111,10 +111,10 @@
         var ad_tag = 'quiz';
         if ( typeof appConfig.ad_tag !== 'undefined' ) ad_tag += '-' + appConfig.ad_tag;
         </script>
-        <script onload="nydn_ads(ad_tag);" src="//interactive.nydailynews.com/includes/ads/ads.js"></script>
+        <script onload="nydn_ads(ad_tag);" src="/includes/ads/ads.js"></script>
     <!-- ADS-END -->
     <script>var nav_params = {section: 'quizzes', url: 'http://interactive.nydailynews.com/quiz/'};</script>
-    <script src="//interactive.nydailynews.com/library/vendor-nav/vendor-include.js" defer></script>
+    <script src="/library/vendor-nav/vendor-include.js" defer></script>
 </head>
 <body id="nydailynews" data-section="nydailynews" data-subsection="NY Daily News" class="">
 

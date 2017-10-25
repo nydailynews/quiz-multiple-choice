@@ -82,8 +82,8 @@ $csv = new parseCSV('data.csv');
       
     <link rel="stylesheet" href="//www.nydailynews.com/nydn/c/rh.css?r=2016LIST">
     <link rel="stylesheet" href="//www.nydailynews.com/nydn/c/ra.css?r=2016LIST">
-    <link rel="stylesheet" href="//interactive.nydailynews.com/css/foundation.css" />
-    <link href="//interactive.nydailynews.com/css/style.css?v3" rel="stylesheet" />
+	<link rel="stylesheet" href="/css/foundation.css">
+	<link href="/css/style.css?v3" rel="stylesheet">
     <script>
     var nydn = nydn || {
         "section": "NYDailyNews",
@@ -103,10 +103,10 @@ $csv = new parseCSV('data.csv');
     </script>
     
     <!-- ADS-START -->
-    <script onload="nydn_ads('quiz');" src="//interactive.nydailynews.com/includes/ads/ads.js"></script>
+	<script onload="nydn_ads('quiz');" src="/includes/ads/ads.js"></script>
     <!-- ADS-END -->
     <script>var nav_params = {section: 'News Quizzes', url: 'http://interactive.nydailynews.com/quiz/'};</script>
-    <script src="//interactive.nydailynews.com/library/vendor-nav/vendor-include.js" defer></script>
+    <script src="/library/vendor-nav/vendor-include.js" defer></script>
 </head>
 <body id="nydailynews" data-section="nydailynews" data-subsection="NY Daily News" class="">
 

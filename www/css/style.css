@@ -602,6 +602,7 @@ article {
     height: 54px;
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
+    display: none;
   }
 
   .smaller-result p {

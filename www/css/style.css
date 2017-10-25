@@ -86,6 +86,10 @@ article {
   color: #89898A;
 }
 
+.blurb a {
+  color: #2569D3;
+}
+
 .grey_button {
   background-color: white !important; }
 

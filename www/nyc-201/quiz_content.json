@@ -34,17 +34,17 @@
  {
    "headline": "",
    "description": "",
-   "question": "Which of these boroughs is the most-populous?",
+   "question": "Which of these boroughs is the most populous?",
    "answer": "Queens",
    "a": "Manhattan",
    "b": "Queens",
    "c": "Staten Island",
-   "d": "Bronx",
+   "d": "",
    "image": "03_populous-boroughs.jpg",
    "credit": "Bruce Bennett/Getty Images",
    "image2": "03a_populous-boroughs.jpg",
    "credit2": "Bruce Bennett/Getty Images",
-   "blurb": "",
+   "blurb": "Brooklyn is the most populous of the five boroughs but of these three, Queens wins.",
    "result": "14-20 This is friggin' YUUUUUGE!"
  },
  {

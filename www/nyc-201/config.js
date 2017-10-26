@@ -6,7 +6,7 @@ window.appConfig = {
     twitter_line: "",
     twitter_line_2: "How well do you know New York City? Intermediate edition",
     a:6,
-    b:13,
+    b:14,
     c:20,
     quiz1:"New York City 101",
     quiz1_image:"http://interactive.nydailynews.com/quiz/nyc-101/img/nyc-101-share.jpg",

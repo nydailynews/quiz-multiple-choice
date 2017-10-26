@@ -164,7 +164,6 @@ endforeach;
 	<h2>Games from the New York Daily News</h2>
 	<p><a href="http://games.nydailynews.com/">Play in-browser games</a>, such as <a href="http://games.nydailynews.com/games/daily-sudoku/">Sudoku</a> and the <a href="http://games.nydailynews.com/games/daily-crossword/">crossword</a> and <a href="http://games.nydailynews.com/category/arcade">a bunch of arcade games</a>.</p>
     
-        <script src="js/social.js" defer></script>
 <hr>
   <div class="center" style="float: left; width: 50%;">
     <span style="font-size:10px; color:#999;font-family:sans-serif;">ADVERTISEMENT</span>

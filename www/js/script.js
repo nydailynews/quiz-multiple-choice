@@ -31,7 +31,7 @@ $.getJSON("quiz_content.json", function(input) {
             if ( typeof input[currentQuestion].blurb === 'undefined' ) input[currentQuestion].blurb = '';
             var source_markup = "";
             if ( typeof input[currentQuestion].source !== 'undefined' && input[currentQuestion].source.trim() !== '' ) {
-                source_markup = "<a target='_blank' href='" + input[currentQuestion].source + "'>See the source of this answer</a>";
+                source_markup = "<p class='info_source'><a target='_blank' href='" + input[currentQuestion].source + "'>See the source of this answer</a></p>";
             }
             var markup = {
                 header: "<div class='progressbar large-12 medium-12 small-12 columns'>" + qnumber + " / " + input.length + "</div>",
@@ -40,7 +40,7 @@ $.getJSON("quiz_content.json", function(input) {
     <img class='image' src='img/" + input[currentQuestion].image.trim() + "' alt=''>\n\
     <p class='credit'></p>\n\
     <div class='blurb'>" + input[currentQuestion].blurb + "\n\
-        <p class='info_source'> " + source_markup + "</p>\n\
+        " + source_markup + "\n\
     </div>\n\
 </div>\n\
 <div class='selections large-6 medium-6 small-12 columns'>\n\

@@ -9,7 +9,7 @@ window.appConfig = {
     b:14,
     c:20,
     quiz1:"New York City 201",
-    quiz1_image:"http://interactive.nydailynews.com/quiz/nyc-101/img/nyc-201-share.jpg",
+    quiz1_image:"http://interactive.nydailynews.com/quiz/nyc-201/img/nyc-201-share.jpg",
     quiz1_link:"http://interactive.nydailynews.com/quiz/nyc-201/",
     quiz2:"New York City 101",
     quiz2_image:"http://interactive.nydailynews.com/quiz/nyc-101/img/nyc-101-share.jpg",

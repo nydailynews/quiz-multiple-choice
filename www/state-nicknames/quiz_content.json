@@ -2,7 +2,7 @@
  {
    "headline": "QUIZ: Do you know the U.S. state/territory resident nicknames?",
    "description": "Do you know what a demonym is? It's a word that identifies residents or natives of a particular place, which is derived from the name of that particular place. For example, the people of Sicily are known as Sicilians. Every U.S. state or territory's residents have a nickname. Can you guess what they are?",
-   "question": "Arkansas",
+   "question": "What is the state nickname for residents of Arkansas?",
    "answer": "Arkansans",
    "a": "Arkansawyers",
    "b": "Arkansans",
@@ -16,7 +16,7 @@
  {
    "headline": "",
    "description": "",
-   "question": "California",
+   "question": "What is the state nickname for residents of California?",
    "answer": "Californians",
    "a": "Californios",
    "b": "Californians",
@@ -30,7 +30,7 @@
  {
    "headline": "",
    "description": "",
-   "question": "Colorado",
+   "question": "What is the state nickname for residents of Colorado?",
    "answer": "Coloradans",
    "a": "Coloradoites",
    "b": "Coloradoans",

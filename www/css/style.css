@@ -22,7 +22,7 @@ main a {
 #content {
   position: relative;
   overflow: hidden;
-  padding: 20px 0px 0px 0px;
+  padding: 0px;
   }
 
 .social_icon {
@@ -33,7 +33,7 @@ main a {
   font-size: 17px;
   line-height: 27px;
   color: #89898A;
-  max-width: 75%;
+  max-width: 70%;
 }
 
 .next,

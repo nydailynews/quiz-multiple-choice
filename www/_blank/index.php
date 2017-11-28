@@ -77,13 +77,13 @@
     <script src="//assets.adobedtm.com/4fc527d6fda921c80e462d11a29deae2e4cf7514/satelliteLib-c91fdc6ac624c6cbcd50250f79786de339793801.js"></script>
 <?php endif; ?>
 
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet'>
     <script data-main="//www.nydailynews.com/nydn/js/rh.js?r=20170405001" src="//www.nydailynews.com/nydn/js/require.js?r=2016LIST" defer></script>
       
     <script src="config.js"></script>
-    <link rel="stylesheet" type="text/css" href="//www.nydailynews.com/nydn/c/rh.css">
-    <link rel="stylesheet" href="/css/foundation.css" />
-    <link href="../css/style.css?v201707" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="//www.nydailynews.com/nydn/c/rh.css">
+    <link rel="stylesheet" href="/css/foundation.css">
+    <link href="../css/style.css?v201707" rel="stylesheet">
     <script>
     var is_iframe = 0;
     if ( window.top !== window.self ) { is_iframe = 1; }
@@ -140,8 +140,7 @@
             </div>
 
             <div class='center next large-12 medium-12 small-12 columns'>
-                <div class="side_ad center" style="margin-bottom: 20px;">
-                    <div id='div-gpt-ad-1423507761396-2'>
+                <div class="side_ad center" style="margin: 20px auto;">
                         <script>
                             googletag.cmd.push(function() { googletag.display('div-gpt-ad-1423507761396-2'); });
                         </script>
@@ -159,6 +158,7 @@
   </article>
 </main>
 
+<!--
 <div class="ad center">
     <span>ADVERTISEMENT</span>
     <div id='div-gpt-ad-1423507761396-1'>
@@ -175,6 +175,7 @@
         </script>
     </div>
 </div>
+-->
 
 <!-- FOOTER-START -->
 <footer id="templatefooter"></footer>

@@ -22,8 +22,8 @@
     <meta name="twitter:description" content="It has been.... a year. How well do you remember when these newsworthy events in the Trump administration happened?" />
 
     <!-- KEYWORD -->
-    <meta name="keywords" content="KEYWORDS" />
-    <meta name="news_keywords" content="KEYWORDS" />
+    <meta name="keywords" content="president, Donald Trump, administration, Paul Manafort, James Comey, 2017" />
+    <meta name="news_keywords" content="president, Donald Trump, administration, Paul Manafort, James Comey, 2017" />
 
     <!-- LINK -->
     <link rel="canonical" href="http://interactive.nydailynews.com/quiz/trump-year-one-news-recall/">
@@ -44,7 +44,7 @@
             "headline": "How well do you remember the big news from Trump's first year?",
             "url": "http://interactive.nydailynews.com/quiz/trump-year-one-news-recall/",
             "thumbnailUrl": "http://interactive.nydailynews.com/quiz/trump-year-one-news-recall/img/trump-news.jpg",
-            "dateCreated": "2017-11-29T07:00:00Z",
+            "dateCreated": "2017-11-28T07:00:00Z",
             "articleSection": "Interactive",
             "creator": ["Joe Murphy","Interactive Quiz"],
             "keywords": ["interactive","interactive quiz","quizzes","donald-trump","james-comey"]

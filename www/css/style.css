@@ -23,6 +23,7 @@ main a {
   position: relative;
   overflow: hidden;
   padding: 0px;
+  margin-bottom: 50px;
   }
 
 .social_icon {
@@ -169,7 +170,6 @@ main a {
   }
 
   .final_score_right {
-    border-right: solid 1px #E8E8E8;
     width: 50%;    
     height: 106px;
     padding: 20px;

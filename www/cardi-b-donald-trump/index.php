@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>How well do you remember the big news from Trump's first year?, by the NY Daily News</title>
+    <title>Who said it: President Trump or Cardi B?, by the NY Daily News</title>
     <link rel="icon" type="image/png" href="//interactive.nydailynews.com/favicons.png">
     <!-- DEFAULT -->
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -13,26 +13,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
 
     <!-- Titles -->
-    <meta property="og:title" content="How well do you remember the big news from Trump's first year?" />
-    <meta name="twitter:title" content="How well do you remember the big news from Trump's first year?"/>
+    <meta property="og:title" content='Who said it: President Trump or Cardi B?' />
+    <meta name="twitter:title" content='Who said it: President Trump or Cardi B?'/>
 
     <!-- Description -->
-    <meta name="description" content="It has been.... a year. How well do you remember when these newsworthy events in the Trump administration happened?" />
-    <meta property="og:description" content="It has been.... a year. How well do you remember when these newsworthy events in the Trump administration happened?" />
-    <meta name="twitter:description" content="It has been.... a year. How well do you remember when these newsworthy events in the Trump administration happened?" />
+    <meta name="description" content="The similarities between Cardi B’s in-your-face style and that of President Donald Trump are actually hilariously striking. The quiz below has 12 statements. See if you can guess who said what." />
+    <meta property="og:description" content="The similarities between Cardi B’s in-your-face style and that of President Donald Trump are actually hilariously striking. The quiz below has 12 statements. See if you can guess who said what." />
+    <meta name="twitter:description" content="The similarities between Cardi B’s in-your-face style and that of President Donald Trump are actually hilariously striking. The quiz below has 12 statements. See if you can guess who said what." />
 
     <!-- KEYWORD -->
-    <meta name="keywords" content="president, Donald Trump, administration, Paul Manafort, James Comey, 2017" />
-    <meta name="news_keywords" content="president, Donald Trump, administration, Paul Manafort, James Comey, 2017" />
+    <meta name="keywords" content="Donald Trump, Cardi B, quiz, quotes, entertainment" />
+    <meta name="news_keywords" content="Donald Trump, Cardi B, quiz, quotes, entertainment" />
 
     <!-- LINK -->
-    <link rel="canonical" href="http://interactive.nydailynews.com/quiz/trump-year-one-news-recall/">
-    <meta property="og:url" content="http://interactive.nydailynews.com/quiz/trump-year-one-news-recall/" />
-    <meta name="twitter:url" content="http://interactive.nydailynews.com/quiz/trump-year-one-news-recall/">
+    <link rel="canonical" href="http://interactive.nydailynews.com/quiz/cardi-b-donald-trump/">
+    <meta property="og:url" content="http://interactive.nydailynews.com/quiz/cardi-b-donald-trump/" />
+    <meta name="twitter:url" content="http://interactive.nydailynews.com/quiz/cardi-b-donald-trump/">
 
     <!-- THUMBNAIL IMAGE-->
-    <meta property="og:image" content="http://interactive.nydailynews.com/quiz/trump-year-one-news-recall/img/trump-news.jpg" />
-    <meta name="twitter:image:src" content="http://interactive.nydailynews.com/quiz/trump-year-one-news-recall/img/trump-news.jpg" />
+    <meta property="og:image" content="http://interactive.nydailynews.com/quiz/cardi-b-donald-trump/img/splitter-share.jpg" />
+    <meta name="twitter:image:src" content="http://interactive.nydailynews.com/quiz/cardi-b-donald-trump/img/splitter-share.jpg" />
     <meta property="og:image:width" content="1024" />
     <meta property="og:image:height" content="512" />
 
@@ -41,13 +41,13 @@
         {
             "@context": "http://schema.org",
             "@type": "NewsArticle",
-            "headline": "How well do you remember the big news from Trump's first year?",
-            "url": "http://interactive.nydailynews.com/quiz/trump-year-one-news-recall/",
-            "thumbnailUrl": "http://interactive.nydailynews.com/quiz/trump-year-one-news-recall/img/trump-news.jpg",
-            "dateCreated": "2017-11-28T07:00:00Z",
+            "headline": "Who said it: President Trump or Cardi B?",
+            "url": "http://interactive.nydailynews.com/quiz/cardi-b-donald-trump/",
+            "thumbnailUrl": "http://interactive.nydailynews.com/quiz/cardi-b-donald-trump/img/splitter-share.jpg",
+            "dateCreated": "DATET07:00:00Z",
             "articleSection": "Interactive",
-            "creator": ["Joe Murphy","Interactive Quiz"],
-            "keywords": ["interactive","interactive quiz","quizzes","donald-trump","james-comey"]
+            "creator": ["Kelli R. Parker","Interactive Quiz"],
+            "keywords": ["interactive","interactive quiz","donald trump","cardi b"]
         }
     </script>
 
@@ -82,8 +82,8 @@
       
     <script src="config.js"></script>
     <link rel="stylesheet" href="//www.nydailynews.com/nydn/c/rh.css">
-    <link rel="stylesheet" href="/css/foundation.css" />
-    <link href="../css/style.css?v201707" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/foundation.css">
+    <link href="../css/style.css?v201707" rel="stylesheet">
     <script>
     var is_iframe = 0;
     if ( window.top !== window.self ) { is_iframe = 1; }
@@ -99,8 +99,8 @@
     <script>
     var nydnDO = [
         { 
-            'title':'xxxHow well do you remember the big news from Trump\'s first year?xxx', 
-            'link':'http://interactive.nydailynews.com/quiz/trump-year-one-news-recall/', 
+            'title':'xxxWho said it: President Trump or Cardi B?xxx', 
+            'link':'http://interactive.nydailynews.com/quiz/cardi-b-donald-trump/', 
             'p_type':'interactive', 
             'section':'interactive' }
     ];
@@ -125,16 +125,9 @@
 
 <main>
   <article>
-    <h1 class="center">QUIZ: How well do you remember the big news from Trump's first year?</h1>
-    <p class="center description">It has been ... a year. How well do you remember when these newsworthy events in the Trump administration happened?</p>
-    <div>
-    <ul class="ra-share" id="ra-share-top" style="text-align: center;">
-        <li class="rt-share-f"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://interactive.nydailynews.com/quiz/trump-year-one-news-recall/">facebook</a> </li>
-        <li class="ra-share-t"> <a target="_blank" href="https://twitter.com/intent/tweet?text=How well do you remember the big news from Trump's first year?&url=http://interactive.nydailynews.com/quiz/trump-year-one-news-recall/&via=NYDNi&related=NYDailyNews,NYDNi">Tweet</a></li>
-        <li class="ra-share-e"> <a href="mailto:?subject=How well do you remember the big news from Trump's first year? Quiz&amp;body=http://interactive.nydailynews.com/quiz/trump-year-one-news-recall/">email</a> </li>
-        </ul>
-    </div>
-    <p class="byline center">By JOE MURPHY</p>
+    <h1 class="center">QUIZ: Who said it: President Trump or Cardi B?</h1>
+    <p class="center description">The similarities between Cardi B’s in-your-face style and that of President Donald Trump are actually hilariously striking. The quiz below has 12 statements. See if you can guess who said what.</p>
+    <p class="byline center">By KELLI R. PARKER</p>
     <p class="center" id="result"></p>
 
     <section id="content">
@@ -148,7 +141,6 @@
 
             <div class='center next large-12 medium-12 small-12 columns'>
                 <div class="side_ad center" style="margin: 20px auto;">
-                    <div id='div-gpt-ad-1423507761396-2'>
                         <script>
                             googletag.cmd.push(function() { googletag.display('div-gpt-ad-1423507761396-2'); });
                         </script>
@@ -166,6 +158,25 @@
   </article>
 </main>
 
+<!--
+<div class="ad center">
+    <span>ADVERTISEMENT</span>
+    <div id='div-gpt-ad-1423507761396-1'>
+        <script>
+            googletag.cmd.push(function() { googletag.display('div-gpt-ad-1423507761396-1'); });
+        </script>
+    </div>
+</div>
+    
+<div class="ad center">
+    <div id='div-gpt-ad-x105'>
+        <script>
+            googletag.cmd.push(function() { googletag.display('div-gpt-ad-x105'); });
+        </script>
+    </div>
+</div>
+-->
+
 <!-- FOOTER-START -->
 <footer id="templatefooter"></footer>
 <!-- FOOTER-END -->
@@ -180,5 +191,12 @@
         </div>
     </div>
 </div>
+<script>
+if ( is_iframe === 1 ) {
+    $('.headline, .description, h1, p.description, p.byline, #templateheader, #templatefooter').remove();
+    $('#content .blurb').css('display', 'none');
+    $('body').css('background-color', '#fafafa');
+}
+</script>
 </body>
 </html>

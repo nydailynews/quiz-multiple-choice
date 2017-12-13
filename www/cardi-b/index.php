@@ -31,8 +31,8 @@
     <meta name="twitter:url" content="http://interactive.nydailynews.com/quiz/cardi-b-donald-trump/">
 
     <!-- THUMBNAIL IMAGE-->
-    <meta property="og:image" content="http://interactive.nydailynews.com/quiz/cardi-b-donald-trump/img/splitter.jpg" />
-    <meta name="twitter:image:src" content="http://interactive.nydailynews.com/quiz/cardi-b-donald-trump/img/splitter.jpg" />
+    <meta property="og:image" content="http://interactive.nydailynews.com/quiz/cardi-b-donald-trump/img/splitter-share.jpg" />
+    <meta name="twitter:image:src" content="http://interactive.nydailynews.com/quiz/cardi-b-donald-trump/img/splitter-share.jpg" />
     <meta property="og:image:width" content="1024" />
     <meta property="og:image:height" content="512" />
 
@@ -43,7 +43,7 @@
             "@type": "NewsArticle",
             "headline": "Who said it: President Trump or Cardi B?",
             "url": "http://interactive.nydailynews.com/quiz/cardi-b-donald-trump/",
-            "thumbnailUrl": "http://interactive.nydailynews.com/quiz/cardi-b-donald-trump/img/splitter.jpg",
+            "thumbnailUrl": "http://interactive.nydailynews.com/quiz/cardi-b-donald-trump/img/splitter-share.jpg",
             "dateCreated": "DATET07:00:00Z",
             "articleSection": "Interactive",
             "creator": ["Kelli R. Parker","Interactive Quiz"],

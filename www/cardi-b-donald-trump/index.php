@@ -44,7 +44,7 @@
             "headline": "Who said it: President Trump or Cardi B?",
             "url": "http://interactive.nydailynews.com/quiz/cardi-b-donald-trump/",
             "thumbnailUrl": "http://interactive.nydailynews.com/quiz/cardi-b-donald-trump/img/splitter-share.jpg",
-            "dateCreated": "DATET07:00:00Z",
+            "dateCreated": "2017-12-14T07:00:00Z",
             "articleSection": "Interactive",
             "creator": ["Kelli R. Parker","Interactive Quiz"],
             "keywords": ["interactive","interactive quiz","donald trump","cardi b"]
@@ -72,7 +72,7 @@
     <meta name="localeCountry" content="US"/>
     <meta name="localeLanguage" content="en" />
 
-<?php if ( !isset($_GET['v1']) ): ?>
+<?php if ( !isset($_GET['embed']) ): ?>
     <!-- ADOBE ANALYTICS -->
     <script src="//assets.adobedtm.com/4fc527d6fda921c80e462d11a29deae2e4cf7514/satelliteLib-c91fdc6ac624c6cbcd50250f79786de339793801.js"></script>
 <?php endif; ?>
@@ -152,7 +152,7 @@
     </section>
 
     <!-- CUSTOM JS GOES HERE-->
-    <script src="/js/jquery.js"></script>
+    <script src="/js/jquery.min.js"></script>
     <script src="../js/script.js?v3"></script>
 
   </article>

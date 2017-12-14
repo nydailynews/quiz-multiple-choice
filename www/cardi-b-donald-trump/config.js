@@ -4,7 +4,7 @@ window.appConfig = {
     project_url: "http://interactive.nydailynews.com/quiz/cardi-b-donald-trump/",
     short_link: "http://nydn.us/carditrump",
     twitter_line: "Trump or Cardi B: Can you guess who said what?",
-    twitter_line_2: "",
+    twitter_line_2: "who said it, Trump or Cardi B",
     a:4,
     b:8,
     c:12,

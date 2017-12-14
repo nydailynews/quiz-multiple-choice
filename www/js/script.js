@@ -139,13 +139,25 @@ $.getJSON("quiz_content.json", function(input) {
         // resetFooterResize();
     };
 
+	var rando = function() 
+    {
+        // Generate a random string in order to bust cache.
+        var text = "";
+        var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+
+        for( var i=0; i < 8; i++ )
+            text += possible.charAt(Math.floor(Math.random() * possible.length));
+
+        return text;
+    };
+
     // Display final score card and social media sharing
     // Log score in database, if appropriate.
     var finalScore = function () {
 
         // Log the answer in the db
         var correct = this.correct_count;
-        var params = '?slug=' + appConfig.slug + '&correct=' + score + '&callback=';
+        var params = '?slug=' + appConfig.slug + '&rando=' + rando() + '&correct=' + score + '&callback=';
         var jqxhr = $.getJSON( '/quiz/multiple-handler.php' + params, function(data) 
         {
             // SUCCESS

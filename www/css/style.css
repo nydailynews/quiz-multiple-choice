@@ -717,7 +717,6 @@ main a {
   }
 
   .more_quiz {
-    margin-top: 40px;
     max-width: 680px;
     margin-left: auto;
     margin-right: auto;
@@ -736,7 +735,7 @@ main a {
   }
 
   .another_quiz {
-    padding: 10px !important;
+    padding: 0 !important;
     cursor: pointer;
     float: left !important;
   }

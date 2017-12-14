@@ -159,7 +159,7 @@
 
     <!-- CUSTOM JS GOES HERE-->
     <script src="http://interactive.nydailynews.com/includes/js/vendor/jquery.js"></script>
-    <script src="../js/script.js?v4"></script>
+    <script src="../js/script.js?v5"></script>
 
   </article>
 </main>

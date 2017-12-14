@@ -1,8 +1,8 @@
 window.appConfig = {
-	ad_tag: "quiz-",
-	slug: "cardi-b-donald-trump",
+        ad_tag: "cardi-b-donald-trump",
+        slug: "cardi-b-donald-trump",
     project_url: "http://interactive.nydailynews.com/quiz/cardi-b-donald-trump/",
-    short_link: "",
+    short_link: "http://nydn.us/carditrump",
     twitter_line: "Trump or Cardi B: Can you guess who said what?",
     twitter_line_2: "",
     a:4,

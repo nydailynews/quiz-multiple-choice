@@ -72,7 +72,7 @@
     <meta name="localeCountry" content="US"/>
     <meta name="localeLanguage" content="en" />
 
-<?php if ( !isset($_GET['v1']) ): ?>
+<?php if ( !isset($_GET['embed']) ): ?>
     <!-- ADOBE ANALYTICS -->
     <script src="//assets.adobedtm.com/4fc527d6fda921c80e462d11a29deae2e4cf7514/satelliteLib-c91fdc6ac624c6cbcd50250f79786de339793801.js"></script>
 <?php endif; ?>
@@ -141,6 +141,7 @@
 
             <div class='center next large-12 medium-12 small-12 columns'>
                 <div class="side_ad center" style="margin: 20px auto;">
+					<div id='div-gpt-ad-1423507761396-2'>
                         <script>
                             googletag.cmd.push(function() { googletag.display('div-gpt-ad-1423507761396-2'); });
                         </script>

@@ -13,7 +13,7 @@
    "credit": "Getty Images",
    "blurb": "This is extremely frigid air that engulfs a large area with all-time record low temperatures and snowfall in places that rarely experience it.",
    "source": "",
-   "result": "0-8 C'mon. You're better than this."
+   "result": "0-7 C'mon. You're better than this."
  },
  {
    "headline": "",
@@ -29,7 +29,7 @@
    "credit": "Witta Priester / NASA",
    "blurb": "This type of cloud formation that makes the sky look like the world is about to end but they usually dissipate without a storm.",
    "source": "",
-   "result": "9-12 Your random weather knowledge is pretty good."
+   "result": "8-12 Your random weather knowledge is pretty good."
  },
  {
    "headline": "",
@@ -108,7 +108,7 @@
    "image2": "news-van.jpg",
    "credit": "NIKADA/GETTY IMAGES/ISTOCKPHOTO",
    "blurb": "",
-   "source": "http://www.nydailynews.com/news/crime/albuquerque-tv-truck-stolen-crew-reported-crime-story-article-1.3274926",
+   "source": "",
    "result": ""
  },
  {
@@ -172,7 +172,7 @@
    "image2": "this-is-what-we-think-it-looks-like.jpg",
    "credit": "GOLDENEYE",
    "blurb": "No, it's not real. Yes, this is what we think it looks like.",
-   "source": "http://www.nydailynews.com/life-style/chris-blackwell-goldeneye-resort-jamaica-unhurried-luxury-article-1.1074366",
+   "source": "",
    "result": ""
  },
  {
@@ -185,7 +185,7 @@
    "c": "",
    "d": "",
    "image": "weather-terms.jpg",
-   "image2": "globe.jpg",
+   "image2": "latitudes.jpg",
    "credit": "ALAMY",
    "blurb": "Straw latitudes are made up, however, horse latitudes are subtropical latitudes where the weather is dominated by areas of high pressure.",
    "source": "",
@@ -203,7 +203,7 @@
    "image": "weather-terms.jpg",
    "image2": "invection-index.jpg",
    "credit": "Getty Images",
-   "blurb": "",
+   "blurb": "However, CONvection is a major factor in weather. The sun heats the earth's surface. When cooler air comes into contact with it, the air warms and rises creating wind, clouds, or other weather.",
    "source": "",
    "result": ""
  },
@@ -220,7 +220,7 @@
    "image2": "petrichor.jpg",
    "credit": "COURTESY OF MIKEY CEE / @_MIKEY_CEE",
    "blurb": "Petrichor is the smell you get after the first rain in a long time.",
-   "source": "http://www.nydailynews.com/new-york/double-rainbow-dazzles-nyc-record-rainfall-article-1.2492094",
+   "source": "",
    "result": ""
  },
  {
@@ -235,7 +235,7 @@
    "image": "weather-terms.jpg",
    "image2": "graupel.jpg",
    "credit": "Getty Images",
-   "blurb": "Graupel are snow pellets that are typically smaller than hail but larger than snowflakes.",
+   "blurb": "Graupel are snow pellets that are typically smaller than hail. They form when supercooled water droplets freeze on falling snowflakes.",
    "source": "",
    "result": ""
  }

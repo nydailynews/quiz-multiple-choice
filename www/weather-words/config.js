@@ -5,7 +5,7 @@ window.appConfig = {
     short_link: "http://nydn.us/",
     twitter_line: "Weather terms: which ones are real?",
     twitter_line_2: "Are these weather terms real or fake?",
-    a:8,
+    a:7,
     b:12,
     c:15,
     quiz1:"Who said it? Cardi B or President Trump",

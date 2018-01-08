@@ -84,6 +84,13 @@
     <link rel="stylesheet" href="//www.nydailynews.com/nydn/c/rh.css">
     <link rel="stylesheet" href="/css/foundation.css">
     <link href="../css/style.css?v201707" rel="stylesheet">
+    
+    <style type="text/css">
+        div.question {
+            text-transform: uppercase;
+        }
+    </style>
+
     <script>
     var is_iframe = 0;
     if ( window.top !== window.self ) { is_iframe = 1; }
@@ -127,7 +134,7 @@
   <article>
     <h1 class="center">QUIZ: Are these weather terms real or fake?</h1>
     <p class="center description">The recent "bomb cyclone" got us talking about bombogenesis and other wacky weather terms. Do you know your black ice from your ball lightning? Guess which of these terms are real and which are #fakenews?</p>
-    <p class="byline center">By Kelli R. Parker and Joe Murphy</p>
+    <p class="byline center">By KELLI R. PARKER and JOE MURPHY</p>
     <p class="center" id="result"></p>
 
     <section id="content">

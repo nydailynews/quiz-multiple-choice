@@ -88,6 +88,7 @@
     <style type="text/css">
         div.question {
             text-transform: uppercase;
+            font-weight: bold;
         }
     </style>
 
@@ -133,6 +134,13 @@
 <main>
   <article>
     <h1 class="center">QUIZ: Are these weather terms real or fake?</h1>
+    <div>
+    <ul class="ra-share" id="ra-share-top" style="text-align: center;">
+        <li class="rt-share-f"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://interactive.nydailynews.com/quiz/weather-words/">facebook</a> </li>
+        <li class="ra-share-t"> <a target="_blank" href="https://twitter.com/intent/tweet?text=Do you know if these weird weather terms are real or fake?&url=http://interactive.nydailynews.com/quiz/weather-words/&via=NYDNi&related=NYDailyNews,NYDNi">Tweet</a></li>
+        <li class="ra-share-e"> <a href="mailto:?subject=Quiz: Do you know if these weird weather terms are real or fake? &amp;body=http://interactive.nydailynews.com/quiz/weather-words/">email</a> </li>
+        </ul>
+    </div>
     <p class="center description">The recent "bomb cyclone" got us talking about bombogenesis and other wacky weather terms. Do you know your black ice from your ball lightning? Guess which of these terms are real and which are #fakenews.</p>
     <p class="byline center">By KELLI R. PARKER and JOE MURPHY</p>
     <p class="center" id="result"></p>

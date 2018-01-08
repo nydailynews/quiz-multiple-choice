@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>TITLE, by the NY Daily News</title>
+    <title>QUIZ: Are these weather terms real or fake?, by the NY Daily News</title>
     <link rel="icon" type="image/png" href="//interactive.nydailynews.com/favicons.png">
     <!-- DEFAULT -->
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -13,26 +13,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
 
     <!-- Titles -->
-    <meta property="og:title" content='TITLE' />
-    <meta name="twitter:title" content='TITLE'/>
+    <meta property="og:title" content='QUIZ: Are these weather terms real or fake?' />
+    <meta name="twitter:title" content='QUIZ: Are these weather terms real or fake?'/>
 
     <!-- Description -->
-    <meta name="description" content="DESCRIPTION" />
-    <meta property="og:description" content="DESCRIPTION" />
-    <meta name="twitter:description" content="DESCRIPTION" />
+    <meta name="description" content="Do you know your bombogenesis from your ball lightning? Guess which weather terms are real or fake." />
+    <meta property="og:description" content="Do you know your bombogenesis from your ball lightning? Guess which weather terms are real or fake." />
+    <meta name="twitter:description" content="Do you know your bombogenesis from your ball lightning? Guess which weather terms are real or fake." />
 
     <!-- KEYWORD -->
-    <meta name="keywords" content="KEYWORDS" />
-    <meta name="news_keywords" content="KEYWORDS" />
+    <meta name="keywords" content="weather, nyc weather, weather terms, meteorology terms, what's a haboob" />
+    <meta name="news_keywords" content="weather, nyc weather, weather terms, meteorology terms, what's a haboob" />
 
     <!-- LINK -->
-    <link rel="canonical" href="CANONICALURL">
-    <meta property="og:url" content="CANONICALURL" />
-    <meta name="twitter:url" content="CANONICALURL">
+    <link rel="canonical" href="http://interactive.nydailynews.com/quiz/weather-words/">
+    <meta property="og:url" content="http://interactive.nydailynews.com/quiz/weather-words/" />
+    <meta name="twitter:url" content="http://interactive.nydailynews.com/quiz/weather-words/">
 
     <!-- THUMBNAIL IMAGE-->
-    <meta property="og:image" content="CANONICALURLimg/splitter.jpg" />
-    <meta name="twitter:image:src" content="CANONICALURLimg/splitter.jpg" />
+    <meta property="og:image" content="http://interactive.nydailynews.com/quiz/weather-words/img/weather-terms.jpg" />
+    <meta name="twitter:image:src" content="http://interactive.nydailynews.com/quiz/weather-words/img/weather-terms.jpg" />
     <meta property="og:image:width" content="1024" />
     <meta property="og:image:height" content="512" />
 
@@ -41,13 +41,13 @@
         {
             "@context": "http://schema.org",
             "@type": "NewsArticle",
-            "headline": "TITLE",
-            "url": "CANONICALURL",
-            "thumbnailUrl": "CANONICALURLimg/splitter.jpg",
+            "headline": "QUIZ: Are these weather terms real or fake?",
+            "url": "http://interactive.nydailynews.com/quiz/weather-words/",
+            "thumbnailUrl": "http://interactive.nydailynews.com/quiz/weather-words/img/weather-terms.jpg",
             "dateCreated": "DATET07:00:00Z",
             "articleSection": "Interactive",
-            "creator": ["BYLINE","Interactive Quiz"],
-            "keywords": ["interactive","interactive quiz","KEYWORDS"]
+            "creator": ["Joe Murphy","Kelli R. Parker","Interactive Quiz"],
+            "keywords": ["interactive","interactive quiz","nyc-weather","quizzes"]
         }
     </script>
 
@@ -99,8 +99,8 @@
     <script>
     var nydnDO = [
         { 
-            'title':'xxxTITLExxx', 
-            'link':'CANONICALURL', 
+            'title':'xxxQUIZ: Are these weather terms real or fake?xxx', 
+            'link':'http://interactive.nydailynews.com/quiz/weather-words/', 
             'p_type':'interactive', 
             'section':'interactive' }
     ];
@@ -125,9 +125,9 @@
 
 <main>
   <article>
-    <h1 class="center">QUIZ: TITLE</h1>
-    <p class="center description">DESCRIPTION</p>
-    <p class="byline center">By BYLINE</p>
+    <h1 class="center">QUIZ: Are these weather terms real or fake?</h1>
+    <p class="center description">The recent "bomb cyclone" got us talking about bombogenesis and other wacky weather terms. Do you know your black ice from your ball lightning? Guess which of these terms are real and which are #fakenews?</p>
+    <p class="byline center">By Kelli R. Parker and Joe Murphy</p>
     <p class="center" id="result"></p>
 
     <section id="content">

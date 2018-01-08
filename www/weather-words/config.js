@@ -1,8 +1,8 @@
 window.appConfig = {
 	ad_tag: "weather-terms",
-	slug: "weather-terms",
-    project_url: "http://interactive.nydailynews.com/quiz/weather-terms",
-    short_link: "http://nydn.us/",
+	slug: "weather-words",
+    project_url: "http://interactive.nydailynews.com/quiz/weather-words/",
+    short_link: "http://nydn.us/weatherquiz",
     twitter_line: "Weather terms: which ones are real?",
     twitter_line_2: "Are these weather terms real or fake?",
     a:7,

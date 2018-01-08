@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>QUIZ: Are these weather terms real or fake?, by the NY Daily News</title>
+    <title>QUIZ: Can you spot the fake weather terms? - NY Daily News</title>
     <link rel="icon" type="image/png" href="//interactive.nydailynews.com/favicons.png">
     <!-- DEFAULT -->
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">

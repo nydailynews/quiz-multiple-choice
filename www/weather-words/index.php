@@ -17,9 +17,9 @@
     <meta name="twitter:title" content='QUIZ: Are these weather terms real or fake?'/>
 
     <!-- Description -->
-    <meta name="description" content="Do you know your bombogenesis from your ball lightning? Guess which of these weather terms are real or fake." />
-    <meta property="og:description" content="Do you know your bombogenesis from your ball lightning? Guess which of these weather terms are real or fake." />
-    <meta name="twitter:description" content="Do you know your bombogenesis from your ball lightning? Guess which of these weather terms are real or fake." />
+    <meta name="description" content="Do you know your barometer from your ball lightning? Guess which of these weather terms are real or fake." />
+    <meta property="og:description" content="Do you know your barometer from your ball lightning? Guess which of these weather terms are real or fake." />
+    <meta name="twitter:description" content="Do you know your barometer from your ball lightning? Guess which of these weather terms are real or fake." />
 
     <!-- KEYWORD -->
     <meta name="keywords" content="weather, nyc weather, weather terms, meteorology terms, what's a haboob" />
@@ -31,8 +31,8 @@
     <meta name="twitter:url" content="http://interactive.nydailynews.com/quiz/weather-words/">
 
     <!-- THUMBNAIL IMAGE-->
-    <meta property="og:image" content="http://interactive.nydailynews.com/quiz/weather-words/img/weather-terms.jpg" />
-    <meta name="twitter:image:src" content="http://interactive.nydailynews.com/quiz/weather-words/img/weather-terms.jpg" />
+    <meta property="og:image" content="http://interactive.nydailynews.com/quiz/weather-words/img/weather-share.jpg" />
+    <meta name="twitter:image:src" content="http://interactive.nydailynews.com/quiz/weather-words/img/weather-share.jpg" />
     <meta property="og:image:width" content="1024" />
     <meta property="og:image:height" content="512" />
 
@@ -43,8 +43,8 @@
             "@type": "NewsArticle",
             "headline": "QUIZ: Are these weather terms real or fake?",
             "url": "http://interactive.nydailynews.com/quiz/weather-words/",
-            "thumbnailUrl": "http://interactive.nydailynews.com/quiz/weather-words/img/weather-terms.jpg",
-            "dateCreated": "DATET07:00:00Z",
+            "thumbnailUrl": "http://interactive.nydailynews.com/quiz/weather-words/img/weather-share.jpg",
+            "dateCreated": "2018-01-08T07:00:00Z",
             "articleSection": "Interactive",
             "creator": ["Interactive Quiz","Joe Murphy","Kelli R. Parker"],
             "keywords": ["interactive","interactive quiz","nyc-weather","quizzes"]
@@ -80,7 +80,7 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet'>
     <script data-main="//www.nydailynews.com/nydn/js/rh.js?r=20170405001" src="//www.nydailynews.com/nydn/js/require.js?r=2016LIST" defer></script>
       
-    <script src="config.js"></script>
+    <script src="config.js?v1"></script>
     <link rel="stylesheet" href="//www.nydailynews.com/nydn/c/rh.css">
     <link rel="stylesheet" href="/css/foundation.css">
     <link href="../css/style.css?v201707" rel="stylesheet">
@@ -156,9 +156,9 @@
 
             <div class='center next large-12 medium-12 small-12 columns'>
                 <div class="side_ad center" style="margin: 20px auto;">
-					<div id='div-gpt-ad-1423507761396-2'>
+			<div id='div-gpt-ad-1423507761396-1'>
                         <script>
-                            googletag.cmd.push(function() { googletag.display('div-gpt-ad-1423507761396-2'); });
+                            googletag.cmd.push(function() { googletag.display('div-gpt-ad-1423507761396-1'); });
                         </script>
                     </div>
                     <button class='continue_btn'>CONTINUE QUIZ</button>

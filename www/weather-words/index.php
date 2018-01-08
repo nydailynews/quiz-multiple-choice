@@ -17,9 +17,9 @@
     <meta name="twitter:title" content='QUIZ: Are these weather terms real or fake?'/>
 
     <!-- Description -->
-    <meta name="description" content="Do you know your bombogenesis from your ball lightning? Guess which of these weather terms are real or fake." />
-    <meta property="og:description" content="Do you know your bombogenesis from your ball lightning? Guess which of these weather terms are real or fake." />
-    <meta name="twitter:description" content="Do you know your bombogenesis from your ball lightning? Guess which of these weather terms are real or fake." />
+    <meta name="description" content="Do you know your barometer from your ball lightning? Guess which of these weather terms are real or fake." />
+    <meta property="og:description" content="Do you know your barometer from your ball lightning? Guess which of these weather terms are real or fake." />
+    <meta name="twitter:description" content="Do you know your barometer from your ball lightning? Guess which of these weather terms are real or fake." />
 
     <!-- KEYWORD -->
     <meta name="keywords" content="weather, nyc weather, weather terms, meteorology terms, what's a haboob" />

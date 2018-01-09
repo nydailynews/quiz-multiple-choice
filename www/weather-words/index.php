@@ -31,8 +31,8 @@
     <meta name="twitter:url" content="http://interactive.nydailynews.com/quiz/weather-words/">
 
     <!-- THUMBNAIL IMAGE-->
-    <meta property="og:image" content="http://interactive.nydailynews.com/quiz/weather-words/img/weather-share.jpg" />
-    <meta name="twitter:image:src" content="http://interactive.nydailynews.com/quiz/weather-words/img/weather-share.jpg" />
+    <meta property="og:image" content="http://interactive.nydailynews.com/quiz/weather-words/img/weather-terms-share.jpg" />
+    <meta name="twitter:image:src" content="http://interactive.nydailynews.com/quiz/weather-words/img/weather-terms-share.jpg" />
     <meta property="og:image:width" content="1024" />
     <meta property="og:image:height" content="512" />
 
@@ -43,7 +43,7 @@
             "@type": "NewsArticle",
             "headline": "QUIZ: Are these weather terms real or fake?",
             "url": "http://interactive.nydailynews.com/quiz/weather-words/",
-            "thumbnailUrl": "http://interactive.nydailynews.com/quiz/weather-words/img/weather-share.jpg",
+            "thumbnailUrl": "http://interactive.nydailynews.com/quiz/weather-words/img/weather-terms-share.jpg",
             "dateCreated": "2018-01-08T07:00:00Z",
             "articleSection": "Interactive",
             "creator": ["Interactive Quiz","Joe Murphy","Kelli R. Parker"],

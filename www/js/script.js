@@ -169,7 +169,7 @@ $.getJSON("quiz_content.json", function(input) {
 
             var spanclass = '';
             //if ( +data.count < 100 ) spanclass = 'hide';
-            $('#result').append('<span class="' + spanclass + '">' + data.count + ' other people played.</span>\n\
+            $('#result').append('<span class="description ' + spanclass + '">' + data.count + ' other people played.</span>\n\
                 An average player got ' + mean + ' correct.');
             if  ( typeof data.all_correct !== 'undefined' )
             {

@@ -31,8 +31,8 @@
     <meta name="twitter:url" content="http://interactive.nydailynews.com/quiz/2003-pop-culture/">
 
     <!-- THUMBNAIL IMAGE-->
-    <meta property="og:image" content="http://interactive.nydailynews.com/quiz/2003-pop-culture/img/splitter.jpg" />
-    <meta name="twitter:image:src" content="http://interactive.nydailynews.com/quiz/2003-pop-culture/img/splitter.jpg" />
+    <meta property="og:image" content="http://interactive.nydailynews.com/quiz/2003-pop-culture/img/2003-share.jpg" />
+    <meta name="twitter:image:src" content="http://interactive.nydailynews.com/quiz/2003-pop-culture/img/2003-share.jpg" />
     <meta property="og:image:width" content="1024" />
     <meta property="og:image:height" content="512" />
 
@@ -43,7 +43,7 @@
             "@type": "NewsArticle",
             "headline": "2003 Pop Culture Quiz",
             "url": "http://interactive.nydailynews.com/quiz/2003-pop-culture/",
-            "thumbnailUrl": "http://interactive.nydailynews.com/quiz/2003-pop-culture/img/splitter.jpg",
+            "thumbnailUrl": "http://interactive.nydailynews.com/quiz/2003-pop-culture/img/2003-share.jpg",
             "dateCreated": "2018-01-26T07:00:00Z",
             "articleSection": "Interactive",
             "creator": ["Virginia Lowman","Kelli R. Parker","Interactive Quiz"],
@@ -115,6 +115,13 @@
     <!-- ADS-END -->
     <script>var nav_params = {section: 'quizzes', url: 'http://interactive.nydailynews.com/quiz/'};</script>
     <script src="/library/vendor-nav/vendor-include.js" defer></script>
+
+
+    <style type="text/css">
+        #rh-subnav {
+            display: none;
+        }
+    </style>
 </head>
 <body id="nydailynews" data-section="nydailynews" data-subsection="NY Daily News" class="">
 
@@ -129,7 +136,7 @@
     <div>
         <ul class="ra-share" id="ra-share-top" style="text-align: center;">
             <li class="rt-share-f"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=hhttp://interactive.nydailynews.com/quiz/2003-pop-culture/">facebook</a> </li>
-            <li class="ra-share-t"> <a target="_blank" href="https://twitter.com/intent/tweet?text=Take our 2033 pop culture quiz&url=http://interactive.nydailynews.com/quiz/2003-pop-culture/&via=NYDNi&related=NYDailyNews,NYDNi">Tweet</a></li>
+            <li class="ra-share-t"> <a target="_blank" href="https://twitter.com/intent/tweet?text=Take our 2003 pop culture quiz&url=http://interactive.nydailynews.com/quiz/2003-pop-culture/&via=NYDNi&related=NYDailyNews,NYDNi">Tweet</a></li>
             <li class="ra-share-e"> <a href="mailto:?subject=2003 Pop Culture Quiz&amp;body=http://interactive.nydailynews.com/quiz/2003-pop-culture/">email</a> </li>
         </ul>
     </div>

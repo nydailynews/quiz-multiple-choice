@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>2003 Pop Culture, by the NY Daily News</title>
+    <title>2003 Pop Culture Quiz, by the NY Daily News</title>
     <link rel="icon" type="image/png" href="//interactive.nydailynews.com/favicons.png">
     <!-- DEFAULT -->
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -13,8 +13,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
 
     <!-- Titles -->
-    <meta property="og:title" content='2003 Pop Culture' />
-    <meta name="twitter:title" content='2003 Pop Culture'/>
+    <meta property="og:title" content='2003 Pop Culture Quiz' />
+    <meta name="twitter:title" content='2003 Pop Culture Quiz'/>
 
     <!-- Description -->
     <meta name="description" content="It has been 15 years since New York City hosted the Grammy Awards. How well do you remember 2003?" />
@@ -41,10 +41,10 @@
         {
             "@context": "http://schema.org",
             "@type": "NewsArticle",
-            "headline": "2003 Pop Culture",
+            "headline": "2003 Pop Culture Quiz",
             "url": "http://interactive.nydailynews.com/quiz/2003-pop-culture/",
             "thumbnailUrl": "http://interactive.nydailynews.com/quiz/2003-pop-culture/img/splitter.jpg",
-            "dateCreated": "DATET07:00:00Z",
+            "dateCreated": "2018-01-26T07:00:00Z",
             "articleSection": "Interactive",
             "creator": ["Virginia Lowman","Kelli R. Parker","Interactive Quiz"],
             "keywords": ["interactive","interactive quiz","2018 grammys","2003 pop culture"]
@@ -99,7 +99,7 @@
     <script>
     var nydnDO = [
         { 
-            'title':'xxx2003 Pop Culturexxx', 
+            'title':'xxx2003 Pop Culture Quizxxx', 
             'link':'http://interactive.nydailynews.com/quiz/2003-pop-culture/', 
             'p_type':'interactive', 
             'section':'interactive' }
@@ -126,6 +126,14 @@
 <main>
   <article>
     <h1 class="center">QUIZ: 2003 Pop Culture</h1>
+    <div>
+        <ul class="ra-share" id="ra-share-top" style="text-align: center;">
+            <li class="rt-share-f"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=hhttp://interactive.nydailynews.com/quiz/2003-pop-culture/">facebook</a> </li>
+            <li class="ra-share-t"> <a target="_blank" href="https://twitter.com/intent/tweet?text=Take our 2033 pop culture quiz&url=http://interactive.nydailynews.com/quiz/2003-pop-culture/&via=NYDNi&related=NYDailyNews,NYDNi">Tweet</a></li>
+            <li class="ra-share-e"> <a href="mailto:?subject=2003 Pop Culture Quiz&amp;body=http://interactive.nydailynews.com/quiz/2003-pop-culture/">email</a> </li>
+        </ul>
+    </div>
+
     <p class="center description">It has been 15 years since New York City last hosted the Grammy Awards, and a lot has certainly changed since then. Here’s a quick flashback to test your knowledge of what music, pop culture, and the world was like in 2003. What do you remember?</p>
     <p class="byline center">By VIRGINIA LOWMAN</p>
     <p class="center" id="result"></p>

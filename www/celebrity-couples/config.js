@@ -5,7 +5,7 @@ window.appConfig = {
     short_link: "http://nydn.us/celebz",
     twitter_line: "",
     twitter_line_2: "Has Cupid hit YOU yet? With Valentine’s day just around the corner, we got to thinking about celebrity couples. Can you guess which of these couplings is fact or fiction?",
-    a:6,
+    a:5,
     b:10,
     c:15,
     quiz1:"Who said it: President Trump or Cardi B?",

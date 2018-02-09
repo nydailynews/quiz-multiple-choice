@@ -44,10 +44,10 @@
             "headline": "Fact or fiction: Celebrity Couplings",
             "url": "http://interactive.nydailynews.com/quiz/celebrity-couples/",
             "thumbnailUrl": "http://interactive.nydailynews.com/quiz/celebrity-couples/img/couples-share.jpg",
-            "dateCreated": "2018-01-26T07:00:00Z",
+            "dateCreated": "2018-02-09T07:00:00Z",
             "articleSection": "Interactive",
             "creator": ["Kelli R. Parker","Interactive Quiz"],
-            "keywords": ["interactive","interactive quiz"]
+            "keywords": ["interactive","interactive quiz","quizzes","celebrity relationships","celebrity relationship","amy poehler", "anderson cooper", "andy cohen", "cher", "elisabeth moss", "fred armisen", "helen mirren", "henry cavill", "ivanka trump", "jimmy fallon", "joey fatone", "john stamos", "justin bieber", "kaley cuoco", "kanye west", "kelly rowland", "liam neeson", "madonna", "miley cyrus", "nicole kidman", "pink", "quincy jones", "rihanna", "robert downey jr.", "ryan seacrest", "sarah jessica parker", "shia labeouf", "tom cruise", "vanilla ice"]
         }
     </script>
 
@@ -167,6 +167,7 @@
         </div>
     </section>
 
+	<p class="center description">Heads-up: These are the celebrities we are quizzing you on, in first-name alphabetical order. Amy Poehler, Anderson Cooper, Andy Cohen, Cher, Elisabeth Moss, Fred Armisen, Helen Mirren, Henry Cavill, Ivanka Trump, Jimmy Fallon, Joey Fatone, John Stamos, Justin Bieber, Kaley Cuoco, Kanye West, Kelly Rowland, Liam Neeson, Madonna, Miley Cyrus, Nicole Kidman, Pink, Quincy Jones, Rihanna, Robert Downey Jr., Ryan Seacrest, Sarah Jessica Parker, Shia LaBeouf, Tom Cruise and Vanilla Ice.</p>
     <!-- CUSTOM JS GOES HERE-->
     <script src="/js/jquery.min.js"></script>
     <script src="../js/script.js?v5"></script>

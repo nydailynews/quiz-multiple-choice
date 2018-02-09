@@ -170,14 +170,14 @@ main a {
   }
 
   .final_score_right {
-    width: 50%;    
+    width: 45%;    
     height: 106px;
     padding: 20px;
     display: inline-table;
   }
 
   .final_score_wrong {
-    width: 50%;
+    width: 45%;
     height: 106px;
     padding: 20px;
     display: inline-table;

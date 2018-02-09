@@ -167,7 +167,7 @@
         </div>
     </section>
 
-	<p class="latest-news"><a href="http://www.nydailynews.com/entertainment/gossip">CELEBRITY GOSSIP</a>: <strong id="latest-news-headline"></strong></p>
+	<p class="center latest-news"><a href="http://www.nydailynews.com/entertainment/gossip">CELEBRITY GOSSIP</a>: <strong id="latest-news-headline"></strong></p>
 	<!--
 	<p>More: 
 	-->

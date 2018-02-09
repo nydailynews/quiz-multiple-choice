@@ -311,10 +311,16 @@ Take another QUIZ</div>\n\
             c = window.appConfig.c,
             d = window.appConfig.d
 
-        // compare score and find the max
+        // Compare score and find the max
         // Sometimes we have four answer "buckets" and sometimes three.
         // The weird thing about how this works is if we have three, we only merge 
         // the "perfect score" answer in with the result that comes after.
+        //
+        // HOW THIS WORKS WITH THREE VALUES:
+        // Say a = 5, b = 10 and c = 15 on a 15-question quiz.
+        // The best answer is delivered to those who got 10 to 15 correct (i.e. greater than or equal to b's value).
+        // The worst answer is delivered to those who got 0-5 correct (i.e. less than or equal to a's value).
+        // The middle answer goes to people who got 6-9 correct (i.e. greater than a and less than b).
         var bucket_adjust = 0;
         if ( input[3].result === '' ) bucket_adjust = 1;
         console.log(input.length)

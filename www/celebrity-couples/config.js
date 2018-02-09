@@ -2,7 +2,7 @@ window.appConfig = {
     ad_tag: "quiz-",
     slug: "celebrity-couples",
     project_url: "http://interactive.nydailynews.com/quiz/celebrity-couples/",
-    short_link: "",
+    short_link: "http://nydn.us/celebz",
     twitter_line: "",
     twitter_line_2: "Has Cupid hit YOU yet? With Valentine’s day just around the corner, we got to thinking about celebrity couples. Can you guess which of these couplings is fact or fiction?",
     a:6,

@@ -167,6 +167,24 @@
         </div>
     </section>
 
+	<p class="latest-news"><a href="http://www.nydailynews.com/entertainment/gossip">CELEBRITY GOSSIP</a>: <strong id="latest-news-headline"></strong></p>
+	<!--
+	<p>More: 
+	-->
+    <script>
+        var s = document.createElement('script');
+        var rando = function() { 
+            var text = "";
+            var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+
+            for( var i=0; i < 5; i++ )
+                text += possible.charAt(Math.floor(Math.random() * possible.length));
+            return text;
+        }
+        s.onload = function() { document.getElementById('latest-news-headline').innerHTML = hed; }
+        s.setAttribute('src', '//interactive.nydailynews.com/feeds/tag-gossip-1.js?' + rando());
+        document.getElementsByTagName('head')[0].appendChild(s);
+    </script>
 	<p class="center description">Heads-up: These are the celebrities we are quizzing you on, in first-name alphabetical order. Amy Poehler, Anderson Cooper, Andy Cohen, Cher, Elisabeth Moss, Fred Armisen, Helen Mirren, Henry Cavill, Ivanka Trump, Jimmy Fallon, Joey Fatone, John Stamos, Justin Bieber, Kaley Cuoco, Kanye West, Kelly Rowland, Liam Neeson, Madonna, Miley Cyrus, Nicole Kidman, Pink, Quincy Jones, Rihanna, Robert Downey Jr., Ryan Seacrest, Sarah Jessica Parker, Shia LaBeouf, Tom Cruise and Vanilla Ice.</p>
     <!-- CUSTOM JS GOES HERE-->
     <script src="/js/jquery.min.js"></script>

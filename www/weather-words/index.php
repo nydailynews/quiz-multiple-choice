@@ -119,7 +119,7 @@
         var ad_tag = 'quiz';
         if ( typeof appConfig.ad_tag !== 'undefined' ) ad_tag += '-' + appConfig.ad_tag;
         </script>
-        <script onload="nydn_ads(ad_tag);" src="/includes/ads/ads.js"></script>
+        <script onload="nydn_ads(ad_tag);" src="/includes/template/template.js"></script>
     <!-- ADS-END -->
     <script>var nav_params = {section: 'quizzes', url: 'http://interactive.nydailynews.com/quiz/'};</script>
     <script src="/library/vendor-nav/vendor-include.js" defer></script>

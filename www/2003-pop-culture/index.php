@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Can you match Dustin Hoffman's co-stars to their films together?, by the NY Daily News</title>
-    <link rel="icon" type="image/png" href="http://interactive.nydailynews.com/favicons.png">
+    <title>2003 Pop Culture Quiz, by the NY Daily News</title>
+    <link rel="icon" type="image/png" href="//interactive.nydailynews.com/favicons.png">
     <!-- DEFAULT -->
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,26 +13,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
 
     <!-- Titles -->
-    <meta property="og:title" content="Can you match Dustin Hoffman's co-stars to their films together?" />
-    <meta name="twitter:title" content="Can you match Dustin Hoffman's co-stars to their films together?"/>
+    <meta property="og:title" content='2003 Pop Culture Quiz' />
+    <meta name="twitter:title" content='2003 Pop Culture Quiz'/>
 
     <!-- Description -->
-    <meta name="description" content="Dustin Hoffman's film career spans decades of great movies, along with hundreds of great co-stars.  Can you match some of the best known co-stars to their films with the Rainman?" />
-    <meta property="og:description" content="Dustin Hoffman's film career spans decades of great movies, along with hundreds of great co-stars.  Can you match some of the best known co-stars to their films with the Rainman?" />
-    <meta name="twitter:description" content="Dustin Hoffman's film career spans decades of great movies, along with hundreds of great co-stars.  Can you match some of the best known co-stars to their films with the Rainman?" />
+    <meta name="description" content="It has been 15 years since New York City hosted the Grammy Awards. How well do you remember 2003?" />
+    <meta property="og:description" content="It has been 15 years since New York City hosted the Grammy Awards. How well do you remember 2003?" />
+    <meta name="twitter:description" content="It has been 15 years since New York City hosted the Grammy Awards. How well do you remember 2003?" />
 
     <!-- KEYWORD -->
-    <meta name="keywords" content="KEYWORDS" />
-    <meta name="news_keywords" content="KEYWORDS" />
+    <meta name="keywords" content="2003, pop culture, 2018 grammy awards, the grammys, quiz" />
+    <meta name="news_keywords" content="2003, pop culture, 2018 grammy awards, the grammys, quiz" />
 
     <!-- LINK -->
-    <link rel="canonical" href="http://interactive.nydailynews.com/quiz/dustin-hoffman-co-stars/">
-    <meta property="og:url" content="http://interactive.nydailynews.com/quiz/dustin-hoffman-co-stars/" />
-    <meta name="twitter:url" content="http://interactive.nydailynews.com/quiz/dustin-hoffman-co-stars/">
+    <link rel="canonical" href="http://interactive.nydailynews.com/quiz/2003-pop-culture/">
+    <meta property="og:url" content="http://interactive.nydailynews.com/quiz/2003-pop-culture/" />
+    <meta name="twitter:url" content="http://interactive.nydailynews.com/quiz/2003-pop-culture/">
 
     <!-- THUMBNAIL IMAGE-->
-    <meta property="og:image" content="http://interactive.nydailynews.com/quiz/dustin-hoffman-co-stars/img/splitter.jpg" />
-    <meta name="twitter:image:src" content="http://interactive.nydailynews.com/quiz/dustin-hoffman-co-stars/img/splitter.jpg" />
+    <meta property="og:image" content="http://interactive.nydailynews.com/quiz/2003-pop-culture/img/2003-share.jpg" />
+    <meta name="twitter:image:src" content="http://interactive.nydailynews.com/quiz/2003-pop-culture/img/2003-share.jpg" />
     <meta property="og:image:width" content="1024" />
     <meta property="og:image:height" content="512" />
 
@@ -41,13 +41,13 @@
         {
             "@context": "http://schema.org",
             "@type": "NewsArticle",
-            "headline": "Can you match Dustin Hoffman's co-stars to their films together?",
-            "url": "http://interactive.nydailynews.com/quiz/dustin-hoffman-co-stars/",
-            "thumbnailUrl": "http://interactive.nydailynews.com/quiz/dustin-hoffman-co-stars/img/splitter.jpg",
-            "dateCreated": "DATET07:00:00Z",
+            "headline": "2003 Pop Culture Quiz",
+            "url": "http://interactive.nydailynews.com/quiz/2003-pop-culture/",
+            "thumbnailUrl": "http://interactive.nydailynews.com/quiz/2003-pop-culture/img/2003-share.jpg",
+            "dateCreated": "2018-01-26T07:00:00Z",
             "articleSection": "Interactive",
-            "creator": ["Matt Zarrell","Interactive Quiz"],
-            "keywords": ["interactive","interactive quiz","quizzes"]
+            "creator": ["Virginia Lowman","Kelli R. Parker","Interactive Quiz"],
+            "keywords": ["interactive","interactive quiz","2018 grammys","2003 pop culture"]
         }
     </script>
 
@@ -69,22 +69,21 @@
     <meta name="themeKey" content="nydailynews" />
     <meta name="mapThemeKey" content="responsive" />
     <meta name="urlPrefix" content="" />
-    <meta name="staticContentPrefix" content="http://static.localedge.com/" />
-    <meta name="searchBinding" content="/search" />
     <meta name="localeCountry" content="US"/>
     <meta name="localeLanguage" content="en" />
 
-<?php if ( isset($_GET['v1']) ): ?>
+<?php if ( !isset($_GET['embed']) ): ?>
     <!-- ADOBE ANALYTICS -->
     <script src="//assets.adobedtm.com/4fc527d6fda921c80e462d11a29deae2e4cf7514/satelliteLib-c91fdc6ac624c6cbcd50250f79786de339793801.js"></script>
 <?php endif; ?>
 
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet' type='text/css'>
-    <script data-main="http://assets.nydailynews.com/nydn/js/rh.js?r=20170405001" src="http://assets.nydailynews.com/nydn/js/require.js?r=2016LIST" defer></script>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet'>
+    <script data-main="//www.nydailynews.com/nydn/js/rh.js?r=20170405001" src="//www.nydailynews.com/nydn/js/require.js?r=2016LIST" defer></script>
       
     <script src="config.js"></script>
-    <link rel="stylesheet" type="text/css" href="http://assets.nydailynews.com/nydn/c/rh.css">
-    <link rel="stylesheet" type="text/css" href="http://assets.nydailynews.com/nydn/c/ra.css">
+    <link rel="stylesheet" href="//www.nydailynews.com/nydn/c/rh.css">
+    <link rel="stylesheet" href="/css/foundation.css">
+    <link href="../css/style.css?v201707" rel="stylesheet">
     <script>
     var is_iframe = 0;
     if ( window.top !== window.self ) { is_iframe = 1; }
@@ -100,8 +99,8 @@
     <script>
     var nydnDO = [
         { 
-            'title':"xxxCan you match Dustin Hoffman's co-stars to their films together?xxx", 
-            'link':'http://interactive.nydailynews.com/quiz/dustin-hoffman-co-stars/', 
+            'title':'xxx2003 Pop Culture Quizxxx', 
+            'link':'http://interactive.nydailynews.com/quiz/2003-pop-culture/', 
             'p_type':'interactive', 
             'section':'interactive' }
     ];
@@ -112,10 +111,17 @@
         var ad_tag = 'quiz';
         if ( typeof appConfig.ad_tag !== 'undefined' ) ad_tag += '-' + appConfig.ad_tag;
         </script>
-        <script onload="nydn_ads(ad_tag);" src="http://interactive.nydailynews.com/includes/template/template.js"></script>
+        <script onload="nydn_ads(ad_tag);" src="/includes/ads/ads.js"></script>
     <!-- ADS-END -->
     <script>var nav_params = {section: 'quizzes', url: 'http://interactive.nydailynews.com/quiz/'};</script>
-    <script src="http://interactive.nydailynews.com/library/vendor-nav/vendor-include.js" defer></script>
+    <script src="/library/vendor-nav/vendor-include.js" defer></script>
+
+
+    <style type="text/css">
+        #rh-subnav {
+            display: none;
+        }
+    </style>
 </head>
 <body id="nydailynews" data-section="nydailynews" data-subsection="NY Daily News" class="">
 
@@ -126,9 +132,17 @@
 
 <main>
   <article>
-    <h1 class="center">QUIZ: Can you match Dustin Hoffman's co-stars to their films together?</h1>
-    <p class="center description">Dustin Hoffman's film career spans decades of great movies, along with hundreds of great co-stars.  Can you match some of the best known co-stars to their films with the Rainman?</p>
-    <p class="byline center">By Matt Zarrell</p>
+    <h1 class="center">QUIZ: 2003 Pop Culture</h1>
+    <div>
+        <ul class="ra-share" id="ra-share-top" style="text-align: center;">
+            <li class="rt-share-f"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=hhttp://interactive.nydailynews.com/quiz/2003-pop-culture/">facebook</a> </li>
+            <li class="ra-share-t"> <a target="_blank" href="https://twitter.com/intent/tweet?text=Take our 2003 pop culture quiz&url=http://interactive.nydailynews.com/quiz/2003-pop-culture/&via=NYDNi&related=NYDailyNews,NYDNi">Tweet</a></li>
+            <li class="ra-share-e"> <a href="mailto:?subject=2003 Pop Culture Quiz&amp;body=http://interactive.nydailynews.com/quiz/2003-pop-culture/">email</a> </li>
+        </ul>
+    </div>
+
+    <p class="center description">It has been 15 years since New York City last hosted the Grammy Awards, and a lot has certainly changed since then. Here’s a quick flashback to test your knowledge of what music, pop culture, and the world was like in 2003. What do you remember?</p>
+    <p class="byline center">By VIRGINIA LOWMAN</p>
     <p class="center" id="result"></p>
 
     <section id="content">
@@ -141,8 +155,8 @@
             </div>
 
             <div class='center next large-12 medium-12 small-12 columns'>
-                <div class="side_ad center" style="margin-bottom: 20px;">
-                    <div id='div-gpt-ad-1423507761396-2'>
+                <div class="side_ad center" style="margin: 20px auto;">
+					<div id='div-gpt-ad-1423507761396-2'>
                         <script>
                             googletag.cmd.push(function() { googletag.display('div-gpt-ad-1423507761396-2'); });
                         </script>
@@ -153,17 +167,14 @@
         </div>
     </section>
 
-    <!-- CUSTOM CSS GOES HERE-->
-    <link rel="stylesheet" href="http://interactive.nydailynews.com/css/foundation.css" />
-    <link href="../css/style.css?v201707" rel="stylesheet" type="text/css" />
-
     <!-- CUSTOM JS GOES HERE-->
-    <script src="http://interactive.nydailynews.com/includes/js/vendor/jquery.js"></script>
+    <script src="/js/jquery.min.js"></script>
     <script src="../js/script.js?v5"></script>
 
   </article>
 </main>
 
+<!--
 <div class="ad center">
     <span>ADVERTISEMENT</span>
     <div id='div-gpt-ad-1423507761396-1'>
@@ -180,6 +191,7 @@
         </script>
     </div>
 </div>
+-->
 
 <!-- FOOTER-START -->
 <footer id="templatefooter"></footer>

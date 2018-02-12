@@ -135,7 +135,7 @@
     <h1 class="center">QUIZ: 2003 Pop Culture</h1>
     <div>
         <ul class="ra-share" id="ra-share-top" style="text-align: center;">
-            <li class="rt-share-f"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=hhttp://interactive.nydailynews.com/quiz/2003-pop-culture/">facebook</a> </li>
+            <li class="rt-share-f"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://interactive.nydailynews.com/quiz/2003-pop-culture/">facebook</a> </li>
             <li class="ra-share-t"> <a target="_blank" href="https://twitter.com/intent/tweet?text=Take our 2003 pop culture quiz&url=http://interactive.nydailynews.com/quiz/2003-pop-culture/&via=NYDNi&related=NYDailyNews,NYDNi">Tweet</a></li>
             <li class="ra-share-e"> <a href="mailto:?subject=2003 Pop Culture Quiz&amp;body=http://interactive.nydailynews.com/quiz/2003-pop-culture/">email</a> </li>
         </ul>

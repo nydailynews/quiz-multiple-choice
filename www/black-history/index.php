@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Black people you should know, by the NY Daily News</title>
+    <title>QUIZ: Black people you should know, by the NY Daily News</title>
     <link rel="icon" type="image/png" href="//interactive.nydailynews.com/favicons.png">
     <!-- DEFAULT -->
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -13,8 +13,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
 
     <!-- Titles -->
-    <meta property="og:title" content='Black people you should know' />
-    <meta name="twitter:title" content='Black people you should know'/>
+    <meta property="og:title" content='QUIZ: Black people you should know' />
+    <meta name="twitter:title" content='QUIZ: Black people you should know'/>
 
     <!-- Description -->
     <meta name="description" content="Besides Martin Luther King, Jr. and Malcolm X, how well do you know these major players in black history?" />
@@ -98,7 +98,7 @@
     <script>
     var nydnDO = [
         { 
-            'title':'xxxBlack people you should knowxxx', 
+            'title':'xxxQUIZ: Black people you should knowxxx', 
             'link':'http://interactive.nydailynews.com/quiz/black-history/', 
             'p_type':'interactive', 
             'section':'interactive' }

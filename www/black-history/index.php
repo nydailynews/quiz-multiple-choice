@@ -17,9 +17,9 @@
     <meta name="twitter:title" content='QUIZ: Black people you should know'/>
 
     <!-- Description -->
-    <meta name="description" content="Besides Martin Luther King, Jr. and Malcolm X, how well do you know these major players in black history?" />
-    <meta property="og:description" content="Besides Martin Luther King, Jr. and Malcolm X, how well do you know these major players in black history?" />
-    <meta name="twitter:description" content="Besides Martin Luther King, Jr. and Malcolm X, how well do you know these major players in black history?" />
+    <meta name="description" content="Beside Martin Luther King, Jr. and Malcolm X, how well do you know these major players in black history?" />
+    <meta property="og:description" content="Beside Martin Luther King, Jr. and Malcolm X, how well do you know these major players in black history?" />
+    <meta name="twitter:description" content="Beside Martin Luther King, Jr. and Malcolm X, how well do you know these major players in black history?" />
 
     <!-- KEYWORD -->
     <meta name="keywords" content="black history month, black history, Langston Hughes, Huey Newton, Josephine Baker, W.E.B. Du Bois, Harriet Tubman, Thurgood Marshall, A. Philip Randolph, Medgar Evers, Billie Holiday, Emmett Till, James Baldwin, Katherine Johnson, Marcus Garvey, Sojourner Truth, Sarah Baartman" />
@@ -46,7 +46,7 @@
             "dateCreated": "2018-02-26T07:00:00Z",
             "articleSection": "Interactive",
             "creator": ["Joe Murphy","Kelli R. Parker","Interactive Quiz"],
-            "keywords": ["interactive","interactive quiz","black history"]
+            "keywords": ["interactive","interactive quiz","black history month","quizzes","tamir rice","emmett till","w.e.b. du bois","langston hughes","josephine baker","harriet tubman","medgar evers","billie holiday","james baldwin"]
         }
     </script>
 
@@ -128,12 +128,12 @@
     <div>
         <ul class="ra-share" id="ra-share-top" style="text-align: center;">
             <li class="rt-share-f"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://interactive.nydailynews.com/quiz/black-history/">facebook</a> </li>
-            <li class="ra-share-t"> <a target="_blank" href="https://twitter.com/intent/tweet?text=Besides Martin Luther King, Jr. and Malcolm X, how well do you know these major players in black history?&url=http://interactive.nydailynews.com/quiz/black-history/&via=NYDNi&related=NYDailyNews,NYDNi">Tweet</a></li>
+            <li class="ra-share-t"> <a target="_blank" href="https://twitter.com/intent/tweet?text=Beside Martin Luther King, Jr. and Malcolm X, how well do you know these major players in black history?&url=http://interactive.nydailynews.com/quiz/black-history/&via=NYDNi&related=NYDailyNews,NYDNi">Tweet</a></li>
             <li class="ra-share-e"> <a href="mailto:?subject=Black people you should know&amp;body=http://interactive.nydailynews.com/quiz/black-history/">email</a> </li>
         </ul>
     </div>
     
-    <p class="center description">It's like this: We give you a photo of a historical black person, you pick the correct name for that person. Besides Martin Luther King, Jr. and Malcolm X, how well do you know these major players in black history?</p>
+    <p class="center description">It's like this: We give you a photo of a historical black person, you pick the correct name for that person. Beside Martin Luther King, Jr. and Malcolm X, how well do you know these major players in black history?</p>
     
     <p class="byline center">By JOE MURPHY and KELLI R. PARKER</p>
     <p class="center" id="result"></p>

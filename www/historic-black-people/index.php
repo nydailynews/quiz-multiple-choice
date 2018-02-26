@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Fact or fiction: Celebrity Couples Quiz - NY Daily News</title>
+    <title>Black people you should know, by the NY Daily News</title>
     <link rel="icon" type="image/png" href="//interactive.nydailynews.com/favicons.png">
     <!-- DEFAULT -->
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -13,26 +13,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
 
     <!-- Titles -->
-    <meta property="og:title" content='Fact or fiction: Celebrity Couplings' />
-    <meta name="twitter:title" content='Fact or fiction: Celebrity Couplings'/>
+    <meta property="og:title" content='Black people you should know' />
+    <meta name="twitter:title" content='Black people you should know'/>
 
     <!-- Description -->
-    <meta name="description" content="With Valentine’s day just around the corner, can you guess which of these celebrity couples is fact or fiction?" />
-    <meta property="og:description" content="With Valentine’s day just around the corner, can you guess which of these celebrity couples is fact or fiction?" />
-    <meta name="twitter:description" content="With Valentine’s day just around the corner, can you guess which of these celebrity couples is fact or fiction?" />
+    <meta name="description" content="Besides Martin Luther King, Jr. and Malcolm X, how well do you know these major players in black history?" />
+    <meta property="og:description" content="Besides Martin Luther King, Jr. and Malcolm X, how well do you know these major players in black history?" />
+    <meta name="twitter:description" content="Besides Martin Luther King, Jr. and Malcolm X, how well do you know these major players in black history?" />
 
     <!-- KEYWORD -->
-    <meta name="keywords" content="gossip, celebrity couples, Valentine’s Day, quiz" />
-    <meta name="news_keywords" content="gossip, celebrity couples, Valentine’s Day, quiz" />
+    <meta name="keywords" content="black history month, black history, Langston Hughes, Huey Newton, Josephine Baker, W.E.B. Du Bois, Harriet Tubman, Thurgood Marshall, A. Philip Randolph, Medgar Evers, Billie Holiday, Emmett Till, James Baldwin, Katherine Johnson, Marcus Garvey, Sojourner Truth, Sarah Baartman" />
 
     <!-- LINK -->
-    <link rel="canonical" href="http://interactive.nydailynews.com/quiz/celebrity-couples/">
-    <meta property="og:url" content="http://interactive.nydailynews.com/quiz/celebrity-couples/" />
-    <meta name="twitter:url" content="http://interactive.nydailynews.com/quiz/celebrity-couples/">
+    <link rel="canonical" href="http://interactive.nydailynews.com/quiz/black-history/">
+    <meta property="og:url" content="http://interactive.nydailynews.com/quiz/black-history/" />
+    <meta name="twitter:url" content="http://interactive.nydailynews.com/quiz/black-history/">
 
     <!-- THUMBNAIL IMAGE-->
-    <meta property="og:image" content="http://interactive.nydailynews.com/quiz/celebrity-couples/img/couples-share.jpg" />
-    <meta name="twitter:image:src" content="http://interactive.nydailynews.com/quiz/celebrity-couples/img/couples-share.jpg" />
+    <meta property="og:image" content="http://interactive.nydailynews.com/quiz/black-history/img/splitter.jpg" />
+    <meta name="twitter:image:src" content="http://interactive.nydailynews.com/quiz/black-history/img/splitter.jpg" />
     <meta property="og:image:width" content="1024" />
     <meta property="og:image:height" content="512" />
 
@@ -41,13 +40,13 @@
         {
             "@context": "http://schema.org",
             "@type": "NewsArticle",
-            "headline": "Fact or fiction: Celebrity Couplings",
-            "url": "http://interactive.nydailynews.com/quiz/celebrity-couples/",
-            "thumbnailUrl": "http://interactive.nydailynews.com/quiz/celebrity-couples/img/couples-share.jpg",
-            "dateCreated": "2018-02-09T07:00:00Z",
+            "headline": "Black people you should know",
+            "url": "http://interactive.nydailynews.com/quiz/black-history/",
+            "thumbnailUrl": "http://interactive.nydailynews.com/quiz/black-history/img/splitter.jpg",
+            "dateCreated": "2018-02-26T07:00:00Z",
             "articleSection": "Interactive",
-            "creator": ["Kelli R. Parker","Interactive Quiz"],
-            "keywords": ["interactive","interactive quiz","quizzes","celebrity relationships","celebrity relationship","amy poehler", "anderson cooper", "andy cohen", "cher", "elisabeth moss", "fred armisen", "helen mirren", "henry cavill", "ivanka trump", "jimmy fallon", "joey fatone", "john stamos", "justin bieber", "kaley cuoco", "kanye west", "kelly rowland", "liam neeson", "madonna", "miley cyrus", "nicole kidman", "pink", "quincy jones", "rihanna", "robert downey jr.", "ryan seacrest", "sarah jessica parker", "shia labeouf", "tom cruise", "vanilla ice"]
+            "creator": ["Joe Murphy","Kelli R. Parker","Interactive Quiz"],
+            "keywords": ["interactive","interactive quiz","black history"]
         }
     </script>
 
@@ -99,29 +98,22 @@
     <script>
     var nydnDO = [
         { 
-            'title':'xxxFact or fiction: Celebrity Couplingsxxx', 
-            'link':'http://interactive.nydailynews.com/quiz/celebrity-couples/', 
+            'title':'xxxBlack people you should knowxxx', 
+            'link':'http://interactive.nydailynews.com/quiz/black-history/', 
             'p_type':'interactive', 
             'section':'interactive' }
     ];
     </script>
     
     <!-- ADS-START -->
-        <script>
-        var ad_tag = 'quiz';
-        if ( typeof appConfig.ad_tag !== 'undefined' ) ad_tag += '-' + appConfig.ad_tag;
-        </script>
-        <script onload="nydn_ads(ad_tag);" src="/includes/ads/ads.js"></script>
+	<script>
+	var ad_tag = 'quiz';
+	if ( typeof appConfig.ad_tag !== 'undefined' ) ad_tag += '-' + appConfig.ad_tag;
+	</script>
+	<script onload="nydn_ads(ad_tag);" src="/includes/template/template.js"></script>
     <!-- ADS-END -->
     <script>var nav_params = {section: 'quizzes', url: 'http://interactive.nydailynews.com/quiz/'};</script>
     <script src="/library/vendor-nav/vendor-include.js" defer></script>
-
-
-    <style type="text/css">
-        #rh-subnav {
-            display: none;
-        }
-    </style>
 </head>
 <body id="nydailynews" data-section="nydailynews" data-subsection="NY Daily News" class="">
 
@@ -132,17 +124,9 @@
 
 <main>
   <article>
-    <h1 class="center">Fact or fiction: Celebrity couplings quiz</h1>
-    <div>
-        <ul class="ra-share" id="ra-share-top" style="text-align: center;">
-            <li class="rt-share-f"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://interactive.nydailynews.com/quiz/celebrity-couples/">facebook</a> </li>
-            <li class="ra-share-t"> <a target="_blank" href="https://twitter.com/intent/tweet?text=Take our celebrity couplings quiz&url=http://interactive.nydailynews.com/quiz/celebrity-couples/&via=NYDNi&related=NYDailyNews,NYDNi">Tweet</a></li>
-            <li class="ra-share-e"> <a href="mailto:?subject=Fact or fiction: Celebrity Couplings&amp;body=http://interactive.nydailynews.com/quiz/celebrity-couples/">email</a> </li>
-        </ul>
-    </div>
-
-    <p class="center description">Has Cupid hit YOU yet? With Valentine’s day just around the corner, we got to thinking about celebrity pairings. For some famous duos it's true love (Chrissy Teigen + John Legend = #relationshipgoals) but other twosomes only exist in fantasy. Test your gossip skills and guess which of these couples are fact or fiction.</p>
-    <p class="byline center">By KELLI R. PARKER and STEVE SMIRTI</p>
+    <h1 class="center">QUIZ: Black people you should know</h1>
+    <p class="center description">It's like this: We give you a photo of a historical black person, you pick the correct name for that person. Besides Martin Luther King, Jr. and Malcolm X, how well do you know these major players in black history? </p>
+    <p class="byline center">By JOE MURPHY and KELLI R. PARKER</p>
     <p class="center" id="result"></p>
 
     <section id="content">
@@ -167,25 +151,6 @@
         </div>
     </section>
 
-	<p class="center latest-news"><a href="http://www.nydailynews.com/entertainment/gossip">CELEBRITY GOSSIP</a>: <span id="latest-news-headline"></span></p>
-	<!--
-	<p>More: 
-	-->
-    <script>
-        var s = document.createElement('script');
-        var rando = function() { 
-            var text = "";
-            var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
-
-            for( var i=0; i < 5; i++ )
-                text += possible.charAt(Math.floor(Math.random() * possible.length));
-            return text;
-        }
-        s.onload = function() { document.getElementById('latest-news-headline').innerHTML = hed; }
-        s.setAttribute('src', '//interactive.nydailynews.com/feeds/tag-gossip-1.js?' + rando());
-        document.getElementsByTagName('head')[0].appendChild(s);
-    </script>
-	<p class="center description" style="font-size: 13px; line-height: 23px;">Heads-up: These are the celebrities we are quizzing you on, in first-name alphabetical order. Amy Poehler, Anderson Cooper, Andy Cohen, Cher, Elisabeth Moss, Fred Armisen, Helen Mirren, Henry Cavill, Ivanka Trump, Jimmy Fallon, Joey Fatone, John Stamos, Justin Bieber, Kaley Cuoco, Kanye West, Kelly Rowland, Liam Neeson, Madonna, Miley Cyrus, Nicole Kidman, Pink, Quincy Jones, Rihanna, Robert Downey Jr., Ryan Seacrest, Sarah Jessica Parker, Shia LaBeouf, Tom Cruise and Vanilla Ice.</p>
     <!-- CUSTOM JS GOES HERE-->
     <script src="/js/jquery.min.js"></script>
     <script src="../js/script.js?v5"></script>
@@ -216,7 +181,8 @@
 <footer id="templatefooter"></footer>
 <!-- FOOTER-END -->
 <div id="ra-bp">
-      </div> <section id="rao">  <div id="rao-close"></div> <div id="rao-wrap"></div> </section> 
+      <section id="rao">  <div id="rao-close"></div> <div id="rao-wrap"></div> </section> 
+</div>
 <div id="r-scripts">
     <div id="parsely-root" style="display: none">
         <span id="parsely-cfg" data-parsely-site="nydailynews.com"></span>

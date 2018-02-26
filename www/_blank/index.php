@@ -107,11 +107,11 @@
     </script>
     
     <!-- ADS-START -->
-        <script>
-        var ad_tag = 'quiz';
-        if ( typeof appConfig.ad_tag !== 'undefined' ) ad_tag += '-' + appConfig.ad_tag;
-        </script>
-        <script onload="nydn_ads(ad_tag);" src="/includes/template/template.js"></script>
+	<script>
+	var ad_tag = 'quiz';
+	if ( typeof appConfig.ad_tag !== 'undefined' ) ad_tag += '-' + appConfig.ad_tag;
+	</script>
+	<script onload="nydn_ads(ad_tag);" src="/includes/template/template.js"></script>
     <!-- ADS-END -->
     <script>var nav_params = {section: 'quizzes', url: 'http://interactive.nydailynews.com/quiz/'};</script>
     <script src="/library/vendor-nav/vendor-include.js" defer></script>
@@ -182,7 +182,8 @@
 <footer id="templatefooter"></footer>
 <!-- FOOTER-END -->
 <div id="ra-bp">
-      </div> <section id="rao">  <div id="rao-close"></div> <div id="rao-wrap"></div> </section> 
+      <section id="rao">  <div id="rao-close"></div> <div id="rao-wrap"></div> </section> 
+</div>
 <div id="r-scripts">
     <div id="parsely-root" style="display: none">
         <span id="parsely-cfg" data-parsely-site="nydailynews.com"></span>

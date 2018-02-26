@@ -30,8 +30,8 @@
     <meta name="twitter:url" content="http://interactive.nydailynews.com/quiz/black-history/">
 
     <!-- THUMBNAIL IMAGE-->
-    <meta property="og:image" content="http://interactive.nydailynews.com/quiz/black-history/img/splitter.jpg" />
-    <meta name="twitter:image:src" content="http://interactive.nydailynews.com/quiz/black-history/img/splitter.jpg" />
+    <meta property="og:image" content="http://interactive.nydailynews.com/quiz/black-history/img/black-history-share.jpg" />
+    <meta name="twitter:image:src" content="http://interactive.nydailynews.com/quiz/black-history/img/black-history-share.jpg" />
     <meta property="og:image:width" content="1024" />
     <meta property="og:image:height" content="512" />
 
@@ -42,7 +42,7 @@
             "@type": "NewsArticle",
             "headline": "Black people you should know",
             "url": "http://interactive.nydailynews.com/quiz/black-history/",
-            "thumbnailUrl": "http://interactive.nydailynews.com/quiz/black-history/img/splitter.jpg",
+            "thumbnailUrl": "http://interactive.nydailynews.com/quiz/black-history/img/black-history-share.jpg",
             "dateCreated": "2018-02-26T07:00:00Z",
             "articleSection": "Interactive",
             "creator": ["Joe Murphy","Kelli R. Parker","Interactive Quiz"],
@@ -125,7 +125,6 @@
 <main>
   <article>
     <h1 class="center">QUIZ: Black people you should know</h1>
-    <p class="center description">It's like this: We give you a photo of a historical black person, you pick the correct name for that person. Besides Martin Luther King, Jr. and Malcolm X, how well do you know these major players in black history?</p>
     <div>
         <ul class="ra-share" id="ra-share-top" style="text-align: center;">
             <li class="rt-share-f"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://interactive.nydailynews.com/quiz/black-history/">facebook</a> </li>
@@ -133,6 +132,9 @@
             <li class="ra-share-e"> <a href="mailto:?subject=Black people you should know&amp;body=http://interactive.nydailynews.com/quiz/black-history/">email</a> </li>
         </ul>
     </div>
+    
+    <p class="center description">It's like this: We give you a photo of a historical black person, you pick the correct name for that person. Besides Martin Luther King, Jr. and Malcolm X, how well do you know these major players in black history?</p>
+    
     <p class="byline center">By JOE MURPHY and KELLI R. PARKER</p>
     <p class="center" id="result"></p>
 

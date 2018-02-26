@@ -6,7 +6,7 @@ window.appConfig = {
     twitter_line: "",
     twitter_line_2: "Besides Martin Luther King, Jr. and Malcolm X, how well do you know these major players in black history?",
     a:8,
-    b:12,
+    b:11,
     c:15,
     quiz1:"Fact or fiction: Celebrity couplings quiz",
     quiz1_image:"http://interactive.nydailynews.com/quiz/celebrity-couples/img/couples-share.jpg",

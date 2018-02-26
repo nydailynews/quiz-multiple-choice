@@ -4,7 +4,7 @@ window.appConfig = {
     project_url: "http://interactive.nydailynews.com/quiz/black-history/",
     short_link: "http://nydn.us/blackpeopleyoushouldknow",
     twitter_line: "",
-    twitter_line_2: "February — and Black History Month — is almost over. How well do you know your historic black figures?",
+    twitter_line_2: "Besides Martin Luther King, Jr. and Malcolm X, how well do you know these major players in black history?",
     a:8,
     b:12,
     c:15,

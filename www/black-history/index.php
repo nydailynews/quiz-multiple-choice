@@ -125,7 +125,14 @@
 <main>
   <article>
     <h1 class="center">QUIZ: Black people you should know</h1>
-    <p class="center description">It's like this: We give you a photo of a historical black person, you pick the correct name for that person. Besides Martin Luther King, Jr. and Malcolm X, how well do you know these major players in black history? </p>
+    <p class="center description">It's like this: We give you a photo of a historical black person, you pick the correct name for that person. Besides Martin Luther King, Jr. and Malcolm X, how well do you know these major players in black history?</p>
+    <div>
+        <ul class="ra-share" id="ra-share-top" style="text-align: center;">
+            <li class="rt-share-f"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://interactive.nydailynews.com/quiz/black-history/">facebook</a> </li>
+            <li class="ra-share-t"> <a target="_blank" href="https://twitter.com/intent/tweet?text=Besides Martin Luther King, Jr. and Malcolm X, how well do you know these major players in black history?&url=http://interactive.nydailynews.com/quiz/black-history/&via=NYDNi&related=NYDailyNews,NYDNi">Tweet</a></li>
+            <li class="ra-share-e"> <a href="mailto:?subject=Black people you should know&amp;body=http://interactive.nydailynews.com/quiz/black-history/">email</a> </li>
+        </ul>
+    </div>
     <p class="byline center">By JOE MURPHY and KELLI R. PARKER</p>
     <p class="center" id="result"></p>
 

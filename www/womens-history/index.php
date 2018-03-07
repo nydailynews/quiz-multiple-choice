@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>TITLE, by the NY Daily News</title>
+    <title>QUIZ: Historic women you should know, by the NY Daily News</title>
     <link rel="icon" type="image/png" href="//interactive.nydailynews.com/favicons.png">
     <!-- DEFAULT -->
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -13,26 +13,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
 
     <!-- Titles -->
-    <meta property="og:title" content='TITLE' />
-    <meta name="twitter:title" content='TITLE'/>
+    <meta property="og:title" content='QUIZ: Historic women you should know' />
+    <meta name="twitter:title" content='QUIZ: Historic women you should know'/>
 
     <!-- Description -->
-    <meta name="description" content="DESCRIPTION" />
-    <meta property="og:description" content="DESCRIPTION" />
-    <meta name="twitter:description" content="DESCRIPTION" />
+    <meta name="description" content="Besides Cleopatra and Amelia Earhart, how well do you know these big names in women's history?" />
+    <meta property="og:description" content="Besides Cleopatra and Amelia Earhart, how well do you know these big names in women's history?" />
+    <meta name="twitter:description" content="Besides Cleopatra and Amelia Earhart, how well do you know these big names in women's history?" />
 
     <!-- KEYWORD -->
-    <meta name="keywords" content="KEYWORDS" />
-    <meta name="news_keywords" content="KEYWORDS" />
+    <meta name="keywords" content="women's history month, women's history, Nellie Bly, Sandra Day O'Connor, Shirley Chisholm, Marie Curie, Billie Jean King, Indira Gandhi, Ida B. Wells, Katharine Graham, Sally Ride, Frida Kahlo, Dorothy Hodgkin, Claudette Colvin, Toni Morrison, Margaret Sanger, Emily Dickinson" />
 
     <!-- LINK -->
-    <link rel="canonical" href="CANONICALURL">
-    <meta property="og:url" content="CANONICALURL" />
-    <meta name="twitter:url" content="CANONICALURL">
+    <link rel="canonical" href="http://interactive.nydailynews.com/quiz/womens-history/">
+    <meta property="og:url" content="http://interactive.nydailynews.com/quiz/womens-history/" />
+    <meta name="twitter:url" content="http://interactive.nydailynews.com/quiz/womens-history/">
 
     <!-- THUMBNAIL IMAGE-->
-    <meta property="og:image" content="CANONICALURLimg/splitter.jpg" />
-    <meta name="twitter:image:src" content="CANONICALURLimg/splitter.jpg" />
+    <meta property="og:image" content="http://interactive.nydailynews.com/quiz/womens-history/img/womens-history-share.jpg" />
+    <meta name="twitter:image:src" content="http://interactive.nydailynews.com/quiz/womens-history/img/womens-history-share.jpg" />
     <meta property="og:image:width" content="1024" />
     <meta property="og:image:height" content="512" />
 
@@ -41,13 +40,13 @@
         {
             "@context": "http://schema.org",
             "@type": "NewsArticle",
-            "headline": "TITLE",
-            "url": "CANONICALURL",
-            "thumbnailUrl": "CANONICALURLimg/splitter.jpg",
-            "dateCreated": "DATET07:00:00Z",
+            "headline": "QUIZ: Historic women you should know",
+            "url": "http://interactive.nydailynews.com/quiz/womens-history/",
+            "thumbnailUrl": "http://interactive.nydailynews.com/quiz/womens-history/img/womens-history-share.jpg",
+            "dateCreated": "2018-03-08T07:00:00Z",
             "articleSection": "Interactive",
-            "creator": ["BYLINE","Interactive Quiz"],
-            "keywords": ["interactive","interactive quiz","KEYWORDS"]
+            "creator": ["Joe Murphy","Kelli R. Parker","Interactive Quiz"],
+            "keywords": ["interactive","interactive quiz","women's history month"]
         }
     </script>
 
@@ -99,8 +98,8 @@
     <script>
     var nydnDO = [
         { 
-            'title':'xxxTITLExxx', 
-            'link':'CANONICALURL', 
+            'title':'xxxQUIZ: Historic women you should knowxxx', 
+            'link':'http://interactive.nydailynews.com/quiz/womens-history/', 
             'p_type':'interactive', 
             'section':'interactive' }
     ];
@@ -125,9 +124,9 @@
 
 <main>
   <article>
-    <h1 class="center">QUIZ: TITLE</h1>
-    <p class="center description">DESCRIPTION</p>
-    <p class="byline center">By BYLINE</p>
+    <h1 class="center">QUIZ: Historic women you should know</h1>
+    <p class="center description">Women still make less money then men doing the same work, but that doesn't stop them from rising. In the iconic words of Beyoncé, women are "smart enough to make these millions, strong enough to bare the children, then get back to business." Girls run the world, you see. Besides Cleopatra and Amelia Earhart, how well do you know these big names in women's history?</p>
+    <p class="byline center">By JOE MURPHY and KELLI R. PARKER</p>
     <p class="center" id="result"></p>
 
     <section id="content">

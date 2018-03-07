@@ -46,7 +46,7 @@
             "dateCreated": "2018-03-08T07:00:00Z",
             "articleSection": "Interactive",
             "creator": ["Joe Murphy","Kelli R. Parker","Interactive Quiz"],
-            "keywords": ["interactive","interactive quiz","women's history month"]
+            "keywords": ["interactive","interactive quiz","international women's day","frida kahlo","toni morrison","planned parenthood"]
         }
     </script>
 

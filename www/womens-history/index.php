@@ -125,7 +125,16 @@
 <main>
   <article>
     <h1 class="center">QUIZ: Historic women you should know</h1>
-    <p class="center description">Women still make less money then men doing the same work, but that doesn't stop them from rising. In the iconic words of Beyoncé, women are "smart enough to make these millions, strong enough to bare the children, then get back to business." Girls run the world, you see. Besides Cleopatra and Amelia Earhart, how well do you know these big names in women's history?</p>
+	  
+	  <div>
+        <ul class="ra-share" id="ra-share-top" style="text-align: center;">
+            <li class="rt-share-f"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://interactive.nydailynews.com/quiz/womens-history/">facebook</a> </li>
+            <li class="ra-share-t"> <a target="_blank" href="https://twitter.com/intent/tweet?text=Beside Cleopatra and Amelia Earhart, how well do you know these big names in women's history??&url=http://interactive.nydailynews.com/quiz/womens-history/&via=NYDNi&related=NYDailyNews,NYDNi">Tweet</a></li>
+            <li class="ra-share-e"> <a href="mailto:?subject=Historic women you should know&amp;body=http://interactive.nydailynews.com/quiz/womens-history/">email</a> </li>
+        </ul>
+    </div>
+	  
+    <p class="center description">Women still make less money then men doing the same work, but that doesn't stop them from rising. In the iconic words of Beyoncé, women are "smart enough to make these millions, strong enough to bare the children, then get back to business." Girls run the world, you see. Given a photo of a woman who made history, can you pick that person's actual name? Let's find out.</p>
     <p class="byline center">By JOE MURPHY and KELLI R. PARKER</p>
     <p class="center" id="result"></p>
 

@@ -14,10 +14,10 @@ window.appConfig = {
     quiz2:"Fact or fiction: Celebrity couplings quiz",
     quiz2_image:"http://interactive.nydailynews.com/quiz/celebrity-couples/img/couples-share.jpg",
     quiz2_link:"http://interactive.nydailynews.com/quiz/celebrity-couples/",
-    quiz3:"How well do you remember 2003 pop culture?",
-    quiz3_image:"http://interactive.nydailynews.com/quiz/2003-pop-culture/img/2003-share.jpg",
-    quiz3_link:"http://interactive.nydailynews.com/quiz/2003-pop-culture/",
-    quiz4:"Can you find South Korea on a map of Asia?",
-    quiz4_image:"http://interactive.nydailynews.com/quiz/map-quiz/south-korea/img/share.jpg",
-    quiz4_link:"http://interactive.nydailynews.com/quiz/map-quiz/south-korea/",
+    quiz3:"Can you find South Korea on a map of Asia?",
+    quiz3_image:"http://interactive.nydailynews.com/quiz/map-quiz/south-korea/img/share.jpg",
+    quiz3_link:"http://interactive.nydailynews.com/quiz/map-quiz/south-korea/",
+    quiz4:"How well do you remember 2003 pop culture?",
+    quiz4_image:"http://interactive.nydailynews.com/quiz/2003-pop-culture/img/2003-share.jpg",
+    quiz4_link:"http://interactive.nydailynews.com/quiz/2003-pop-culture/"
 };

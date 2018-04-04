@@ -23,7 +23,6 @@
 
     <!-- KEYWORD -->
     <meta name="keywords" content="KEYWORDS" />
-    <meta name="news_keywords" content="KEYWORDS" />
 
     <!-- LINK -->
     <link rel="canonical" href="CANONICALURL">

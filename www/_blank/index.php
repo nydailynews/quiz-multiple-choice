@@ -126,6 +126,13 @@
 <main>
   <article>
     <h1 class="center">QUIZ: TITLE</h1>
+    <div>
+        <ul class="ra-share" id="ra-share-top" style="text-align: center;">
+            <li class="rt-share-f"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=CANONICALURL">facebook</a> </li>
+            <li class="ra-share-t"> <a target="_blank" href="https://twitter.com/intent/tweet?text=TITLE&url=CANONICALURL&via=NYDNi&related=NYDailyNews,NYDNi">Tweet</a></li>
+            <li class="ra-share-e"> <a href="mailto:?subject=TITLE&amp;body=CANONICALURL">email</a> </li>
+        </ul>
+    </div>
     <p class="center description">DESCRIPTION</p>
     <p class="byline center">By BYLINE</p>
     <p class="center" id="result"></p>

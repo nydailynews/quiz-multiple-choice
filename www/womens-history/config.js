@@ -1,0 +1,23 @@
+window.appConfig = {
+	ad_tag: "quiz-",
+	slug: "womens-history",
+    project_url: "http://interactive.nydailynews.com/quiz/womens-history/",
+    short_link: "",
+    twitter_line: "",
+    twitter_line_2: "Besides Cleopatra and Amelia Earhart, how well do you know these big names in women's history?",
+    a:8,
+    b:11,
+    c:15,
+	quiz1:"Black people you should know",
+	quiz1_image:"http://interactive.nydailynews.com/quiz/black-history/img/black-history-share.jpg",
+    quiz1_link:"http://interactive.nydailynews.com/quiz/black-history/",
+    quiz2:"Fact or fiction: Celebrity couplings quiz",
+    quiz2_image:"http://interactive.nydailynews.com/quiz/celebrity-couples/img/couples-share.jpg",
+    quiz2_link:"http://interactive.nydailynews.com/quiz/celebrity-couples/",
+    quiz3:"Can you find South Korea on a map of Asia?",
+    quiz3_image:"http://interactive.nydailynews.com/quiz/map-quiz/south-korea/img/share.jpg",
+    quiz3_link:"http://interactive.nydailynews.com/quiz/map-quiz/south-korea/",
+    quiz4:"How well do you remember 2003 pop culture?",
+    quiz4_image:"http://interactive.nydailynews.com/quiz/2003-pop-culture/img/2003-share.jpg",
+    quiz4_link:"http://interactive.nydailynews.com/quiz/2003-pop-culture/"
+};

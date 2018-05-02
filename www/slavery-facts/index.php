@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>TITLE, by the NY Daily News</title>
+    <title>QUIZ: Fact or fiction slavery edition, by the NY Daily News</title>
     <link rel="icon" type="image/png" href="//interactive.nydailynews.com/favicons.png">
     <!-- DEFAULT -->
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -13,25 +13,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
 
     <!-- Titles -->
-    <meta property="og:title" content='TITLE' />
-    <meta name="twitter:title" content='TITLE'/>
+    <meta property="og:title" content='QUIZ: Fact or fiction slavery edition' />
+    <meta name="twitter:title" content='QUIZ: Fact or fiction slavery edition'/>
 
     <!-- Description -->
-    <meta name="description" content="DESCRIPTION" />
-    <meta property="og:description" content="DESCRIPTION" />
-    <meta name="twitter:description" content="DESCRIPTION" />
+    <meta name="description" content="Some people (Kanye West!!!) have some interesting opinions about what the institution of slavery actually was. What do you know about it?" />
+    <meta property="og:description" content="Some people (Kanye West!!!) have some interesting opinions about what the institution of slavery actually was. What do you know about it?" />
+    <meta name="twitter:description" content="Some people (Kanye West!!!) have some interesting opinions about what the institution of slavery actually was. What do you know about it?" />
 
     <!-- KEYWORD -->
-    <meta name="keywords" content="KEYWORDS" />
+    <meta name="keywords" content="kanye west, slavery, slavery facts, chattel slavery, harriet tubman" />
 
     <!-- LINK -->
-    <link rel="canonical" href="CANONICALURL">
-    <meta property="og:url" content="CANONICALURL" />
-    <meta name="twitter:url" content="CANONICALURL">
+    <link rel="canonical" href="http://interactive.nydailynews.com/quiz/slavery-facts/">
+    <meta property="og:url" content="http://interactive.nydailynews.com/quiz/slavery-facts/" />
+    <meta name="twitter:url" content="http://interactive.nydailynews.com/quiz/slavery-facts/">
 
     <!-- THUMBNAIL IMAGE-->
-    <meta property="og:image" content="CANONICALURLimg/splitter.jpg" />
-    <meta name="twitter:image:src" content="CANONICALURLimg/splitter.jpg" />
+    <meta property="og:image" content="http://interactive.nydailynews.com/quiz/slavery-facts/img/slavery-share.jpg" />
+    <meta name="twitter:image:src" content="http://interactive.nydailynews.com/quiz/slavery-facts/img/slavery-share.jpg" />
     <meta property="og:image:width" content="1024" />
     <meta property="og:image:height" content="512" />
 
@@ -40,13 +40,13 @@
         {
             "@context": "http://schema.org",
             "@type": "NewsArticle",
-            "headline": "TITLE",
-            "url": "CANONICALURL",
-            "thumbnailUrl": "CANONICALURLimg/splitter.jpg",
-            "dateCreated": "DATET07:00:00Z",
+            "headline": "QUIZ: Fact or fiction slavery edition",
+            "url": "http://interactive.nydailynews.com/quiz/slavery-facts/",
+            "thumbnailUrl": "http://interactive.nydailynews.com/quiz/slavery-facts/img/slavery-share.jpg",
+            "dateCreated": "2018-05-02T07:00:00Z",
             "articleSection": "Interactive",
-            "creator": ["BYLINE","Interactive Quiz"],
-            "keywords": ["interactive","interactive quiz","KEYWORDS"]
+            "creator": ["Joe Murphy","Kelli R. Parker","Interactive Quiz"],
+            "keywords": ["interactive","interactive quiz","kanye west","harriet tubman","Black History","history"]
         }
     </script>
 
@@ -98,8 +98,8 @@
     <script>
     var nydnDO = [
         { 
-            'title':'xxxTITLExxx', 
-            'link':'CANONICALURL', 
+            'title':'xxxQUIZ: Fact or fiction slavery editionxxx', 
+            'link':'http://interactive.nydailynews.com/quiz/slavery-facts/', 
             'p_type':'interactive', 
             'section':'interactive' }
     ];
@@ -124,16 +124,16 @@
 
 <main>
   <article>
-    <h1 class="center">QUIZ: TITLE</h1>
+    <h1 class="center">QUIZ: Fact or fiction slavery edition</h1>
     <div>
         <ul class="ra-share" id="ra-share-top" style="text-align: center;">
-            <li class="rt-share-f"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=CANONICALURL">facebook</a> </li>
-            <li class="ra-share-t"> <a target="_blank" href="https://twitter.com/intent/tweet?text=TITLE&url=CANONICALURL&via=NYDNi&related=NYDailyNews,NYDNi">Tweet</a></li>
-            <li class="ra-share-e"> <a href="mailto:?subject=TITLE&amp;body=CANONICALURL">email</a> </li>
+            <li class="rt-share-f"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://interactive.nydailynews.com/quiz/slavery-facts/">facebook</a> </li>
+            <li class="ra-share-t"> <a target="_blank" href="https://twitter.com/intent/tweet?text=QUIZ: Fact or fiction slavery edition&url=http://interactive.nydailynews.com/quiz/slavery-facts/&via=NYDNi&related=NYDailyNews,NYDNi">Tweet</a></li>
+            <li class="ra-share-e"> <a href="mailto:?subject=QUIZ: Fact or fiction slavery edition&amp;body=http://interactive.nydailynews.com/quiz/slavery-facts/">email</a> </li>
         </ul>
     </div>
-    <p class="center description">DESCRIPTION</p>
-    <p class="byline center">By BYLINE</p>
+    <p class="center description">Slave ships sailed to North America from 1619 to the mid 1800s, bringing hundreds of thousands of enslaved humans to what would be the United States. Some people (Kanye West!!!) have some interesting opinions about what the institution of slavery actually was. What do YOU know about it?</p>
+    <p class="byline center">By JOE MURPHY &amp; KELLI R. PARKER</p>
     <p class="center" id="result"></p>
 
     <section id="content">

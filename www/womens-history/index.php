@@ -137,7 +137,7 @@
         </ul>
     </div>
 	  
-    <p class="center description">Women still make less money than men doing the same work, but that doesn't stop them from rising. In the iconic words of Beyoncé, women are "smart enough to make these millions, strong enough to bare the children, then get back to business." Girls run the world, you see. Given a photo of a woman who made history, can you pick that person's actual name? Let's find out.</p>
+    <p class="center description">Women still make less money than men doing the same work, but that doesn't stop them from rising. In the iconic words of Beyoncé, women are "smart enough to make these millions, strong enough to bear the children, then get back to business." Girls run the world, you see. Given a photo of a woman who made history, can you pick that person's actual name? Let's find out.</p>
     <p class="byline center">By JOE MURPHY and KELLI R. PARKER</p>
     <p class="center" id="result"></p>
 

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>QUIZ: Fact or fiction slavery edition, by the NY Daily News</title>
+    <title>QUIZ: U.S. slavery facts</title>
     <link rel="icon" type="image/png" href="//interactive.nydailynews.com/favicons.png">
     <!-- DEFAULT -->
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -13,8 +13,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
 
     <!-- Titles -->
-    <meta property="og:title" content='QUIZ: Fact or fiction slavery edition' />
-    <meta name="twitter:title" content='QUIZ: Fact or fiction slavery edition'/>
+    <meta property="og:title" content='QUIZ: How much do you know about slavery in the U.S.?' />
+    <meta name="twitter:title" content='QUIZ: How much do you know about slavery in the U.S.?'/>
 
     <!-- Description -->
     <meta name="description" content="Some people (Kanye West!!!) have some interesting opinions about what the institution of slavery actually was. What do you know about it?" />
@@ -40,12 +40,12 @@
         {
             "@context": "http://schema.org",
             "@type": "NewsArticle",
-            "headline": "QUIZ: Fact or fiction slavery edition",
+            "headline": "QUIZ: Fact or fiction, slavery edition",
             "url": "http://interactive.nydailynews.com/quiz/slavery-facts/",
             "thumbnailUrl": "http://interactive.nydailynews.com/quiz/slavery-facts/img/slavery-share.jpg",
             "dateCreated": "2018-05-02T07:00:00Z",
             "articleSection": "Interactive",
-            "creator": ["Joe Murphy","Kelli R. Parker","Interactive Quiz"],
+            "creator": ["Kelli R. Parker","Joe Murphy","Interactive Quiz"],
             "keywords": ["interactive","interactive quiz","kanye west","harriet tubman","Black History","history"]
         }
     </script>
@@ -98,7 +98,7 @@
     <script>
     var nydnDO = [
         { 
-            'title':'xxxQUIZ: Fact or fiction slavery editionxxx', 
+            'title':'xxxQUIZ: Fact or fiction, slavery editionxxx', 
             'link':'http://interactive.nydailynews.com/quiz/slavery-facts/', 
             'p_type':'interactive', 
             'section':'interactive' }
@@ -124,7 +124,7 @@
 
 <main>
   <article>
-    <h1 class="center">QUIZ: Fact or fiction slavery edition</h1>
+    <h1 class="center">QUIZ: How much do you know about slavery in the U.S.?</h1>
     <div>
         <ul class="ra-share" id="ra-share-top" style="text-align: center;">
             <li class="rt-share-f"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://interactive.nydailynews.com/quiz/slavery-facts/">facebook</a> </li>

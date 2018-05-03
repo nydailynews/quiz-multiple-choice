@@ -17,7 +17,7 @@
  {
    "headline": "",
    "description": "",
-   "question": "Chattel slavery",
+   "question": "“Chattel slavery” is defined as the owning of human beings as property.",
    "answer": "FACT",
    "a": "FACT",
    "b": "FICTION",
@@ -40,14 +40,14 @@
    "image": "fugitive-slaves.jpg",
    "image2": "fugitive-slaves.jpg",
    "credit": "Library of Congress",
-   "blurb": "Slavery started in American around 1619 and was formally abolished in 1865, almost 250 years.",
+   "blurb": "Slavery started in American around 1619 and was formally abolished in 1865, almost 250 years later.",
    "source": "https://www.loc.gov/rr/program/bib/ourdocs/13thamendment.html",
    "result": "11-15 We are proud of you and happy for the education you received."
  },
  {
    "headline": "",
    "description": "",
-   "question": "Most people in the south owned slaves.",
+   "question": "Most people in the South owned slaves.",
    "answer": "FICTION",
    "a": "FACT",
    "b": "FICTION",
@@ -175,7 +175,7 @@
    "image": "dutch-slaves.jpg",
    "image2": "dutch-slaves.jpg",
    "credit": "Library of Congress",
-   "blurb": "Congresswoman Yvette D. Clarke, a Brooklyn native, shared this bit of fake history on the Colbert Report in 2012. Slavery ended for all of New York State in 1827.",
+   "blurb": "Congresswoman Yvette D. Clarke, a Brooklyn native, shared this bit of fake history on the Colbert Report in 2012. Slavery ended for all of New York state in 1827.",
    "source": "http://www.nydailynews.com/news/national/history-errors-article-1.1152362",
    "result": ""
  },

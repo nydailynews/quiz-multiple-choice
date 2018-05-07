@@ -32,7 +32,7 @@
  {
    "headline": "",
    "description": "",
-   "question": "Slavery in the U.S. lasted for 400 years.",
+   "question": "Slavery in the colonies and the U.S. lasted 400 years.",
    "answer": "FICTION",
    "a": "FACT",
    "b": "FICTION",
@@ -40,7 +40,7 @@
    "image": "fugitive-slaves.jpg",
    "image2": "fugitive-slaves.jpg",
    "credit": "Library of Congress",
-   "blurb": "Slavery started in American around 1619 and was formally abolished in 1865, almost 250 years later.",
+   "blurb": "Slavery started in North America around 1619 and was formally abolished in 1865, almost 250 years later.",
    "source": "https://www.loc.gov/rr/program/bib/ourdocs/13thamendment.html",
    "result": "11-15 We are proud of you and happy for the education you received."
  },

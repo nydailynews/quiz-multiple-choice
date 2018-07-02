@@ -100,7 +100,7 @@ $.getJSON("quiz_content.json", function(input) {
                     $(".blurb").css("display","block");
                     $(".info_source").css("display","block");
                 }
-                $(".image").attr("src","img/" + input[currentQuestion].image2.trim());
+                if ( typeof input[currentQuestion].image2 !== 'undefined' ) $(".image").attr("src","img/" + input[currentQuestion].image2.trim());
                 if ( typeof input[currentQuestion].credit2 !== 'undefined' ) $(".credit").html(input[currentQuestion].credit2.trim());
             });
 
@@ -363,5 +363,4 @@ if ( window.top !== window.self ) { is_iframe = 1; }
 if ( is_iframe === 1 ) {
     $('.headline, .description, h1, p.description, p.byline, #templateheader, #templatefooter').remove();
     $('#content .blurb').css('display', 'none');
-    $('body').css('background-color', '#fafafa');
 }
